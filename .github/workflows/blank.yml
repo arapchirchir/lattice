@@ -3,7 +3,7 @@ name: Deploy to Server
 on:
   push:
     branches:
-      - main  # Trigger deployment only on pushes to the main branch
+      - master
 
 jobs:
   deploy:
