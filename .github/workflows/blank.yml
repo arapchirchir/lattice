@@ -22,5 +22,5 @@ jobs:
         port: ${{ secrets.PORT }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         script: |
-          cd lattice.africa
+          cd www
           ls -al
