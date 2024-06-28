@@ -3,7 +3,7 @@ name: Deploy to Server
 on:
   push:
     branches:
-      - master  # Trigger deployment only on pushes to the master branch
+      - master
 
 jobs:
   deploy:
@@ -13,17 +13,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Setup SSH
-      env:
-        SSH_KEY: ${{ secrets.KEY }}
-        SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
-      run: |
-        mkdir -p ~/.ssh
-        echo "$SSH_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        eval $(ssh-agent -s)
-        echo "$SSH_PASSPHRASE" | ssh-add ~/.ssh/id_rsa
-
     - name: Run deployment script
       uses: appleboy/ssh-action@master
       with:
@@ -31,10 +20,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
+        passphrase: ${{ secrets.SSH_PASSPHRASE }}
         script: |
-          cd /path/to/your/project
-          git pull origin master
-          # Add any other commands you need to run for deployment
-
-    - name: Cleanup SSH
-      run: ssh-agent -k
+          cd ~
+          ls -al
