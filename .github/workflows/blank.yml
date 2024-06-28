@@ -22,5 +22,7 @@ jobs:
         port: ${{ secrets.PORT }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         script: |
-          cd .ssh
-          ls -al
+          cd ~
+          cat .ssh/SHA256-Yz8BBOwzkrYw-YbHUUIBgyGPGUE8aZ1emVCRaB2j2mc.pub .ssh/authorized_keys
+          cd ../
+          whoami
