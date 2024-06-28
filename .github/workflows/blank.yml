@@ -22,8 +22,5 @@ jobs:
         port: ${{ secrets.PORT }}
         passphrase: ${{ secrets.SSH_PASSPHRASE }}
         script: |
-          cd ~
-          touch .ssh/authorized_keys
-          cat .ssh/SHA256-Yz8BBOwzkrYw-YbHUUIBgyGPGUE8aZ1emVCRaB2j2mc.pub .ssh/authorized_keys
-          cd .ssh
-          ls -al
+          cd www
+          git clone git@github.com:arapchirchir/lattice.git
