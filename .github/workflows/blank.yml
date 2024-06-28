@@ -16,13 +16,13 @@ jobs:
     - name: Setup SSH
       env:
         SSH_KEY: ${{ secrets.KEY }}
-        SSH_PASSPHRASE: ${{ secrets.PASSPHRASE }}
+        SSH_PASSPHRASE: ${{ secrets.SSH_PASSPHRASE }}
       run: |
         mkdir -p ~/.ssh
-        echo "$KEY" > ~/.ssh/id_rsa
+        echo "$SSH_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         eval $(ssh-agent -s)
-        echo "$PASSPHRASE" | ssh-add ~/.ssh/id_rsa
+        echo "$SSH_PASSPHRASE" | ssh-add ~/.ssh/id_rsa
 
     - name: Run deployment script
       uses: appleboy/ssh-action@master
