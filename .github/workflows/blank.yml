@@ -17,11 +17,14 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd websites/lattice
+
             php artisan down
 
             git pull origin master
 
-            # cp .env.temporary .env
+            cp .env.example .env
+
+            php artisan key:generate
 
             # php artisan migrate
 
