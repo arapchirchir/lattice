@@ -7,7 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Dennis Kipchumba">
-    <meta name="description" content="Lattice Africa">
+    <meta name="description"
+        content="Lattice Africa - Pioneering consultancy and training organization committed to sustainable development and economic growth across Africa.">
+    <meta name="keywords"
+        content="Lattice Africa, consultancy, training, sustainable development, economic growth, Africa, ESG, SDG, financial modelling, market entry strategy, aquaculture, capacity building">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="@yield('title', config('app.name'))">
+    <meta property="og:description"
+        content="Lattice Africa - Pioneering consultancy and training organization committed to sustainable development and economic growth across Africa.">
+    <meta property="og:image" content="{{ asset('assets/images/og-image.jpg') }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ url()->current() }}">
+    <meta property="twitter:title" content="@yield('title', config('app.name'))">
+    <meta property="twitter:description"
+        content="Lattice Africa - Pioneering consultancy and training organization committed to sustainable development and economic growth across Africa.">
+    <meta property="twitter:image" content="{{ asset('assets/images/twitter-image.jpg') }}">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
@@ -32,12 +51,11 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" />
     @vite(['resources/css/app.css'])
-
 </head>
 
 <body>
     <div class="preloader">
-        <img src="{{ asset('assets/images/preloader.svg') }}" alt="Pre-loader">
+        <img src="{{ asset('assets/images/logo.png') }}" height="50px" style="height: 70px;" alt="Pre-loader">
     </div>
 
     <header class="header-static navbar-sticky navbar-light">
@@ -116,12 +134,13 @@
 
         <!-- Logo Nav Start -->
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
+            <div class="container position-relative">
                 <!-- Logo -->
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand position-absolute top-0" href="{{ route('homepage') }}">
                     <!-- Logo -->
-                    {{ config('app.name', 'Laravel') }}
-                    {{-- <img class="navbar-brand-item" src="assets/images/logo.svg" alt="Logo"> --}}
+                    <img class="navbar-brand-item bg-white px-2 rounded-2"
+                        src="{{ asset('assets/images/logo.png') }}" alt="Logo"
+                        style="height: 120px; margin-top: -15px;">
                 </a>
                 <!-- Menu opener button -->
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
@@ -168,9 +187,9 @@
                                 <li class="dropdown-submenu d-none">
                                     <a class="dropdown-item dropdown-toggle" href="#">Blog Single</a>
                                     <ul class="dropdown-menu">
-                                        <li> <a class="dropdown-item" href="blog-single-classic.html">Single
+                                        <li> <a class="dropdown-item" href="#">Single
                                                 classic</a> </li>
-                                        <li> <a class="dropdown-item" href="blog-single-minimal.html">Single
+                                        <li> <a class="dropdown-item" href="#">Single
                                                 Minimal</a> </li>
                                     </ul>
                                 </li>
@@ -265,7 +284,7 @@
                                 <li class="nav-item d-none"><a class="nav-link" href="#">Blog</a>
                                 </li>
                                 <li class="nav-item d-none">
-                                    <a class="nav-link" href="portfolio-grid-column-4.html">Portfolio</a>
+                                    <a class="nav-link" href="#">Portfolio</a>
                                 </li>
                             </ul>
                         </div>
@@ -336,7 +355,5 @@
     <script src="{{ asset('assets/js/functions.js') }}"></script>
 
 </body>
-
-<!-- Mirrored from wizixo.webestica.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Jun 2024 06:45:02 GMT -->
 
 </html>
