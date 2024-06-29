@@ -4,6 +4,18 @@
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ * Pantone 540C
+ * 100%: Dark blue, typically represented as #003366
+ * 80%: Slightly lighter blue, #1A4D7D
+ * 60%: Medium blue, #336699
+ * 40%: Light blue, #6699CC
+ * 20%: Very light blue, #99B3CC
+ * Pantone 1807C
+ * 100%: Dark red, typically represented as #C54034
+ * 80%: Slightly lighter red, #D46156
+ * 60%: Medium red, #E17B75
+ * 40%: Light red, #EC9D98
+ * 20%: Very light red, #F4BFB9
  */
 :root {
     --bs-blue: #0d6efd;

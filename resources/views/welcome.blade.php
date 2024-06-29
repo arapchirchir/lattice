@@ -15,13 +15,16 @@
                                 class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
                                 <h2
                                     class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
-                                    We are creating smart websites.</h2>
+                                    Welcome to {{ config('app.name') }}!
+                                </h2>
                                 <h3
                                     class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
-                                    Crafting visually stunning memorable experiences for the web</h3>
-                                <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a
-                                        href="#" class="btn btn-grad">Purchase Now!</a> <a href="#"
-                                        class="btn btn-link text-white">Check live demo!</a></div>
+                                    We partner with you to create new posibilities for your business
+                                </h3>
+                                <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                    <a href="{{ route('about.us') }}" class="btn btn-grad">About us!</a>
+                                    <a href="{{ route('contact') }}" class="btn btn-link text-white">Contact us </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -35,10 +38,12 @@
                                 <div class="slider-content text-center ">
                                     <h3
                                         class="animate__animated animate__fadeInUp animate__delay-1s display-7 text-white alt-font fst-italic">
-                                        Build a very unique and professional website</h3>
+                                        Lattice Advisory Services
+                                    </h3>
                                     <h2
                                         class="animate__animated animate__fadeInUp animate__delay-2s display-3 fw-bold text-white">
-                                        We’re good. Just ask our moms.</h2>
+                                        Strategy, corporate finance, market entry, and research
+                                    </h2>
                                     <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a
                                             href="#" class="btn btn-grad">Contact us</a></div>
                                 </div>
@@ -49,7 +54,6 @@
             </div>
         </div>
     </section>
-
 
     <section>
         <div class="container h-100">
@@ -329,7 +333,7 @@
         </div>
     </section>
 
-    <section class="bg-parallax bg-overlay-dark-2"
+    <section class="bg-parallax bg-overlay-dark-2 mt-5"
         style="background:url(assets/images/bg/05.jpg) no-repeat center center; background-size:cover;">
         <div class="container">
             <div class="row">
