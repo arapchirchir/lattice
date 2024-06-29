@@ -452,7 +452,7 @@
                                                                     src="assets/images/thumbnails/avatar-01.jpg"
                                                                     alt="avatar"> </div>
                                                             <div>
-                                                                <h6 class="m-0">Adam Ross</h6>
+                                                                <h6 class="m-0">Kinn Benson</h6>
                                                                 <h6 class="small">Software Developer</h6>
                                                             </div>
                                                         </div>

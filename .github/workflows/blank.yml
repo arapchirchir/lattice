@@ -1,1 +1,32 @@
+name: Deployment To Live
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    name: Deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Executing Deployments
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{secrets.KEY}}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd websites/lattice
+            php artisan down
 
+            git pull origin master
+
+            # cp .env.temporary .env
+
+            # php artisan migrate
+
+            # cp .env.techworld .env
+
+            php artisan optimize:clear
+
+            php artisan up
