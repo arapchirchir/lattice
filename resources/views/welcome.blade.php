@@ -3,57 +3,165 @@
 @section('content')
     <section class="p-0">
         <div class="tiny-slider arrow-dark arrow-large arrow-transparent arrow-hover">
-            <div class="tiny-slider-inner h-400 h-lg-700" data-autoplay="true" data-autoplaytime="7000" data-gutter="0"
-                data-arrow="true" data-dots="false" data-items="1">
-                <!-- slide 1-->
-                <div class="h-100 bg-overlay-dark-2"
-                    style="background-image:url(assets/images/banner/05.jpg); background-position: center center; background-size: cover;">
-                    <div class="container h-100">
-                        <div class="row d-flex h-100">
-                            <div
-                                class="col-12 slider-content justify-content-center align-self-center align-items-start text-start">
-                                <h4
-                                    class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
-                                    {{-- A headline for Lattice africa --}}
-                                    Lattice Africa
-                                </h4>
-                                <h3
-                                    class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
-                                    {{-- A subheadline for Lattice africa --}}
-                                    We partner with local communities to create sustainable and prosperous futures.
-                                </h3>
-                                <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a
-                                        href="#" class="btn btn-grad">Contact us</a>
-                                    <a href="#" class="btn btn-link text-white ">Read more!</a>
+            <div class="tns-outer" id="tns1-ow">
+                <div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span
+                        class="current">4</span> of 2</div>
+                <div id="tns1-mw" class="tns-ovh">
+                    <div class="tns-inner" id="tns1-iw">
+                        <div class="tiny-slider-inner h-400 h-lg-700  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal"
+                            data-autoplay="true" data-autoplaytime="7000" data-gutter="0" data-arrow="true"
+                            data-dots="false" data-items="1" id="tns1"
+                            style="transform: translate3d(-50%, 0px, 0px); transition-duration: 0s;">
+                            <div class="h-100 bg-overlay-dark-2 tns-item tns-slide-cloned"
+                                style="background-image:url(assets/images/banner/05.jpg); background-position: center center; background-size: cover;"
+                                aria-hidden="true" tabindex="-1">
+                                <div class="container h-100">
+                                    <div class="row d-flex h-100">
+                                        <div
+                                            class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+                                            <h2
+                                                class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
+                                                Welcome to {{ config('app.name') }}.</h2>
+                                            <h3
+                                                class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
+                                                We partner with local communities to create sustainable and prosperous
+                                                futures.
+                                            </h3>
+                                            <div
+                                                class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                                <a href="{{ route('contact') }}" class="btn btn-grad">Contact us!</a>
+                                                <a href="{{ route('about.us') }}" class="btn btn-link text-white">About
+                                                    us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="h-100 bg-overlay-dark-2 tns-item tns-slide-cloned"
+                                style="background-image:url(assets/images/banner/02.jpg); background-position: center top; background-size: cover;"
+                                aria-hidden="true" tabindex="-1">
+                                <div class="container h-100">
+                                    <div class="row d-flex h-100">
+                                        <div
+                                            class="col-md-8 justify-content-center align-self-center align-items-start mx-auto">
+                                            <div class="slider-content text-center ">
+                                                <h3
+                                                    class="animate__animated animate__fadeInUp animate__delay-1s display-7 text-white alt-font fst-italic">
+                                                    Strategy, corporate finance, market entry and research </h3>
+                                                <h2
+                                                    class="animate__animated animate__fadeInUp animate__delay-2s display-3 fw-bold text-white">
+                                                    Lattice Advisory services</h2>
+                                                <div
+                                                    class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                                    <a href="{{ route('contact') }}" class="btn btn-grad">Contact us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide 1-->
+                            <div class="h-100 bg-overlay-dark-2 tns-item"
+                                style="background-image:url(assets/images/banner/05.jpg); background-position: center center; background-size: cover;"
+                                id="tns1-item0" aria-hidden="true" tabindex="-1">
+                                <div class="container h-100">
+                                    <div class="row d-flex h-100">
+                                        <div
+                                            class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+                                            <h2
+                                                class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
+                                                We are creating smart websites.</h2>
+                                            <h3
+                                                class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
+                                                Crafting visually stunning memorable experiences for the web</h3>
+                                            <div
+                                                class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                                <a href="#" class="btn btn-grad">Purchase Now!</a> <a href="#"
+                                                    class="btn btn-link text-white">Check live demo!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- slide 2-->
+                            <div class="h-100 bg-overlay-dark-2 tns-item tns-slide-active"
+                                style="background-image:url(assets/images/banner/02.jpg); background-position: center top; background-size: cover;"
+                                id="tns1-item1">
+                                <div class="container h-100">
+                                    <div class="row d-flex h-100">
+                                        <div
+                                            class="col-md-8 justify-content-center align-self-center align-items-start mx-auto">
+                                            <div class="slider-content text-center ">
+                                                <h3
+                                                    class="animate__animated animate__fadeInUp animate__delay-1s display-7 text-white alt-font fst-italic">
+                                                    Build a very unique and professional website</h3>
+                                                <h2
+                                                    class="animate__animated animate__fadeInUp animate__delay-2s display-3 fw-bold text-white">
+                                                    We’re good. Just ask our moms.</h2>
+                                                <div
+                                                    class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                                    <a href="#" class="btn btn-grad">Contact us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="h-100 bg-overlay-dark-2 tns-item tns-slide-cloned"
+                                style="background-image:url(assets/images/banner/05.jpg); background-position: center center; background-size: cover;"
+                                aria-hidden="true" tabindex="-1">
+                                <div class="container h-100">
+                                    <div class="row d-flex h-100">
+                                        <div
+                                            class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+                                            <h2
+                                                class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
+                                                We are creating smart websites.</h2>
+                                            <h3
+                                                class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
+                                                Crafting visually stunning memorable experiences for the web</h3>
+                                            <div
+                                                class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                                <a href="#" class="btn btn-grad">Purchase Now!</a> <a href="#"
+                                                    class="btn btn-link text-white">Check live demo!</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="h-100 bg-overlay-dark-2 tns-item tns-slide-cloned"
+                                style="background-image:url(assets/images/banner/02.jpg); background-position: center top; background-size: cover;"
+                                aria-hidden="true" tabindex="-1">
+                                <div class="container h-100">
+                                    <div class="row d-flex h-100">
+                                        <div
+                                            class="col-md-8 justify-content-center align-self-center align-items-start mx-auto">
+                                            <div class="slider-content text-center ">
+                                                <h3
+                                                    class="animate__animated animate__fadeInUp animate__delay-1s display-7 text-white alt-font fst-italic">
+                                                    Build a very unique and professional website</h3>
+                                                <h2
+                                                    class="animate__animated animate__fadeInUp animate__delay-2s display-3 fw-bold text-white">
+                                                    We’re good. Just ask our moms.</h2>
+                                                <div
+                                                    class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                                    <a href="#" class="btn btn-grad">Contact us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- slide 2-->
-                <div class="h-100 bg-overlay-dark-2"
-                    style="background-image:url(assets/images/banner/02.jpg); background-position: center top; background-size: cover;">
-                    <div class="container h-100">
-                        <div class="row d-flex h-100">
-                            <div class="col-md-6 justify-content-center align-self-center align-items-start mx-auto">
-                                <div class="slider-content text-center ">
-                                    <h3
-                                        class="animate__animated animate__fadeInUp animate__delay-1s display-7 text-white alt-font fst-italic">
-                                        Strategy, corporate finance, market entry and research </h3>
-                                    <h2
-                                        class="animate__animated animate__fadeInUp animate__delay-2s display-3 fw-bold text-white d-none">
-                                        Lattice Advisory services</h2>
-                                    <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a
-                                            href="#" class="btn btn-grad">Contact us</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class="tns-controls" aria-label="Carousel Navigation" tabindex="0"><button type="button"
+                        data-controls="prev" tabindex="-1" aria-controls="tns1"><i
+                            class="fas fa-chevron-left"></i></button><button type="button" data-controls="next"
+                        tabindex="-1" aria-controls="tns1"><i class="fas fa-chevron-right"></i></button></div>
             </div>
         </div>
     </section>
-
     <section>
         <div class="container h-100">
             <div class="row">
