@@ -92,7 +92,7 @@
                                 <a class="navbar-link" href="#"><strong>Phone:</strong> +254707180844</a>
                             </li>
                             <li class="nav-item me-3">
-                                <a class="navbar-link" href="#"><strong>Email:</strong> info@lattice.africa</a>
+                                <a class="navbar-link" href="#"><strong>Email:</strong> admin@lattice.africa</a>
                             </li>
                         </ul>
                     </div>
@@ -261,7 +261,7 @@
                                 <li class="d-flex mb-3"><i class="me-3 display-8 ti-headphone-alt"></i>
                                     +254707180844
                                 </li>
-                                <li class="d-flex mb-3"><i class="me-3 display-8 ti-email"></i> info@lattice.africa
+                                <li class="d-flex mb-3"><i class="me-3 display-8 ti-email"></i> admin@lattice.africa
                                 </li>
                                 <li class="d-flex mb-3"><i class="me-3 display-8 ti-time"></i>
                                     <p>Mon - Fri: <strong>09:00 - 21:00</strong> <br>Sat & Sun: <strong>Closed</strong>

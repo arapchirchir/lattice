@@ -326,7 +326,7 @@
                         </a>
                         or
                         <a class="primary-hover mb-3 d-inline-block text-white"
-                            href="mailto:info@lattice.africa">info@lattice.africa</a>
+                            href="mailto:admin@lattice.africa">admin@lattice.africa</a>
                     </div>
                 </div>
             </div>
