@@ -105,7 +105,7 @@
                                     <img src="{{ asset('assets/images/lattice/IMG_0029.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
-                                    <h6 class="info-title">Youth in Sustainable  Aquaculture Through Sustainable Innovations
+                                    <h6 class="info-title">Youth in Sustainable  Aquaculture Through Innovations
                                         and
                                         Market Linkages for Job Creation</h6>
                                     <p>
