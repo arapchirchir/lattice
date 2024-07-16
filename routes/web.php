@@ -10,6 +10,10 @@ Route::get('services', [PagesController::class, 'services'])->name('services');
 Route::get('contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('advisory', [PagesController::class, 'advisory'])->name('advisory');
 Route::get('training', [PagesController::class, 'training'])->name('training');
+Route::get('consulting', [PagesController::class, 'consulting'])->name('consulting');
+Route::get('aquaculture', [PagesController::class, 'aquaculture'])->name('aquaculture');
+Route::get('aquaculture-accademy', [PagesController::class, 'aquacultureAccademy'])->name('aquaculture.accademy');
+Route::get('projects', [PagesController::class, 'projects'])->name('projects');
 
 Auth::routes();
 

@@ -165,8 +165,14 @@
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle" href="#">Aquaculture</a>
                                     <ul class="dropdown-menu">
-                                        <li> <a class="dropdown-item" href="#">Aquaculture</a> </li>
-                                        <li> <a class="dropdown-item" href="#">Aquaculture Academy</a> </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                                href="{{ route('aquaculture') }}">Aquaculture</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="http://www.aquacultureacademy.co.ke/"
+                                                target="_blank">Aquaculture Academy</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu d-none">
@@ -184,6 +190,8 @@
                                 </li>
                                 <li><a class="dropdown-item" href="{{ route('advisory') }}">Advisory</a></li>
                                 <li><a class="dropdown-item" href="{{ route('training') }}">Training</a></li>
+                                <li><a class="dropdown-item" href="{{ route('consulting') }}">Consulting</a></li>
+                                <li><a class="dropdown-item" href="{{ route('projects') }}">Projects</a></li>
                                 <li class="dropdown-submenu d-none">
                                     <a class="dropdown-item dropdown-toggle" href="#">Blog Single</a>
                                     <ul class="dropdown-menu">

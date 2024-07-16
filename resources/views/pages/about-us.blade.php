@@ -67,8 +67,47 @@
                             Thought Leadership</p>
                     </div>
                 </div>
+                <div class="col-12">
+                    <div class="feature-box h-100 icon-primary">
+                        <div class="feature-box-icon"><i class="ti-book"></i></div>
+                        <h3 class="feature-box-title">Our Story</h3>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                Lattice was established with a clear vision: to drive positive change and sustainable
+                                development in Africa. Our journey began with a commitment to innovation, collaboration, and
+                                excellence, and these principles continue to guide us today. Through our comprehensive
+                                services—spanning consulting, training, and advisory—we have successfully implemented
+                                numerous
+                                projects that have transformed communities and industries.
+                            </div>
+                            <div class="col-md-6">
+                                From enhancing food security and promoting environmental sustainability to fostering
+                                economic
+                                development and creating jobs, our work speaks for itself. We have a dedicated team of
+                                experts
+                                who bring unparalleled expertise and passion to every project, ensuring that we deliver
+                                high-impact solutions that meet the unique needs of our clients and stakeholders.
+                            </div>
+                            <div class="col-md-6">
+                                Our strategic partnerships are central to our success. By joining forces with leading
+                                organizations and institutions, we amplify our impact and drive sustainable growth. Our
+                                commitment to the Sustainable Development Goals (SDGs) underpins everything we do, ensuring
+                                that
+                                our work contributes to a better and more sustainable future for all.
+                            </div>
+                            <div class="col-md-6">
+                                At Lattice, we believe in the power of integrated, holistic solutions to address complex
+                                challenges. By leveraging our expertise in consulting, training, and advisory, we provide
+                                our
+                                clients with the tools and insights they need to achieve lasting success. Our story is one
+                                of
+                                relentless pursuit of excellence, unwavering commitment to sustainability, and deep-rooted
+                                belief in the potential of Africa.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row end -->
             </div>
-            <!-- row end -->
-        </div>
     </section>
 @endsection

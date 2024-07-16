@@ -33,4 +33,24 @@ class PagesController extends Controller
     {
         return view('pages.training');
     }
+
+    public function consulting()
+    {
+        return view('pages.consulting');
+    }
+
+    public function aquaculture()
+    {
+        return view('pages.aquaculture');
+    }
+
+    public function aquacultureAccademy()
+    {
+        return view('pages.aquaculture-accademy');
+    }
+
+    public function projects()
+    {
+        return view('pages.projects');
+    }
 }
