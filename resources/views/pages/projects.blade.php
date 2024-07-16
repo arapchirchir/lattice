@@ -42,19 +42,19 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/banner/women.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">Empowering Women Smallholder Farmers</h6>
                                     <p>
-                                        In Migori and Homabay Counties, women smallholder farmers face challenges such as
-                                        limited access to quality inputs and market opportunities. Lattice, in partnership
-                                        with local agricultural cooperatives and financial institutions, has embarked on a
-                                        mission to empower 300 women farmers. Providing essential resources and training in
-                                        modern farming techniques has significantly increased their productivity and
-                                        profitability. This project has enhanced the financial independence of women and
-                                        strengthened community resilience leading to improved financial management and
-                                        higher household incomes, uplifting entire communities.
+                                        In Migori and Homabay Counties, women smallholder farmers struggle with limited
+                                        access to quality inputs and markets. Lattice, collaborating with local cooperatives
+                                        and financial institutions, aims to empower 300 women farmers. By offering essential
+                                        resources and training in modern farming techniques, their productivity and
+                                        profitability have significantly increased. This initiative has boosted the
+                                        financial independence of women, strengthened community resilience, and led to
+                                        better financial management and higher household incomes, ultimately uplifting
+                                        entire communities.
                                     </p>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/banner/food-security.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">Food Security - RF Omena Project</h6>
@@ -83,7 +83,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/lattice/2.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">Samaki Poa</h6>
@@ -102,7 +102,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/banner/commercializing.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">Commercialising Aquaculture Through Sustainable Innovations and
@@ -206,7 +206,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/lattice/nairobi-main.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">

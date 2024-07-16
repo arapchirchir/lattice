@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="col-md-10 col-lg-6 mx-md-auto align-self-center position-relative">
-                    <img class="rounded" src="assets/images/blog/02.jpg" alt="">
+                    <img class="rounded" src="{{ asset('assets/images/lattice/5.jpg') }}" alt="">
                     <div class="position-absolute start-0 bottom-0 ms-4 ms-md-n2 mb-3">
                         <a class="btn btn-grad d-none" data-glightbox="" href="https://youtu.be/n_Cn8eFo7u8"> <i
                                 class="fa fa-play text-white"></i>Play Video </a>
@@ -310,7 +310,7 @@
         <div class="container">
             <div class="row g-0">
                 <div class="col-md-6 vh-md-50 rounded-start"
-                    style="background:url(assets/images/bg/06.jpg) no-repeat; background-size:cover;">
+                    style="background:url('{{ asset('assets/images/lattice/1.jpg') }}') no-repeat; background-size:cover;">
                 </div>
                 <div class="col-md-6 p-md-5 p-4 bg-dark all-text-white rounded-end">
                     <h4 class="mb-4">Join Us in Driving Sustainable Growth</h4>
@@ -334,7 +334,7 @@
     </section>
 
     <section class="bg-parallax bg-overlay-dark-2 mt-5"
-        style="background:url(assets/images/bg/05.jpg) no-repeat center center; background-size:cover;">
+        style="background:url('{{ asset('assets/images/lattice/3.jpg') }}') no-repeat center center; background-size:cover;">
         <div class="container">
             <div class="row">
                 <!-- left -->
