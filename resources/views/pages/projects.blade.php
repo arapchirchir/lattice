@@ -105,7 +105,8 @@
                                     <img src="{{ asset('assets/images/lattice/IMG_0029.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
-                                    <h6 class="info-title">Commercialising Aquaculture Through Sustainable Innovations and
+                                    <h6 class="info-title">Youth in Sustainable  Aquaculture Through Sustainable Innovations
+                                        and
                                         Market Linkages for Job Creation</h6>
                                     <p>
                                         With the support of Mastercard, Lattice is transforming Kenya's aquaculture
