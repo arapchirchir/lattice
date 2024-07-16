@@ -42,7 +42,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="{{ asset('assets/images/banner/women.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/images/lattice/samaki-poa.webp') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">Empowering Women Smallholder Farmers</h6>
@@ -83,7 +83,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="{{ asset('assets/images/lattice/samaki-poa.webp') }}" alt="">
+                                    <img src="{{ asset('assets/images/lattice/1.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">Samaki Poa</h6>
