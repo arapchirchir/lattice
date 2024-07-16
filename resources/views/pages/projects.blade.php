@@ -33,7 +33,7 @@
                         <span class="pre-title">Check out some of our latest work.</span>
                         <h2 class="d-none">Our Portfolio: Quality Results</h2>
                         <p class="mb-0">Our portfolio shows our hard work and devotion to helping our clients succeed.
-                            Don't just take our word for it. Check out the latest work.</p>
+                            Don't just take our word for it</p>
                     </div>
                 </div>
                 <div class="col-md-12 p-0">

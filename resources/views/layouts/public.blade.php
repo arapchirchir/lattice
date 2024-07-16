@@ -198,7 +198,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle @if (Route::is(['advisory', 'training'])) active @endif"
                                 href="#" id="blogMenu" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">Programs</a>
+                                aria-expanded="false">Our Expertise</a>
                             <ul class="dropdown-menu" aria-labelledby="blogMenu">
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle" href="#">Aquaculture</a>
