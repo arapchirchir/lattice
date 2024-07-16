@@ -20,8 +20,13 @@
     "src": "public/assets/images/bg/pattern/04.png"
   },
   "resources/css/app.css": {
-    "file": "assets/app-DW0gWWRS.css",
+    "file": "assets/app-dcgIWYxB.css",
     "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/lattice.css": {
+    "file": "assets/lattice-DVy84jKH.css",
+    "src": "resources/css/lattice.css",
     "isEntry": true
   },
   "resources/js/app.js": {

@@ -1,12 +1,24 @@
 @extends('layouts.public')
 @section('title', 'Our Services')
 @section('content')
-
-    <div class="left bg-dark-grad pattern-overlay-1">
+    <div class="text-start bg-overlay-dark-7 py-7"
+        style="background:url('{{ asset('assets/images/banner/02.jpg') }}') no-repeat; background-size:cover; background-position: center center;">
         <div class="container">
             <div class="row all-text-white">
-                <div class="col-md-12 align-self-center position-relative">
-                    <h5 class="fw-bold display-1 mb-2 py-4">Our Services</h5>
+                <div class="col-md-6 align-self-start">
+                    <h1 class="fw-bold">Our Services</h1>
+                    <h6 class="mb-5">
+                        What we offer at Lattice Africa
+                    </h6>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-start">
+                            <li class="breadcrumb-item active">
+                                <a href="{{ route('about.us') }}" class="btn rounded-1 btn-success">
+                                    About us
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
