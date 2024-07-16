@@ -102,7 +102,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="{{ asset('assets/images/banner/commercializing.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/images/lattice/IMG_0029.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">Commercialising Aquaculture Through Sustainable Innovations and
@@ -122,7 +122,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/lattice/2.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">An Integrated Approach to Enhancing Tilapia Farmer Productivity
@@ -142,7 +142,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/banner/financial-inclussion.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">
@@ -164,7 +164,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/banner/aqua-accademy.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">
@@ -185,7 +185,7 @@
                         <div class="portfolio-card isotope-item digital col-md-4">
                             <div class="portfolio-card-body">
                                 <div class="portfolio-card-header">
-                                    <img src="assets/images/portfolio/01.jpg" alt="">
+                                    <img src="{{ asset('assets/images/banner/competition.jpg') }}" alt="">
                                 </div>
                                 <div class="portfolio-card-footer">
                                     <h6 class="info-title">
