@@ -110,7 +110,7 @@
                                     <a class="dropdown-item" href="javascript:void(e)">Register</a>
                                 @endguest
                                 @auth
-                                    <a class="dropdown-item d-none" href="{{ route('home') }}">Dashboard</a>
+                                    <a class="dropdown-item" href="{{ route('home') }}">Dashboard</a>
                                 @endauth
                             </div>
                         </div>

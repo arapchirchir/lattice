@@ -28,7 +28,7 @@ jobs:
 
             # cp .envlattice .env
 
-            # php artisan migrate:fresh --seed
+            php artisan migrate
 
             php artisan optimize:clear
 

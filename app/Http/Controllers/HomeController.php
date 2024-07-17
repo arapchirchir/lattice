@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Blog;
+use App\Models\Project;
+use App\Models\User;
+use Spatie\Permission\Models\Role;
 
 class HomeController extends Controller
 {
@@ -23,6 +26,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $users = User::latest()->get();
+        $posts = Blog::latest()->get();
+        $roles = Role::all();
+        $projects = Project::latest()->get();
+
+        return view('home', compact('users', 'roles', 'projects', 'posts'));
     }
 }
