@@ -20,7 +20,11 @@ jobs:
 
             php artisan down
 
+            git reset --hard HEAD
+
             git pull origin master
+
+            composer install
 
             cp .envlattice .env
 
