@@ -20,15 +20,15 @@ jobs:
 
             php artisan down
 
-            git reset --hard HEAD
+            # git reset --hard HEAD
 
             git pull origin master
 
-            composer install
+            composer update
 
             cp .envlattice .env
 
-            php artisan migrate --seed
+            php artisan migrate:fresh --seed
 
             php artisan optimize:clear
 
