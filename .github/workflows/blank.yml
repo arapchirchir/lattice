@@ -24,11 +24,11 @@ jobs:
 
             git pull origin master
 
-            composer update
+            # composer update
 
-            cp .envlattice .env
+            # cp .envlattice .env
 
-            php artisan migrate:fresh --seed
+            # php artisan migrate:fresh --seed
 
             php artisan optimize:clear
 

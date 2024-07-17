@@ -105,9 +105,13 @@
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="ti-user me-2"></i>Account </a>
                             <div class="dropdown-menu mt-2 shadow" aria-labelledby="dropdownAccount">
-                                <a class="dropdown-item" href="#">Log In</a>
-                                <a class="dropdown-item" href="#">Register</a>
-                                <a class="dropdown-item d-none" href="#">Settings</a>
+                                @guest
+                                    <a class="dropdown-item" href="{{ route('login') }}">Log In</a>
+                                    <a class="dropdown-item" href="javascript:void(e)">Register</a>
+                                @endguest
+                                @auth
+                                    <a class="dropdown-item d-none" href="{{ route('home') }}">Dashboard</a>
+                                @endauth
                             </div>
                         </div>
                         <!-- top link -->
