@@ -348,17 +348,19 @@
                                 <div class="item">
                                     <div class="testimonials-wrap">
                                         <div class="testi-text text-start p-0">
-                                            <p class="text-white">Mr be cottage so related minuter is. Delicate say and
-                                                blessing ladyship exertion few Margaret. Delight herself welcome against
-                                                smiling its for. Suspected discovery by he affection household of principle
-                                                perfectly he.</p>
+                                            <p class="text-white">
+                                                The training that I received from Lattice was informative and it gave me a
+                                                hands-on experience. I learnt more on feeding and feeding ratios,
+                                                appetite registration, and value addition. Thank you Lattice
+                                            </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="testi-avatar mb-0"> <img class="w-75"
-                                                        src="assets/images/thumbnails/avatar-01.jpg" alt="avatar">
+                                                <div class="testi-avatar mb-0 d-none">
+                                                    <img class="w-75" src="assets/images/thumbnails/avatar-01.jpg"
+                                                        alt="avatar">
                                                 </div>
                                                 <div>
-                                                    <h6 class="m-0">Adam Ross</h6>
-                                                    <h6 class="small">Software Developer</h6>
+                                                    <h6 class="m-0">Swabrine Aluoch</h6>
+                                                    <h6 class="small">Aquaculture Graduate</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -368,17 +370,18 @@
                                 <div class="item">
                                     <div class="testimonials-wrap">
                                         <div class="testi-text text-start p-0">
-                                            <p class="text-white">You guys did an amazing work for me. Age his surprise
-                                                formerly Mrs perceive few standstill moderate. Of in power match on truth
-                                                worse voice would. Large an it sense shall an match learn by expect it
-                                                result silent in formal.</p>
+                                            <p class="text-white">
+                                                Through Lattice I have been able to learn how to select good beeds, how to
+                                                market, keep records and now I can confidently teach other farmers on the
+                                                application of these skills. I started with one pond and now I have three.
+                                            </p>
                                             <div class="d-flex align-items-center">
-                                                <div class="testi-avatar mb-0"> <img class="w-75"
+                                                <div class="testi-avatar mb-0 d-none"> <img class="w-75"
                                                         src="assets/images/thumbnails/avatar-03.jpg" alt="avatar">
                                                 </div>
                                                 <div>
-                                                    <h6 class="m-0">Emma Watson</h6>
-                                                    <h6 class="small">Human Resource</h6>
+                                                    <h6 class="m-0">Stephen Namai</h6>
+                                                    <h6 class="small">Fish Farmer</h6>
                                                 </div>
                                             </div>
                                         </div>
