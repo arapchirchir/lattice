@@ -54,6 +54,7 @@
                                 </div>
                             @endforeach
                         @else
+                            <div class="text-center py-3">No projects added</div>
                         @endif
                     </div>
                     <!-- portfolio wrap -->
