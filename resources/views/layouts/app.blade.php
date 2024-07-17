@@ -52,6 +52,9 @@
                         <!-- Authentication Links -->
                         @auth
                             <li class="nav-item">
+                                <a href="{{ route('home') }}" class="nav-link">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
                                 <a href="{{ route('admin.programs') }}" class="nav-link">Projects</a>
                             </li>
 
