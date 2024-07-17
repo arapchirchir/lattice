@@ -20637,6 +20637,7 @@ footer .widget {
     position: relative;
     z-index: 1;
 }
+
 .bg-overlay-dark-5:before {
     content: " ";
     background: #000000;

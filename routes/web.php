@@ -15,6 +15,7 @@ Route::get('consulting', [PagesController::class, 'consulting'])->name('consulti
 Route::get('aquaculture', [PagesController::class, 'aquaculture'])->name('aquaculture');
 Route::get('aquaculture-accademy', [PagesController::class, 'aquacultureAccademy'])->name('aquaculture.accademy');
 Route::get('projects', [PagesController::class, 'projects'])->name('projects');
+Route::get('project/{project}', [PagesController::class, 'project'])->name('project.view');
 
 Auth::routes();
 
