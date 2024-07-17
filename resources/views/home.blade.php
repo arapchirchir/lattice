@@ -7,10 +7,9 @@
                 <div class="col-md-3 h-100">
                     <div class="card rounded-1 h-100">
                         <div class="card-header bg-light border-0 p-2">
-                            Roles
+                            Roles {{ $roles->count() }}
                         </div>
                         <div class="card-body p-2 h-100">
-                            {{ $roles->count() }}
                             <div class="d-flex align-items-center">
                                 @foreach ($roles as $role)
                                     <div class="d-flex justify-content-between gap-2">
