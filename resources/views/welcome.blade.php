@@ -374,6 +374,8 @@
                                                 Through Lattice I have been able to learn how to select good beeds, how to
                                                 market, keep records and now I can confidently teach other farmers on the
                                                 application of these skills. I started with one pond and now I have three.
+                                                Thanks you Lattice for the training and support you are providing to us as
+                                                farmers
                                             </p>
                                             <div class="d-flex align-items-center">
                                                 <div class="testi-avatar mb-0 d-none"> <img class="w-75"
