@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -18,3 +19,7 @@ Route::get('projects', [PagesController::class, 'projects'])->name('projects');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::middleware(['role:admin'])->prefix('lattice')->group(function () {
+    Route::get('programs', [AdminController::class, 'programs'])->name('admin.programs');
+});

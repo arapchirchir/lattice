@@ -22,13 +22,9 @@ jobs:
 
             git pull origin master
 
-            cp .env.example .env
+            cp .envlattice .env
 
-            php artisan key:generate
-
-            # php artisan migrate
-
-            # cp .env.techworld .env
+            php artisan migrate --seed
 
             php artisan optimize:clear
 
