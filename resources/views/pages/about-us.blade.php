@@ -316,7 +316,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="team-item text-center">
                         <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/millicent-songa.png') }}" alt="">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
                         </div>
                         <div class="team-desc">
                             <h5 class="team-name">Mike Ouya</h5>
