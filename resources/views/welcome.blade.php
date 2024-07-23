@@ -433,14 +433,14 @@
                             <!-- count item -->
                             <div class="col-md-4 col-6">
                                 <div class="text-center">
-                                    <i class="display-6 ti-world"></i>
+                                    <i class="display-6 ti-check"></i>
                                     <div class="d-flex align-items-center justify-content-center">
                                         <h2 class="fw-bold mt-2 mb-0 purecounter" data-purecounter-start="0"
                                             data-purecounter-delay="10" data-purecounter-duration="2"
                                             data-purecounter-end="75">0</h2>
                                         <h2 class="ms-1">+</h2>
                                     </div>
-                                    <p class="mb-0">Project Drone</p>
+                                    <p class="mb-0">Projects Done</p>
                                 </div>
                             </div>
                         </div>
