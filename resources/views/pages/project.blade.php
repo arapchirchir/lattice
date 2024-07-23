@@ -33,6 +33,9 @@
                 </div>
             </div>
             <div class="col-md-4">
+                <div class="card card-body mb-2 rounded-1">
+                    <h5 class="fw-bold">Related Projects</h5>
+                </div>
                 @if (isset($related_projects) && count($related_projects) > 0)
                     @foreach ($related_projects as $item)
                         <div class="card card-body mb-2 rounded-1">
