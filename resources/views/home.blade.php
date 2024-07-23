@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
+    <div class="container mt-3">
         @role('admin')
             <div class="row g-3 h-100">
-                <div class="col-md-3 h-100">
+                <div class="col-md-6 h-100">
                     <div class="card rounded-1 h-100">
                         <div class="card-header bg-light border-0 p-2">
                             Roles {{ $roles->count() }}
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 h-100">
+                <div class="col-md-6 h-100">
                     <div class="card rounded-1 h-100">
                         <div class="card-header bg-light border-0 p-2">
                             Users
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 h-100">
+                <div class="col-md-6 h-100">
                     <div class="card rounded-1 h-100">
                         <div class="card-header bg-light border-0 p-2">
                             Posts
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 h-100">
+                <div class="col-md-6 h-100">
                     <div class="card rounded-1 h-100">
                         <div class="card-header bg-light border-0 p-2">
                             <div class="d-flex align-items-center justify-content-between">
