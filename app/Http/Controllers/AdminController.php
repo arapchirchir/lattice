@@ -8,4 +8,9 @@ class AdminController extends Controller
     {
         return view('admin.projects');
     }
+
+    public function blogs()
+    {
+        return view('admin.blogs');
+    }
 }

@@ -23,4 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::middleware(['role:admin'])->prefix('lattice')->group(function () {
     Route::get('programs', [AdminController::class, 'programs'])->name('admin.programs');
+    Route::get('blogs', [AdminController::class, 'blogs'])->name('admin.blogs');
 });
