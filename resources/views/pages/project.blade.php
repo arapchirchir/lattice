@@ -29,7 +29,7 @@
                 <img src="{{ asset('storage/' . $project->image) }}" class="img-fluid rounded" alt="">
                 <div class="mt-3">
                     <h4 class="fw-bold">{{ $project->title }}</h4>
-                    {!! $project->description !!}
+                    {!! nl2br(e($project->description)) !!}
                 </div>
             </div>
             <div class="col-md-4">

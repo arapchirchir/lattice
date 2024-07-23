@@ -93,10 +93,15 @@
                     <h5 class="card-title">Projects</h5>
                 </div>
                 <div class="card-body px-3 py-2">
-                    @foreach ($projects as $project)
-                        {{ $project->title }} <button class="btn btn-info rounded-1"
-                            wire:click.prevent='update("{{ $project->slug }}")'>Edit</button>
-                    @endforeach
+                    <ul class="list-unstyled">
+                        @foreach ($projects as $project)
+                            <li class="">
+                                <p>{{ $project->title }} </p>
+                                <button class="btn btn-info rounded-1"
+                                    wire:click.prevent='update("{{ $project->slug }}")'>Edit</button>
+                            </li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
         @else
