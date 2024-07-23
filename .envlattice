@@ -1,4 +1,4 @@
-APP_NAME="Lattice Africa"
+APP_NAME="Lattice"
 APP_ENV=local
 APP_KEY=base64:0SbnHX3fi7s1WtdgKK2k4NNLQPg627lYZnUgLjpYyCg=
 APP_DEBUG=true

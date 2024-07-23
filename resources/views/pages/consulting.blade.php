@@ -1,10 +1,63 @@
 @extends('layouts.public')
 @section('title', 'Consulting')
 @section('content')
+    <section class="container mt-4">
+        <div class="row g-3 align-items-center justify-content-center">
+            <div class="col-md-4">
+                <img src="{{ asset('assets/images/lattice/Africa-map-3.jpg') }}" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8">
+                <h4 class="fw-bold">Lattice Consulting</h4>
+                <p>
+                    Incorporated in June 2003, Lattice is a boutique finance and strategy advisory firm. We have clients
+                    across Africa. In addition to our consulting practice, we have a training practice. To learn more about
+                    our training solutions click here.
+                </p>
+                <p class="mb-0"><span class="fw-bold">“Lattice”:</span> A framework or structure of crossed wood or metal
+                    strips.</p>
+                <p>
+                    <span class="fw-bold">“Lattice Consulting”:</span> A consulting framework that combines tools to deliver
+                    robust and stable solutions
+                    to clients.
+                </p>
+            </div>
+        </div>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <h6 class="fw-bold">The Lattice Difference</h6>
+                <ol>
+                    <li>We are small and flexible, and give each client focused attention.</li>
+                    <li>
+                        Drawing from our diverse skills, and in depth engagements, we connect ideas and concepts to build
+                        simple stable solutions for our clients.
+                    </li>
+                    <li>
+                        We consistently invest in the training and development of our staff to better serve our clients – we
+                        grow, so we can help you grow.
+                    </li>
+                </ol>
+            </div>
+            <div class="col-md-6">
+                <h6 class="fw-bold">Our values</h6>
+                <ul>
+                    <li>We prefer to work with clients whose businesses inspire us and where we can make a difference.</li>
+                    <li>
+                        We like to build long lasting relationships. It is these long and intimate relationships with our
+                        clients that give the best consulting outcomes.
+                    </li>
+                    <li>
+                        We take every opportunity to work closely with our clients staff so that knowledge is transferred
+                        and solutions are owned by the organisation.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
     <div class="container mt-5">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6 p-0">
-                <img src="{{ asset('assets/images/banner/Lattice-Samaki-Poa-Launch.png') }}" class="img-fluid" alt="">
+                <img src="{{ asset('assets/images/banner/Lattice-Samaki-Poa-Launch.png') }}" class="img-fluid"
+                    alt="">
             </div>
             <div class="col-md-6 p-0 p-4">
                 <h4>Strategy Development:</h4>

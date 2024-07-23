@@ -641,7 +641,7 @@ blockquote {
     margin-bottom: 1rem;
     font-size: calc(1.025rem + 0.3vw);
 }
-blockquote p{
+blockquote p {
     color: #003366;
 }
 
@@ -4452,7 +4452,7 @@ fieldset:disabled .btn {
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #4cbd89 !important;
+    color: #8f9397 !important;
     background-color: transparent;
 }
 .dropdown-item.active,
