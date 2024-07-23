@@ -278,9 +278,10 @@
                 </div>
                 <!-- Main Menu End -->
                 <!-- Header Extras Start-->
-                <div class="navbar-nav">
+                <div class="navbar-nav d-flex flex-row justify-content-center align-items-center">
+                    <a href="{{ route('login') }}" class="btn px-2 mb-0 d-lg-none">Account</a>
                     <!-- extra item Search-->
-                    <div class="nav-item search border-0 ps-3 pe-0 px-lg-2" id="search">
+                    <div class="nav-item search border-0 ps-3 pe-0 px-lg-2 d-none" id="search">
                         <a class="nav-link" data-bs-toggle="collapse" href="#search-open"><i class="ti-search">
                             </i></a>
                     </div>
