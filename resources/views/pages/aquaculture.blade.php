@@ -205,6 +205,7 @@
     </section>
 
     <section class="container">
+        <h4 class="fw-bold mb-0">Aquaculture Academy’s Online Courses</h4>
         <div class="row g-3 justify-content-center align-items-center">
             <div class="col-md-6">
                 <ul>
