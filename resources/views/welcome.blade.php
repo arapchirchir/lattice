@@ -8,7 +8,7 @@
                 data-arrow="true" data-dots="false" data-items="1">
                 <!-- slide 1-->
                 <div class="h-100 bg-overlay-dark-2"
-                    style="background-image:url(assets/images/banner/05.jpg); background-position: center center; background-size: cover;">
+                    style="background-image:url('{{ asset('assets/images/lattice/welcome.jpg') }}'); background-position: center center; background-size: cover;">
                     <div class="container h-100">
                         <div class="row d-flex h-100">
                             <div
@@ -31,7 +31,7 @@
                 </div>
                 <!-- slide 2-->
                 <div class="h-100 bg-overlay-dark-2"
-                    style="background-image:url(assets/images/banner/02.jpg); background-position: center top; background-size: cover;">
+                    style="background-image:url('{{ asset('assets/images/lattice/slider1.jpeg') }}'); background-position: center top; background-size: cover;">
                     <div class="container h-100">
                         <div class="row d-flex h-100">
                             <div class="col-md-8 justify-content-center align-self-center align-items-start mx-auto">
