@@ -304,10 +304,10 @@
                     <!-- Footer widget 1 -->
                     <div class="col-md-4">
                         <div class="widget">
-                            <a href="#" class="footer-logo">
+                            <a href="{{ url('/') }}" class="footer-logo">
                                 <!-- footer logo Start -->
-                                {{ config('app.name', 'Laravel') }}
-                                {{-- <img class="footer-logo-item" src="assets/images/logo.svg" alt=""> --}}
+                                <img class="footer-logo-item" src="{{ asset('assets/images/logo.png') }}"
+                                    alt="">
                                 <!-- footer logo End -->
                             </a>
                             <p class="mt-3">
@@ -403,8 +403,7 @@
             </div>
         </div>
     </footer>
-    <!-- =======================
- footer  -->
+
 
     <!-- Back to top -->
     <div> <a href="#" class="back-top btn btn-grad"><i class="ti-angle-up"></i></a> </div>
@@ -419,6 +418,13 @@
 
     <!--Template Functions-->
     <script src="{{ asset('assets/js/functions.js') }}"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+        new PureCounter({
+            selector: ".purecounter",
+        });
+    </script>
 
 </body>
 

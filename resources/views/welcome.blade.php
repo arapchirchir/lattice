@@ -397,4 +397,56 @@
             </div>
         </div>
     </section>
+
+    <section class="p-0 counter counter-small mt-5 mb-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="bg-dark rounded py-5 all-text-white pattern-overlay-2">
+                        <div class="row align-items-center justify-content-center">
+                            <!-- count item -->
+                            <div class="col-md-4 col-6 mb-4 mb-sm-0">
+                                <div class="text-center">
+                                    <i class="display-6 ti-bar-chart"></i>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <h2 class="fw-bold mt-2 mb-0 purecounter" data-purecounter-start="0"
+                                            data-purecounter-delay="10" data-purecounter-duration="2"
+                                            data-purecounter-end="18">18</h2>
+                                        <h2 class="ms-1">+</h2>
+                                    </div>
+                                    <p class="mb-0">Years of experience</p>
+                                </div>
+                            </div>
+                            <!-- count item -->
+                            <div class="col-md-4 col-6 mb-4 mb-sm-0">
+                                <div class="text-center">
+                                    <i class="display-6 ti-face-smile"></i>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <h2 class="fw-bold mt-2 mb-0 purecounter" data-purecounter-start="0"
+                                            data-purecounter-delay="10" data-purecounter-separator="true"
+                                            data-purecounter-duration="2" data-purecounter-end="10000">0</h2>
+                                        <h2 class="ms-1">+</h2>
+                                    </div>
+                                    <p class="mb-0">Satisfied Clients</p>
+                                </div>
+                            </div>
+                            <!-- count item -->
+                            <div class="col-md-4 col-6">
+                                <div class="text-center">
+                                    <i class="display-6 ti-world"></i>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <h2 class="fw-bold mt-2 mb-0 purecounter" data-purecounter-start="0"
+                                            data-purecounter-delay="10" data-purecounter-duration="2"
+                                            data-purecounter-end="75">0</h2>
+                                        <h2 class="ms-1">+</h2>
+                                    </div>
+                                    <p class="mb-0">Project Drone</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
