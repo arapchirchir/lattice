@@ -206,7 +206,10 @@
 
     <section class="container">
         <h4 class="fw-bold mb-0">Aquaculture Academy’s Online Courses</h4>
-        <div class="row g-3 justify-content-center align-items-center">
+        <div class="row g-3 justify-content-center align-items-center mt-0 flex-md-row-reverse">
+            <div class="col-md-6">
+                <img src="{{ asset('assets/images/lattice/aqua-online.png') }}" class="img-fluid" alt="">
+            </div>
             <div class="col-md-6">
                 <ul>
                     <li>
@@ -232,9 +235,6 @@
                         Improve young farmers’ skills to match the labour market requirements.
                     </li>
                 </ul>
-            </div>
-            <div class="col-md-6">
-                <img src="{{ asset('assets/images/lattice/aqua-online.png') }}" class="img-fluid" alt="">
             </div>
         </div>
     </section>
