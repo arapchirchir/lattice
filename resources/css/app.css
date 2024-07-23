@@ -637,26 +637,30 @@ progress {
     text-transform: uppercase;
 }
 
-.blockquote {
+blockquote {
     margin-bottom: 1rem;
     font-size: calc(1.025rem + 0.3vw);
 }
+blockquote p{
+    color: #003366;
+}
+
 @media (min-width: 1200px) {
-    .blockquote {
+    blockquote {
         font-size: 1.25rem;
     }
 }
-.blockquote > :last-child {
+blockquote > :last-child {
     margin-bottom: 0;
 }
 
-.blockquote-footer {
+blockquote-footer {
     margin-top: -1rem;
     margin-bottom: 1rem;
     font-size: 0.875em;
     color: #6c757d;
 }
-.blockquote-footer::before {
+blockquote-footer::before {
     content: "— ";
 }
 
@@ -19544,9 +19548,9 @@ footer .widget {
     top: -5px;
     left: 0;
     line-height: 0.9em;
-    font-weight: 600;
-    color: #4cbd89;
-    font-size: 120px;
+    font-weight: 400;
+    color: #003366;
+    font-size: 80px;
 }
 
 .post-item .soundcloud {
@@ -20905,12 +20909,12 @@ footer .widget {
     }
 }
 /*blockquote*/
-.blockquote {
+blockquote {
     position: relative;
-    padding-left: 70px;
+    padding-left: 30px;
     margin-bottom: 20px;
 }
-.blockquote:before {
+blockquote:before {
     content: "“";
     font-family: "arial";
     display: inline-block;
@@ -20919,89 +20923,89 @@ footer .widget {
     left: 0;
     font-size: 100px;
     line-height: 0.9em;
-    font-weight: 600;
-    color: #4cbd89;
-    font-size: 120px;
+    font-weight: 400;
+    color: #003366;
+    font-size: 80px;
 }
-.blockquote cite {
+blockquote cite {
     font-size: 0.875rem;
 }
 
 /*bg-primary*/
-.blockquote.bg-primary {
+blockquote.bg-primary {
     background: #4cbd89;
     color: #ffffff;
     padding: 20px 20px 20px 90px;
 }
-.blockquote.bg-primary * {
+blockquote.bg-primary * {
     color: #ffffff;
 }
-.blockquote.bg-primary:before {
+blockquote.bg-primary:before {
     color: #ffffff !important;
     top: 20px;
     left: 20px;
 }
 
 /*bg-dark*/
-.blockquote.bg-dark {
+blockquote.bg-dark {
     padding: 20px 20px 20px 90px;
 }
-.blockquote.bg-dark * {
+blockquote.bg-dark * {
     color: #ffffff;
 }
-.blockquote.bg-dark:before {
+blockquote.bg-dark:before {
     top: 20px;
     left: 20px;
 }
 
 /*bg-grad*/
-.blockquote.bg-grad {
+blockquote.bg-grad {
     padding: 20px 20px 20px 90px;
 }
-.blockquote.bg-grad * {
+blockquote.bg-grad * {
     color: #ffffff;
 }
-.blockquote.bg-grad:before {
+blockquote.bg-grad:before {
     color: #ffffff !important;
     top: 20px;
     left: 20px;
 }
 
 /*bg-light*/
-.blockquote.bg-light {
+blockquote.bg-light {
     padding: 20px 20px 20px 90px;
 }
-.blockquote.bg-light:before {
+blockquote.bg-light:before {
     top: 20px;
     left: 20px;
 }
 
 /*primary-line*/
-.blockquote.primary-line {
+blockquote.primary-line {
     padding: 10px 20px;
     border-left: 5px solid #4cbd89;
 }
-.blockquote.primary-line:before {
+blockquote.primary-line:before {
     display: none;
 }
 
 /*gray-line*/
-.blockquote.gray-line {
+blockquote.gray-line {
     padding: 10px 20px;
     border-left: 5px solid #f0f1f3;
 }
-.blockquote.gray-line:before {
+blockquote.gray-line:before {
     display: none;
 }
 
 /*grad-line*/
-.blockquote.grad-line {
+blockquote.grad-line {
     padding: 10px 20px;
 }
-.blockquote.grad-line:before {
+blockquote.grad-line:before {
     display: none;
 }
-.blockquote.grad-line:after {
+blockquote.grad-line:after {
     content: "";
     display: block;
     position: absolute;

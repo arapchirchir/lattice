@@ -1,4 +1,5 @@
 <div class="row g-3">
+    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/42.0.1/ckeditor5.css">
     <div class="col-md-8">
         @if ($errors->any())
             <div class="alert alert-danger">
@@ -111,21 +112,26 @@
         @endif
     </div>
 </div>
+<script src="https://cdn.ckeditor.com/ckeditor5/39.0.1/classic/ckeditor.js"></script>
 <script>
     document.addEventListener('livewire:init', () => {
-        // textarea autoresize on input
-        const textarea = document.getElementById('editor');
-        textarea.addEventListener('input', () => {
-            textarea.style.height = 'auto';
-            textarea.style.height = textarea.scrollHeight + 'px';
-            @this.set('description', textarea.value);
-            console.log(textarea.value);
-        });
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .then(editor => {
+                window.editor = editor;
+                editor.model.document.on('change:data', (evt, data) => {
+                    console.log(editor.getData());
+                    @this.set('description', editor.getData());
+                });
+            })
+            .catch(error => {
+                console.error(error);
+            });
+
 
         Livewire.on('refreshProjects', () => {
             // reset texarea
-            textarea.style.height = 'auto';
-            textarea.value = '';
+            editor.setData('');
             // reset image
             document.getElementById('image').value = '';
             // reset video
@@ -133,8 +139,7 @@
         });
 
         Livewire.on('populateTextarea', (data) => {
-            textarea.value = data[0];
-            textarea.style.height = textarea.scrollHeight + 'px';
+            editor.setData(data[0]);
         });
     });
 </script>
