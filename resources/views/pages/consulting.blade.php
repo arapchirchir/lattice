@@ -161,4 +161,27 @@
             </div>
         </div>
     </div>
+    <section class="container mt-4">
+        <div class="row g-3 align-items-center justify-content-center">
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe class="rounded-2" width="100%" height="315"
+                        src="https://www.youtube.com/embed/t9olp2VEAAU?feature=oembed" allow="autoplay; encrypted-media"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe class="rounded-2" width="100%" height="315" src="https://www.youtube.com/embed/w3RLemluW9o"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe class="rounded-2" width="100%" height="315" src="https://www.youtube.com/embed/S7opG8XS-l8"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
