@@ -31,6 +31,15 @@
                     <h4 class="fw-bold">{{ $project->title }}</h4>
                     {!! $project->description !!}
                 </div>
+                @if ($project->video)
+                    <div class="mt-3">
+                        <h4 class="fw-bold">Video</h4>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe height="300" width="100%" class="embed-responsive-item" src="{{ $project->video }}"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                @endif
             </div>
             <div class="col-md-4">
                 <div class="card card-body mb-2 rounded-1">

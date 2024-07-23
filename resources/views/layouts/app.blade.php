@@ -32,10 +32,11 @@
 <body>
     <div id="app">
         @auth
-            <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm sticky-top">
                 <div class="container">
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                    <a class="navbar-brand position-relative" href="{{ url('/') }}">
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="" height="80"
+                            class="position-absolute bg-white" style="margin-top: -20px;">
                     </a>
                     <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
