@@ -27,6 +27,7 @@
             left: auto;
         }
     </style>
+    @livewireStyles
 </head>
 
 <body>
@@ -97,6 +98,7 @@
                 @yield('content')
             </main>
     </div>
+    @livewireScripts
 </body>
 
 </html>

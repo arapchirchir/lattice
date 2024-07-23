@@ -6,10 +6,11 @@ use App\Models\Project;
 use Illuminate\Support\Str;
 use Livewire\Component;
 use Livewire\WithFileUploads;
+use Livewire\WithoutUrlPagination;
 
 class Projects extends Component
 {
-    use WithFileUploads;
+    use WithFileUploads,WithoutUrlPagination;
 
     public $title;
 
@@ -21,13 +22,21 @@ class Projects extends Component
 
     public $video_code;
 
-    public $perPage = 15;
+    public $perPage = 10;
 
     public $status = 'projects';
 
     public $post_status = '';
 
     public $project_id;
+
+    public $category = '';
+
+    public $country;
+
+    public $client;
+
+    public $partners;
 
     public function render()
     {
@@ -67,6 +76,10 @@ class Projects extends Component
             $this->video_code = $project_info->video;
             $this->image = $project_info->image;
             $this->post_status = $project_info->status;
+            $this->country = $project_info->country;
+            $this->client = $project_info->client;
+            $this->partners = $project_info->partners == null ? '' : implode(';', json_decode($project_info->partners));
+            $this->category = $project_info->category;
             $this->dispatch('populateTextarea', $project_info->description);
         }
     }
@@ -76,9 +89,13 @@ class Projects extends Component
         $this->validate([
             'title' => 'required',
             'description' => 'required',
-            'image' => 'required|image',
+            'image' => 'image|'.$this->category == 'projects' ? 'required' : 'nullable',
             'video' => 'nullable|string',
             'post_status' => 'required',
+            'country' => 'nullable|string',
+            'client' => 'nullable|string',
+            'partners' => 'nullable|string',
+            'category' => 'required|string',
         ], [
             'title.required' => 'The title is required.',
             'description.required' => 'The description is required.',
@@ -86,9 +103,23 @@ class Projects extends Component
             'image.image' => 'The image must be an image.',
             'video.string' => 'The video must be a string.',
             'post_status.required' => 'The post status is required.',
+            'country.string' => 'The country must be a string.',
+            'client.string' => 'The client must be a string.',
+            'partners.string' => 'The partners must be a string.',
+            'category.required' => 'The category is required.',
         ]);
 
-        $image = $this->image->store('images', 'public');
+        if (! empty($this->partners)) {
+            $split = explode(';', $this->partners);
+            $store_partners = json_encode($split);
+        } else {
+            $store_partners = null;
+        }
+
+        $image = null;
+        if (! empty($this->image)) {
+            $image = $this->image->store('images', 'public');
+        }
 
         $project = new Project();
         $project->title = $this->title;
@@ -97,6 +128,10 @@ class Projects extends Component
         $project->slug = Str::slug($this->title);
         $project->video = $this->video_code;
         $project->status = $this->post_status;
+        $project->country = $this->country;
+        $project->client = $this->client;
+        $project->partners = $store_partners;
+        $project->category = $this->category;
         $project->save();
 
         session()->flash('message', 'Project created successfully.');
@@ -107,6 +142,10 @@ class Projects extends Component
         $this->video = '';
         $this->status = 'projects';
         $this->post_status = '';
+        $this->country = '';
+        $this->client = '';
+        $this->partners = '';
+        $this->category = '';
 
         $this->dispatch('refreshProjects');
     }
@@ -116,15 +155,23 @@ class Projects extends Component
         $this->validate([
             'title' => 'required',
             'description' => 'required',
-            'image' => 'required|'.(is_string($this->image) ? '' : 'image'),
+            'image' => 'nullable|'.(is_string($this->image) ? '' : 'image'),
             'video' => 'nullable|string',
             'post_status' => 'required',
+            'country' => 'nullable|string',
+            'client' => 'nullable|string',
+            'partners' => 'nullable|string',
+            'category' => 'required|string',
         ], [
             'title.required' => 'The title field is required.',
             'description.required' => 'The description field is required.',
             'image.image' => 'The image must be an image.',
             'video.string' => 'The video must be a string.',
             'post_status.required' => 'The post status field is required.',
+            'country.string' => 'The country must be a string.',
+            'client.string' => 'The client must be a string.',
+            'partners.string' => 'The partners must be a string.',
+            'category.required' => 'The category is required.',
         ]);
 
         $project_info = Project::where('id', $this->project_id)->first();
@@ -135,12 +182,21 @@ class Projects extends Component
             $image = $this->image;
         }
 
+        if (! empty($this->partners)) {
+            $split = explode(';', $this->partners);
+        } else {
+            $split = [];
+        }
+
         $project_info->title = $this->title;
         $project_info->description = $this->description;
         $project_info->image = $image;
         $project_info->slug = Str::slug($this->title);
         $project_info->video = $this->video_code;
         $project_info->status = $this->post_status;
+        $project_info->country = $this->country;
+        $project_info->client = $this->client;
+        $project_info->partners = json_encode($split);
         $project_info->save();
 
         session()->flash('message', 'Project updated successfully.');
@@ -151,6 +207,10 @@ class Projects extends Component
         $this->video = '';
         $this->status = 'projects';
         $this->post_status = '';
+        $this->country = '';
+        $this->client = '';
+        $this->partners = '';
+        $this->category = '';
 
         $this->dispatch('refreshProjects');
     }

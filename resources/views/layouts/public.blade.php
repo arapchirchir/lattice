@@ -414,6 +414,8 @@
 
     <!--Vendors-->
     <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
+    <script src="{{ asset('assets/vendor/isotope/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor/imagesLoaded/imagesloaded.js') }}"></script>
     <script src="{{ asset('assets/vendor/glightbox/js/glightbox.js') }}"></script>
     <script src="{{ asset('assets/vendor/tiny-slider/tiny-slider.js') }}"></script>
 

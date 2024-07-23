@@ -45,7 +45,9 @@ class PagesController extends Controller
 
     public function aquaculture()
     {
-        return view('pages.aquaculture');
+        $projects = Project::where(['category' => 'aqua'])->latest()->get();
+
+        return view('pages.aquaculture', compact('projects'));
     }
 
     public function aquacultureAccademy()

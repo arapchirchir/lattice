@@ -18868,7 +18868,7 @@ footer .widget {
     overflow: hidden;
 }
 .portfolio-card .portfolio-card-body .portfolio-card-footer .info-title {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 5px;
     color: #343a40;
     display: block;
@@ -18997,7 +18997,7 @@ footer .widget {
 }
 .portfolio-style-2 .portfolio-card .portfolio-card-footer .info-title {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     -webkit-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
     opacity: 0;
@@ -19028,7 +19028,7 @@ footer .widget {
 }
 .portfolio-style-2 .portfolio-card:hover .portfolio-card-footer .info-title {
     position: absolute;
-    bottom: 56px;
+    bottom: 5px;
     -webkit-transition: all 0.7s ease-in-out;
     transition: all 0.7s ease-in-out;
     opacity: 1;
@@ -19247,7 +19247,7 @@ footer .widget {
         margin-bottom: 0;
     }
     .portfolio-card:hover .portfolio-card-footer .info-title {
-        bottom: 30px;
+        bottom: 10px;
     }
 
     .personal-portfolio .personal-portfolio-main {
@@ -19302,7 +19302,7 @@ footer .widget {
         font-size: 1.09375rem;
     }
     .portfolio-card:hover .portfolio-card-footer .info-title {
-        bottom: 50px;
+        bottom: 10px;
     }
     .portfolio-card:hover .portfolio-card-footer p {
         margin-bottom: 20px;

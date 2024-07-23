@@ -161,6 +161,7 @@
             </div>
         </div>
     </div>
+
     <section class="container mt-4">
         <div class="row g-3 align-items-center justify-content-center">
             <div class="col-md-6">
@@ -180,6 +181,20 @@
                 <div class="ratio ratio-16x9">
                     <iframe class="rounded-2" width="100%" height="315" src="https://www.youtube.com/embed/S7opG8XS-l8"
                         allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-md-between">
+                <!-- Classic google map iframe -->
+                <div class="col-12 mb-6">
+                    <h4 class="mb-4 d-none">Classic google map iframe</h4>
+                    <iframe class="w-100" height="400"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d510573.0315680922!2d36.749059!3d-1.261169!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f171356c728b3%3A0x9987f982cc67c738!2sLattice%20Consulting%20Ltd!5e0!3m2!1sen!2sus!4v1719667301324!5m2!1sen!2sus"
+                        style="border:0;" aria-hidden="false" tabindex="0"></iframe>
                 </div>
             </div>
         </div>

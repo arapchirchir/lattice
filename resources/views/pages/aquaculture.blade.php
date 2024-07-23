@@ -238,4 +238,51 @@
             </div>
         </div>
     </section>
+
+    <section class="portfolio portfolio-style-2 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h4 class="fw-bold">Our Past Assignments</h4>
+                    <p>
+                        Lattice together with its partners have conducted the following <br> Research assignments Fisheries
+                        & Aquaculture East Africa;
+                    </p>
+                </div>
+                <div class="col-md-12 p-0">
+                    <div class="row g-3" data-isotope='{ "layoutMode": "masonry" }'>
+                        @if ($projects && count($projects) > 0)
+                            @foreach ($projects as $project)
+                                <!-- portfolio-card -->
+                                <div class="portfolio-card grid-item digital rounded-2 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="portfolio-card-body rounded-2">
+                                        <div class="portfolio-card-header rounded-2">
+                                            <img src="{{ asset('assets/images/portfolio/01.jpg') }}" class="rounded-2"
+                                                alt="">
+                                        </div>
+                                        <div class="portfolio-card-footer rounded-2 p-1">
+                                            <a class="full-screen d-none"
+                                                href="{{ asset('assets/images/portfolio/01.jpg') }}" data-glightbox=""
+                                                data-gallery="portfolio"><i class="ti-arrow-top-right"></i></a>
+                                            <h6 class="info-title">
+                                                <a href="{{ route('project.view', $project->slug) }}" title="">
+                                                    {{ $project->title }}
+                                                </a>
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- portfolio-card -->
+                            @endforeach
+                        @else
+                            <div class="alert alert-info col-12">
+                                No projects available
+                            </div>
+                        @endif
+                    </div>
+                    <!-- portfolio wrap -->
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

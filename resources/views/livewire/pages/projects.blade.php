@@ -24,11 +24,33 @@
                         </div>
                     </div>
                     <div class="col-12">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="category">Category</label>
+                                    <select class="form-select rounded-1 shadow-none" wire:model.lazy='category'>
+                                        <option value="">Select category</option>
+                                        <option value="aqua">Aquaculture</option>
+                                        <option value="projects">Projects</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="country">Country</label>
+                                    <input type="text" class="form-control shadow-none rounded-1"
+                                        wire:model='country' placeholder="e.g. Kenya">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
                         <div class="form-group" wire:ignore>
                             <label for="description" class="form-label">Description</label>
                             <textarea id="editor" wire:ignore class="form-control rounded-1 shadow-none" placeholder="Enter program description"></textarea>
                         </div>
                     </div>
+
                     <div class="col-12">
                         <div style="min-height: 200px;" class="position-relative border rounded-2 mb-2">
                             <div
@@ -61,14 +83,13 @@
                                 placeholder="eg. https://www.youtube.com/watch?v=GgzJ0GEmK24">
                         </div>
                         @if ($video && $video_code)
-                            <div class="mt-2 mb-3">
-                                <iframe width="100%" height="400" class="rounded-2" src="{{ $video_code }}"
-                                    frameborder="0"
+                            <div class="ratio ratio-16x9">
+                                <iframe class="rounded-2" width="100%" height="315" src="{{ $video_code }}"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             </div>
                         @endif
-                        <div class="form-group">
+                        <div class="row g-3">
                             <div class="col-md-6">
                                 <label for="post_status">Post status</label>
                                 <select class="form-select rounded-1 shadow-none" wire:model.lazy='post_status'>
@@ -77,6 +98,22 @@
                                     <option value="published">Published</option>
                                 </select>
                             </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="country">Client</label>
+                                    <input type="text" class="form-control shadow-none rounded-1" wire:model='client'
+                                        placeholder="e.g. Netherlands Ministry of Foreign Affairs">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="country">Partners <span class="small">(separate partners with semi
+                                    colon,;)</span></label>
+                            <textarea type="text" class="form-control shadow-none rounded-1" wire:model='partners'
+                                placeholder="e.g. Larive;Lattice"></textarea>
                         </div>
                     </div>
                 </div>
@@ -103,6 +140,7 @@
                             </li>
                         @endforeach
                     </ul>
+                    {{ $projects->links(data: ['scrollTo' => false]) }}
                 </div>
             </div>
         @else

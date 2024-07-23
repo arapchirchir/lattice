@@ -33,9 +33,9 @@
                 </div>
                 @if ($project->video)
                     <div class="mt-3">
-                        <h4 class="fw-bold">Video</h4>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe height="300" width="100%" class="embed-responsive-item" src="{{ $project->video }}"
+                        <div class="ratio ratio-16x9">
+                            <iframe class="rounded-2" width="100%" height="315" src="{{ $project->video }}"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen></iframe>
                         </div>
                     </div>
