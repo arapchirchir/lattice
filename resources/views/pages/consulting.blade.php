@@ -53,7 +53,8 @@
             </div>
         </div>
     </section>
-    <div class="container mt-5">
+
+    <div class="container mt-5" id="strategy">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6 p-0">
                 <img src="{{ asset('assets/images/banner/Lattice-Samaki-Poa-Launch.png') }}" class="img-fluid"
@@ -85,7 +86,7 @@
                     alt="">
             </div>
         </div>
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" id="financing-model">
             <div class="col-md-6 p-0">
                 <img src="{{ asset('assets/images/banner/Lattice-Samaki-Poa-Launch.png') }}" class="img-fluid"
                     alt="">
@@ -100,7 +101,7 @@
                 </p>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" id="market-entry">
             <div class="col-md-6 p-0 p-4">
                 <h4>Market Entry Strategy:</h4>
                 <p>
@@ -129,7 +130,7 @@
                 </p>
             </div>
         </div>
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center" id="blue-economy">
             <div class="col-md-6 p-0 p-4">
                 <h4>Blue Economy Consulting:</h4>
                 <p>

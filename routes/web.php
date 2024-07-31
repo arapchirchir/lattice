@@ -7,8 +7,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PagesController::class, 'index'])->name('homepage');
 Route::get('about-us', [PagesController::class, 'about'])->name('about.us');
-Route::get('services', [PagesController::class, 'services'])->name('services');
-Route::get('contact', [PagesController::class, 'contact'])->name('contact');
+Route::get('our-expertise', [PagesController::class, 'services'])->name('services');
+Route::get('contact-us', [PagesController::class, 'contact'])->name('contact');
 Route::get('advisory', [PagesController::class, 'advisory'])->name('advisory');
 Route::get('training', [PagesController::class, 'training'])->name('training');
 Route::get('consulting', [PagesController::class, 'consulting'])->name('consulting');

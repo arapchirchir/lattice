@@ -241,26 +241,28 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle @if (Route::is(['services'])) active @endif"
+                            <a class="nav-link dropdown-toggle @if (Route::is(['consulting'])) active @endif"
                                 href="#" id="expertise" data-bs-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">Our
                                 Expertise</a>
                             <ul class="dropdown-menu" aria-labelledby="expertise">
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('services') }}">Program development and
+                                    <a class="dropdown-item" href="{{ route('consulting') }}">Program development and
                                         implementation</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('services') }}">Strategy</a>
+                                    <a class="dropdown-item" href="{{ route('consulting') }}#strategy">Strategy</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('services') }}">Corporate finance</a>
+                                    <a class="dropdown-item"
+                                        href="{{ route('consulting') }}#financing-model">Corporate finance</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('services') }}">Market entry</a>
+                                    <a class="dropdown-item" href="{{ route('consulting') }}#market-entry">Market
+                                        entry</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('services') }}">Corporate Education</a>
+                                    <a class="dropdown-item" href="{{ route('consulting') }}">Corporate Education</a>
                                 </li>
                             </ul>
                         </li>
