@@ -1,19 +1,61 @@
 @extends('layouts.public')
 @section('title', 'Aquaculture')
 @section('content')
-    <section class="p-0 h-500 h-lg-700 bg-parallax"
-        style="background:url('{{ asset('assets/images/banner/Aquaculture-Lattice.png') }}') no-repeat 65% 0%; background-size:cover;">
-        <div class="container h-100">
-            <div class="row justify-content-between align-items-center h-100">
-                <div class="col-md-8 rounded-2 text-white">
-                    <h4 class="text-white">Lattice Aquaculture</h4>
-                    <h1 class="display-4 fw-bold text-white">
-                        Empowering East Africa's Aquaculture for Better Nutrition and Livelihoods
-                    </h1>
-                    <span>
-                        <a class="btn btn-grad btn-round zoom-on-hover me-3" data-glightbox=""
-                            href="https://youtu.be/ad-1dCkb1d0"> <i class="fa fa-play text-white"></i></a>Learn more</span>
+
+
+    <section class="p-0">
+        <div class="tiny-slider arrow-dark arrow-large arrow-transparent arrow-hover">
+            <div class="tiny-slider-inner h-400 h-lg-700" data-autoplay="true" data-autoplaytime="7000" data-gutter="0"
+                data-arrow="true" data-dots="false" data-items="1">
+                <!-- slide 1-->
+                <div class="h-100 bg-overlay-dark-2"
+                    style="background-image:url('{{ asset('assets/images/banner/Aquaculture-Lattice.png') }}'); background-position: center center; background-size: cover;">
+                    <div class="container h-100">
+                        <div class="row d-flex h-100">
+                            <div
+                                class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+                                <h2
+                                    class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
+                                    Lattice Aquaculture
+                                </h2>
+                                <h3
+                                    class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
+                                    Empowering East Africa's Aquaculture for Better Nutrition and Livelihoods
+                                </h3>
+                                <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                    <a href="{{ route('about.us') }}" class="btn btn-grad">About us!</a>
+                                    <a href="{{ route('contact') }}" class="btn btn-link text-white">Contact us </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                @if (isset($slider_projects) && count($slider_projects) > 0)
+                    @foreach ($slider_projects as $item)
+                        <div class="h-100 bg-overlay-dark-2"
+                            style="background-image:url('{{ Storage::url($item->image) }}'); background-position: center center; background-size: cover;">
+                            <div class="container h-100">
+                                <div class="row d-flex h-100">
+                                    <div
+                                        class="col-lg-12 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+                                        <h2
+                                            class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
+                                            {{ $item->title }}
+                                        </h2>
+                                        <h3
+                                            class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
+                                            {!! Str::words($item->description, 10) !!}
+                                        </h3>
+                                        <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                            <a href="{{ route('project.view', $item->slug) }}" class="btn btn-grad">Learn
+                                                more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                @endif
             </div>
         </div>
     </section>
