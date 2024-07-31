@@ -268,9 +268,9 @@
                             <a class="nav-link @if (Route::is('about.us')) active @endif"
                                 href="{{ route('about.us') }}" id="demosMenu">About us</a>
                         </li>
-                        <li class="nav-item d-md-none">
+                        <li class="nav-item d-lg-none">
                             <a class="nav-link @if (Route::is('contact')) active @endif"
-                                href="{{ route('contact') }}" id="demosMenu">Contact us</a>
+                                href="{{ route('contact') }}" id="demosMenu">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -285,7 +285,7 @@
                     </div>
                     <!-- extra item Btn-->
                     <div class="nav-item border-0 d-none d-lg-inline-block align-self-center">
-                        <a href="{{ route('contact') }}" class=" btn btn-sm btn-grad text-white mb-0">Contacts</a>
+                        <a href="{{ route('contact') }}" class=" btn btn-sm btn-grad text-white mb-0">Contact us</a>
                     </div>
                 </div>
                 <!-- Header Extras End-->
@@ -340,9 +340,10 @@
                         <div class="widget">
                             <h6>Quick LInks</h6>
                             <ul class="nav flex-column primary-hover">
-                                <li class="nav-item"><a class="nav-link" href="{{ route('about.us') }}">About</a>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('about.us') }}">About us</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                                <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact
+                                        us</a>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="{{ route('homepage') }}">Home</a>
                                 </li>
