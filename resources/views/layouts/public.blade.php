@@ -214,66 +214,51 @@
                             <a class="nav-link @if (Route::is('homepage')) active @endif"
                                 href="{{ route('homepage') }}" id="demosMenu">Home</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link @if (Route::is('projects')) active @endif"
+                                href="{{ route('projects') }}" id="demosMenu">Impact areas</a>
+                        </li>
                         <!-- Menu item 2 Blog-->
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown d-none">
                             <a class="nav-link dropdown-toggle @if (Route::is(['advisory', 'training'])) active @endif"
                                 href="#" id="blogMenu" data-bs-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">Impact Areas</a>
                             <ul class="dropdown-menu" aria-labelledby="blogMenu">
-                                <li><a class="dropdown-item" href="{{ route('aquaculture') }}">Aquaculture and the
-                                        blue economy</a></li>
-                                <li><a class="dropdown-item d-none" href="{{ route('advisory') }}">Advisory</a></li>
-                                <li><a class="dropdown-item d-none" href="{{ route('training') }}">Training</a></li>
-                                <li><a class="dropdown-item d-none" href="{{ route('consulting') }}">Consulting</a>
-                                </li>
-                                <li><a class="dropdown-item d-none" href="{{ route('projects') }}">Projects</a></li>
-                                <li><a class="dropdown-item" href="{{ route('projects') }}">Access to finance</a>
-                                </li>
-                                <li><a class="dropdown-item" href="{{ route('projects') }}">Agribusiness</a></li>
-                                <li><a class="dropdown-item" href="{{ route('projects') }}">Food security</a></li>
-                                <li><a class="dropdown-item" href="{{ route('projects') }}">MSME Acceleration and
-                                        capacity building</a></li>
-                                <li><a class="dropdown-item" href="{{ route('projects') }}">Small Holder Farmers</a>
-                                </li>
-                                <li><a class="dropdown-item" href="{{ route('projects') }}">Gender</a></li>
-                                <li><a class="dropdown-item" href="{{ route('projects') }}">ESG and Climate</a></li>
-                            </ul>
                         </li>
+                        <li><a class="dropdown-item d-none" href="{{ route('projects') }}">Projects</a></li>
+                        <li><a class="dropdown-item" href="{{ route('projects') }}">Access to finance</a>
+                        </li>
+                        <li><a class="dropdown-item" href="{{ route('projects') }}">Agribusiness</a></li>
+                        <li><a class="dropdown-item" href="{{ route('projects') }}">Food security</a></li>
+                        <li><a class="dropdown-item" href="{{ route('projects') }}">MSME Acceleration and
+                                capacity building</a></li>
+                        <li><a class="dropdown-item" href="{{ route('projects') }}">Small Holder Farmers</a>
+                        </li>
+                        <li><a class="dropdown-item" href="{{ route('projects') }}">Gender</a></li>
+                        <li><a class="dropdown-item" href="{{ route('projects') }}">ESG and Climate</a></li>
+                    </ul>
+                    </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle @if (Route::is(['consulting'])) active @endif"
-                                href="#" id="expertise" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">Our
-                                Expertise</a>
-                            <ul class="dropdown-menu" aria-labelledby="expertise">
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('consulting') }}">Program development and
-                                        implementation</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('consulting') }}#strategy">Strategy</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item"
-                                        href="{{ route('consulting') }}#financing-model">Corporate finance</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('consulting') }}#market-entry">Market
-                                        entry</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="{{ route('consulting') }}">Corporate Education</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link @if (Route::is('about.us')) active @endif"
-                                href="{{ route('about.us') }}" id="demosMenu">About us</a>
-                        </li>
-                        <li class="nav-item d-lg-none">
-                            <a class="nav-link @if (Route::is('contact')) active @endif"
-                                href="{{ route('contact') }}" id="demosMenu">Contact Us</a>
-                        </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle @if (Route::is(['consulting'])) active @endif"
+                            href="#" id="expertise" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Our
+                            Expertise</a>
+                        <ul class="dropdown-menu" aria-labelledby="expertise">
+                            <li><a class="dropdown-item" href="{{ route('aquaculture') }}">Aquaculture</a></li>
+                            <li><a class="dropdown-item" href="{{ route('advisory') }}">Advisory</a></li>
+                            <li><a class="dropdown-item" href="{{ route('training') }}">Training</a></li>
+                            <li><a class="dropdown-item" href="{{ route('consulting') }}">Consulting</a>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link @if (Route::is('about.us')) active @endif"
+                            href="{{ route('about.us') }}" id="demosMenu">About us</a>
+                    </li>
+                    <li class="nav-item d-lg-none">
+                        <a class="nav-link @if (Route::is('contact')) active @endif"
+                            href="{{ route('contact') }}" id="demosMenu">Contact Us</a>
+                    </li>
                     </ul>
                 </div>
                 <!-- Main Menu End -->
