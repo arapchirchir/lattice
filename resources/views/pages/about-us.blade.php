@@ -63,8 +63,9 @@
                     <div class="feature-box h-100 icon-primary">
                         <div class="feature-box-icon"><i class="ti-star"></i></div>
                         <h3 class="feature-box-title">Our Values</h3>
-                        <p class="feature-box-desc">Integrity, Innovation, Sustainability, Collaboration, Excellence,
-                            Thought Leadership</p>
+                        <p class="feature-box-desc">
+                            Boldness, agility, growth orientation, and competence-define our commitment to delivering transformative results for businesses, communities, and ecosystems.
+                        </p>
                     </div>
                 </div>
                 <div class="col-12">

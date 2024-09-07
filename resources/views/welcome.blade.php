@@ -1,7 +1,6 @@
 @extends('layouts.public')
 @section('title', 'Homepage')
 @section('content')
-
     <section class="p-0">
         <div class="tiny-slider arrow-dark arrow-large arrow-transparent arrow-hover">
             <div class="tiny-slider-inner h-400 h-lg-700" data-autoplay="true" data-autoplaytime="7000" data-gutter="0"
@@ -60,10 +59,15 @@
             <div class="row">
                 <div class="col-md-12 col-lg-6 align-self-center ">
                     <div class="title text-start">
-                        <span class="pre-title">We are {{ config('app.name') }}</span>
-                        <h3>We are a full service <span class="text-primary">consultancy and training organization</span>
-                            fostering sustainable development in Africa.</h3>
-                        <div class="list-group-inline list-group-number list-unstyled mt-4">
+                        <span class="pre-title">Our Purpose</span>
+                        <p>
+                            At Lattice, we exist to create and share prosperity by solving consequential problems through
+                            bold, agile, and innovative solutions. We offer specialized expertise across Consulting,
+                            Advisory, Training, and Aquaculture, driving sustainable impact in diverse sectors.
+                            Our core values—boldness, agility, growth orientation, and competence—define our commitment to
+                            delivering transformative results for businesses, communities, and ecosystems.
+                        </p>
+                        <div class="list-group-inline list-group-number list-unstyled mt-4 d-none">
                             <a href="#" class="list-group-item list-group-item-action"><span>01</span>Sustainable
                                 Development Experts</a>
                             <a href="#" class="list-group-item list-group-item-action"><span>02</span> Strategic
@@ -85,9 +89,142 @@
             </div>
             <!-- row end -->
 
-            <div class="row mt-4">
+            <div class="row mt-4 align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <h3>Our Thematic Areas of Focus:</h3>
+                    <p class="col-md-6 mx-auto">
+                        These thematic areas reflect the diverse yet interconnected challenges we address, focusing on
+                        sustainable development and inclusive growth.
+                    </p>
+                </div>
+                <!-- Aquaculture and the Blue Economy -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <h3 class="feature-box-title">Consulting</h3>
+                        <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
+                            <img src="{{ asset('assets/images/lattice/consulting.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                        </div>
+                        <p class="feature-box-desc">
+                            Lattice provides tailored consulting services across industries, offering actionable insights
+                            and solutions that drive growth and innovation. Our consulting expertise helps clients address
+                            complex challenges and seize new opportunities in their sectors.
+                        </p>
+                        <a href="{{ route('consulting') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                    </div>
+                </div>
+                <!-- Access to Finance -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <h3 class="feature-box-title">Access to Finance</h3>
+                        <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
+                            <img src="{{ asset('assets/images/lattice/access-to-finance.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                        </div>
+                        <p class="feature-box-desc">
+                            Our advisory services offer strategic guidance for businesses and communities, helping them
+                            navigate industry shifts, adopt best practices, and implement effective solutions. We focus on
+                            long-term impact, resilience, and scalability.
+                        </p>
+                        <a href="{{ route('advisory') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                    </div>
+                </div>
+                <!-- Agribusiness -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <h3 class="feature-box-title">Agribusiness</h3>
+                        <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
+                            <img src="{{ asset('assets/images/lattice/agribusiness.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                        </div>
+                        <p class="feature-box-desc">
+                            We are committed to upskilling professionals, entrepreneurs, and community leaders. Our training
+                            programs are designed to foster growth, adaptability, and leadership, preparing participants to
+                            excel in an evolving market landscape.
+                        </p>
+                        <a href="{{ route('training') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                    </div>
+                </div>
+                <!-- Food Security -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <h3 class="feature-box-title">Food Security</h3>
+                        <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
+                            <img src="{{ asset('assets/images/lattice/food-security.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                        </div>
+                        <p class="feature-box-desc">
+                            Our specialized aquaculture services support sustainable marine and freshwater farming
+                            practices. We work with stakeholders across the blue economy to drive innovation,
+                            sustainability, and profitability in this critical sector.
+                        </p>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                    </div>
+                </div>
+                <!-- MSME Acceleration and Capacity Building -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <h3 class="feature-box-title">MSME Acceleration and Capacity Building</h3>
+                        <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
+                            <img src="{{ asset('assets/images/lattice/capacity-building.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                        </div>
+                        <p class="feature-box-desc">
+                            Our specialized aquaculture services support sustainable marine and freshwater farming
+                            practices. We work with stakeholders across the blue economy to drive innovation,
+                            sustainability, and profitability in this critical sector.
+                        </p>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                    </div>
+                </div>
+                <!-- Smallholder Farmers -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <h3 class="feature-box-title">Smallholder Farmers</h3>
+                        <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
+                            <img src="{{ asset('assets/images/lattice/small-holder-farmers.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                        </div>
+                        <p class="feature-box-desc">
+                            Our specialized aquaculture services support sustainable marine and freshwater farming
+                            practices. We work with stakeholders across the blue economy to drive innovation,
+                            sustainability, and profitability in this critical sector.
+                        </p>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                    </div>
+                </div>
+                <!-- Gender Equality and Empowerment -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <h3 class="feature-box-title">Gender Equality and Empowerment</h3>
+                        <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
+                            <img src="{{ asset('assets/images/lattice/gender-equality.webp') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                        </div>
+                        <p class="feature-box-desc">
+                            Our specialized aquaculture services support sustainable marine and freshwater farming
+                            practices. We work with stakeholders across the blue economy to drive innovation,
+                            sustainability, and profitability in this critical sector.
+                        </p>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                    </div>
+                </div>
+                <!-- ESG and Climate Action -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <h3 class="feature-box-title">ESG and Climate Action</h3>
+                        <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
+                            <img src="{{ asset('assets/images/lattice/climate.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                        </div>
+                        <p class="feature-box-desc">
+                            Our specialized aquaculture services support sustainable marine and freshwater farming
+                            practices. We work with stakeholders across the blue economy to drive innovation,
+                            sustainability, and profitability in this critical sector.
+                        </p>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-12">
-                    <h3>What we offer</h3>
+                    <h3>Our Services:</h3>
+                    <p>
+                        We apply our thematic expertise across four core service areas:
+                    </p>
                 </div>
                 <!-- feature 1 -->
                 <div class="col-md-4">
@@ -95,9 +232,11 @@
                         <div class="feature-box-icon"><i class="ti-pencil"></i></div>
                         <h3 class="feature-box-title">Consulting</h3>
                         <p class="feature-box-desc">
-                            Expert guidance in strategy, ESG, and market entry for sustainable business success
+                            Lattice provides tailored consulting services across industries, offering actionable insights
+                            and solutions that drive growth and innovation. Our consulting expertise helps clients address
+                            complex challenges and seize new opportunities in their sectors.
                         </p>
-                        <a href="#" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
+                        <a href="{{ route('consulting') }}" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
                     </div>
                 </div>
                 <!-- feature 2 -->
@@ -106,21 +245,37 @@
                         <div class="feature-box-icon"><i class="ti-light-bulb"></i></div>
                         <h3 class="feature-box-title">Advisory</h3>
                         <p class="feature-box-desc">
-                            Tailored program design, feasibility studies, and technical research for informed
-                            decision-making.
+                            Our advisory services offer strategic guidance for businesses and communities, helping them
+                            navigate industry shifts, adopt best practices, and implement effective solutions. We focus on
+                            long-term impact, resilience, and scalability.
                         </p>
-                        <a href="#" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
+                        <a href="{{ route('advisory') }}" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
                     </div>
                 </div>
                 <!-- feature 3 -->
                 <div class="col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <div class="feature-box-icon"><i class="ti-book"></i></div>
-                        <h3 class="feature-box-title">Training</h3>
+                        <h3 class="feature-box-title">Training and Capacity Building</h3>
                         <p class="feature-box-desc">
-                            Comprehensive capacity building and vocational training for skill enhancement and career growth.
+                            We are committed to upskilling professionals, entrepreneurs, and community leaders. Our training
+                            programs are designed to foster growth, adaptability, and leadership, preparing participants to
+                            excel in an evolving market landscape.
                         </p>
-                        <a href="#" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
+                        <a href="{{ route('training') }}" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
+                    </div>
+                </div>
+                <!-- Aquaculture solutions -->
+                <div class="col-md-4">
+                    <div class="feature-box h-100 icon-primary">
+                        <div class="feature-box-icon"><i class="ti-book"></i></div>
+                        <h3 class="feature-box-title">Aquaculture Solutions</h3>
+                        <p class="feature-box-desc">
+                            Our specialized aquaculture services support sustainable marine and freshwater farming
+                            practices. We work with stakeholders across the blue economy to drive innovation,
+                            sustainability, and profitability in this critical sector.
+                        </p>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
                     </div>
                 </div>
             </div>
