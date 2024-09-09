@@ -296,8 +296,8 @@
                         @if ($projects && count($projects) > 0)
                             @foreach ($projects as $project)
                                 <!-- portfolio-card -->
-                                <div class="portfolio-card grid-item digital rounded-2 col-sm-6 col-md-4 col-lg-3 h-100">
-                                    <div class="portfolio-card-body rounded-2">
+                                <div class="portfolio-card grid-item digital rounded-2 col-sm-6 col-md-4 col-lg-3">
+                                    <div class="portfolio-card-body rounded-2 h-100">
                                         <div class="portfolio-card-header rounded-2">
                                             <img src="{{ Storage::url($project->image) }}" class="rounded-2"
                                                 alt="">
