@@ -36,10 +36,10 @@
                                 <div class="row d-flex h-100">
                                     <div
                                         class="col-lg-12 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
-                                        <h2
+                                        <h3
                                             class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
-                                            {{ Str::words($item->title,10) }}
-                                        </h2>
+                                            {{ Str::words($item->title,15) }}
+                                        </h3>
                                         <h3
                                             class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
                                             {!! Str::words($item->description, 10) !!}
