@@ -57,7 +57,7 @@
     <section>
         <div class="container h-100">
             <div class="row">
-                <div class="col-md-12 col-lg-6 align-self-center ">
+                <div class="col-12 align-self-center ">
                     <div class="title text-start">
                         <span class="pre-title">Our Purpose</span>
                         <p>
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-10 col-lg-6 mx-md-auto align-self-center position-relative">
+                <div class="col-md-10 col-lg-6 mx-md-auto align-self-center position-relative d-none">
                     <img class="rounded" src="{{ asset('assets/images/lattice/5.jpg') }}" alt="">
                     <div class="position-absolute start-0 bottom-0 ms-4 ms-md-n2 mb-3">
                         <a class="btn btn-grad d-none" data-glightbox="" href="https://youtu.be/n_Cn8eFo7u8"> <i
@@ -100,16 +100,18 @@
                 <!-- Aquaculture and the Blue Economy -->
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
-                        <h3 class="feature-box-title">Consulting</h3>
+                        <h3 class="feature-box-title">Aquaculture and the Blue Economy</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/consulting.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                            <img src="{{ asset('assets/images/lattice/aqua-and-blue-econ.jpg') }}" alt=""
+                                style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
-                            Lattice provides tailored consulting services across industries, offering actionable insights
-                            and solutions that drive growth and innovation. Our consulting expertise helps clients address
-                            complex challenges and seize new opportunities in their sectors.
+                            We promote sustainable and innovative marine-based solutions to enhance food security, economic
+                            development, and biodiversity. Our approach in aquaculture supports local communities while
+                            fostering a thriving blue economy.
                         </p>
-                        <a href="{{ route('consulting') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                        <a href="{{ route('consulting') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
+                            more</a>
                     </div>
                 </div>
                 <!-- Access to Finance -->
@@ -117,12 +119,13 @@
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Access to Finance</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/access-to-finance.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                            <img src="{{ asset('assets/images/lattice/access-to-finance.jpg') }}" alt=""
+                                style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
-                            Our advisory services offer strategic guidance for businesses and communities, helping them
-                            navigate industry shifts, adopt best practices, and implement effective solutions. We focus on
-                            long-term impact, resilience, and scalability.
+                            We believe that financial inclusivity is crucial for empowering businesses and communities. Our
+                            solutions aim to unlock financial opportunities for marginalized groups, MSMEs, and underserved
+                            populations, providing access to credit, investment, and capital.
                         </p>
                         <a href="{{ route('advisory') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
                     </div>
@@ -132,14 +135,16 @@
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Agribusiness</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/agribusiness.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                            <img src="{{ asset('assets/images/lattice/agribusiness.jpg') }}" alt=""
+                                style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
-                            We are committed to upskilling professionals, entrepreneurs, and community leaders. Our training
-                            programs are designed to foster growth, adaptability, and leadership, preparing participants to
-                            excel in an evolving market landscape.
+                            We focus on driving innovation and sustainability in agriculture. Our agribusiness initiatives
+                            help farmers and agripreneurs adopt advanced practices, improve yields, and access markets,
+                            contributing to rural development and food security.
                         </p>
-                        <a href="{{ route('training') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                        <a href="{{ route('training') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
+                            more</a>
                     </div>
                 </div>
                 <!-- Food Security -->
@@ -147,14 +152,16 @@
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Food Security</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/food-security.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                            <img src="{{ asset('assets/images/lattice/food-security.jpg') }}" alt=""
+                                style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
-                            Our specialized aquaculture services support sustainable marine and freshwater farming
-                            practices. We work with stakeholders across the blue economy to drive innovation,
-                            sustainability, and profitability in this critical sector.
+                            With growing global concerns over food scarcity, we are committed to building resilient food
+                            systems. By combining expertise in aquaculture, agribusiness, and sustainable farming, we work
+                            towards securing food availability for all.
                         </p>
-                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
+                            more</a>
                     </div>
                 </div>
                 <!-- MSME Acceleration and Capacity Building -->
@@ -162,14 +169,16 @@
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">MSME Acceleration and Capacity Building</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/capacity-building.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                            <img src="{{ asset('assets/images/lattice/capacity-building.jpg') }}" alt=""
+                                style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
-                            Our specialized aquaculture services support sustainable marine and freshwater farming
-                            practices. We work with stakeholders across the blue economy to drive innovation,
-                            sustainability, and profitability in this critical sector.
+                            We provide tailored support to Micro, Small, and Medium Enterprises (MSMEs) through acceleration
+                            programs, training, and mentorship. By empowering businesses with the skills, resources, and
+                            networks they need, we help them scale and thrive.
                         </p>
-                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
+                            more</a>
                     </div>
                 </div>
                 <!-- Smallholder Farmers -->
@@ -177,14 +186,16 @@
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Smallholder Farmers</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/small-holder-farmers.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                            <img src="{{ asset('assets/images/lattice/small-holder-farmers.jpg') }}" alt=""
+                                style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
-                            Our specialized aquaculture services support sustainable marine and freshwater farming
-                            practices. We work with stakeholders across the blue economy to drive innovation,
-                            sustainability, and profitability in this critical sector.
+                            We champion the role of smallholder farmers in global food production. Through capacity
+                            building, financial access, and market integration, we help these farmers achieve sustainable
+                            growth and improve their livelihoods.
                         </p>
-                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
+                            more</a>
                     </div>
                 </div>
                 <!-- Gender Equality and Empowerment -->
@@ -192,14 +203,16 @@
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Gender Equality and Empowerment</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/gender-equality.webp') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                            <img src="{{ asset('assets/images/lattice/gender-equality.webp') }}" alt=""
+                                style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
-                            Our specialized aquaculture services support sustainable marine and freshwater farming
-                            practices. We work with stakeholders across the blue economy to drive innovation,
-                            sustainability, and profitability in this critical sector.
+                            We promote inclusivity and gender equality in all our initiatives, ensuring that women and
+                            marginalized groups are empowered to participate fully in economic and social development. From
+                            financial access to agribusiness, we embed gender-focused strategies across our work.
                         </p>
-                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
+                            more</a>
                     </div>
                 </div>
                 <!-- ESG and Climate Action -->
@@ -207,14 +220,16 @@
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">ESG and Climate Action</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/climate.jpg') }}" alt="" style="height: 100%;width: 100%;object-fit: cover;">
+                            <img src="{{ asset('assets/images/lattice/climate.jpg') }}" alt=""
+                                style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
-                            Our specialized aquaculture services support sustainable marine and freshwater farming
-                            practices. We work with stakeholders across the blue economy to drive innovation,
-                            sustainability, and profitability in this critical sector.
+                            Our approach to Environmental, Social, and Governance (ESG) issues is rooted in climate
+                            responsibility. We help organizations adopt sustainable practices, mitigate climate risks, and
+                            drive environmental stewardship in all their operations.
                         </p>
-                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
+                            more</a>
                     </div>
                 </div>
             </div>
