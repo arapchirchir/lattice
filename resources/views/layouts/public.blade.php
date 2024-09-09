@@ -216,13 +216,13 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link @if (Route::is('projects')) active @endif"
-                                href="{{ route('projects') }}" id="demosMenu">Impact areas</a>
+                                href="{{ route('projects') }}" id="demosMenu">Our Portfolio</a>
                         </li>
                         <!-- Menu item 2 Blog-->
                         <li class="nav-item dropdown d-none">
                             <a class="nav-link dropdown-toggle @if (Route::is(['advisory', 'training'])) active @endif"
                                 href="#" id="blogMenu" data-bs-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">Impact Areas</a>
+                                aria-expanded="false">Our Portfolio</a>
                             <ul class="dropdown-menu" aria-labelledby="blogMenu">
                         </li>
                         <li><a class="dropdown-item d-none" href="{{ route('projects') }}">Projects</a></li>

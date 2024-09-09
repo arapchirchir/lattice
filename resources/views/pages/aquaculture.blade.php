@@ -9,7 +9,7 @@
                 data-arrow="true" data-dots="false" data-items="1">
                 <!-- slide 1-->
                 <div class="h-100 bg-overlay-dark-2"
-                    style="background-image:url('{{ asset('assets/images/banner/Aquaculture-Lattice.png') }}'); background-position: center center; background-size: cover;">
+                    style="background-image:url('{{ asset('assets/images/lattice/agua-page.jpg') }}'); background-position: center center; background-size: cover;">
                     <div class="container h-100">
                         <div class="row d-flex h-100">
                             <div
@@ -302,7 +302,7 @@
                                             <img src="{{ Storage::url($project->image) }}" class="rounded-2"
                                                 alt="">
                                         </div>
-                                        <div class="portfolio-card-footer rounded-2 p-1">
+                                        <div class="portfolio-card-footer rounded-2 p-1 h-100">
                                             <a class="full-screen d-none"
                                                 href="{{ Storage::url($project->image) }}" data-glightbox=""
                                                 data-gallery="portfolio"><i class="ti-arrow-top-right"></i></a>
