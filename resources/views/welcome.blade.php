@@ -28,31 +28,36 @@
                         </div>
                     </div>
                 </div>
-                <!-- slide 2-->
-                <div class="h-100 bg-overlay-dark-2"
-                    style="background-image:url('{{ asset('assets/images/lattice/slider1.jpeg') }}'); background-position: center top; background-size: cover;">
-                    <div class="container h-100">
-                        <div class="row d-flex h-100">
-                            <div class="col-md-8 justify-content-center align-self-center align-items-start mx-auto">
-                                <div class="slider-content text-center ">
-                                    <h3
-                                        class="animate__animated animate__fadeInUp animate__delay-1s display-7 text-white alt-font fst-italic">
-                                        Lattice Advisory Services
-                                    </h3>
-                                    <h2
-                                        class="animate__animated animate__fadeInUp animate__delay-2s display-3 fw-bold text-white">
-                                        Strategy, corporate finance, market entry, and research
-                                    </h2>
-                                    <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500"><a
-                                            href="#" class="btn btn-grad">Contact us</a></div>
+                @if (isset($slider_projects) && count($slider_projects) > 0)
+                    @foreach ($slider_projects as $item)
+                        <div class="h-100 bg-overlay-dark-2"
+                            style="background-image:url('{{ Storage::url($item->image) }}'); background-position: center center; background-size: cover;">
+                            <div class="container h-100">
+                                <div class="row d-flex h-100">
+                                    <div
+                                        class="col-lg-12 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+                                        <h2
+                                            class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
+                                            {{ $item->title }}
+                                        </h2>
+                                        <h3
+                                            class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
+                                            {!! Str::words($item->description, 10) !!}
+                                        </h3>
+                                        <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                            <a href="{{ route('project.view', $item->slug) }}" class="btn btn-grad">Learn
+                                                more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    @endforeach
+                @endif
             </div>
         </div>
     </section>
+
     <section class="mt-4 container-fluid">
         <div class="container">
             <img src="{{ asset('assets/images/lattice/static-landing.jpg') }}" alt="" class="img-fluid rounded-2">
@@ -234,7 +239,7 @@
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">MSME Acceleration and Capacity Building</h3>
                         <div class="team-avatar overflow-hidden" style="max-height: 12rem;">
-                            <img src="{{ asset('assets/images/lattice/capacity-building.jpg') }}" alt=""
+                            <img src="{{ asset('assets/images/lattice/slider1.jpeg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
@@ -299,7 +304,7 @@
                 </div>
             </div>
 
-            <div class="row mt-4 align-items-center justify-content-center">
+            <div class="row mt-4 align-items-center justify-content-center d-none">
                 <div class="col-12">
                     <h3>Our Services:</h3>
                     <p>
@@ -360,6 +365,73 @@
                 </div>
             </div>
             <!-- row end -->
+        </div>
+    </section>
+
+    <section class="pb-3">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <!-- column 1 -->
+                <div class="col-md-4">
+                    <!-- title -->
+                    <h5 class="text-primary">Our services</h5>
+                    <h2 class="h1">We apply our thematic expertise across four core service areas:</h2>
+                    <p>
+                        Offering expert web design, effective search engine optimization, and strategic online marketing
+                        solutions to elevate your digital presence, attract more visitors, and drive business growth.
+                    </p>
+                    <!-- service item -->
+                    <div class="bg-light p-4 p-lg-5 ">
+                        <span class="display-5 icon-primary"><i class="ti-pencil"></i></span>
+                        <h5>Consulting</h5>
+                        <p class="mb-0">
+                            Lattice provides tailored consulting services across industries, offering actionable insights and solutions that drive growth and innovation. Our consulting expertise helps clients address complex challenges and seize new opportunities in their sectors.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- column 2 -->
+                <div class="col-md-4 mt-5">
+                    <!-- service item -->
+                    <div class="bg-light p-4 p-lg-5 mb-5">
+                        <span class="display-5 icon-primary"><i class="ti-light-bulb"></i></span>
+                        <h5>Advisory</h5>
+                        <p class="mb-0">
+                            Our advisory services offer strategic guidance for businesses and communities, helping them navigate industry shifts, adopt best practices, and implement effective solutions. We focus on long-term impact, resilience, and scalability.
+                        </p>
+                    </div>
+                    <!-- service item -->
+                    <div class="bg-light p-4 p-lg-5 mb-5">
+                        <span class="display-5 icon-primary"><i class="ti-image"></i></span>
+                        <h5>Training and Capacity Building</h5>
+                        <p class="mb-0">
+                            We are committed to upskilling professionals, entrepreneurs, and community leaders. Our training programs are designed to foster growth, adaptability, and leadership, preparing participants to excel in an evolving market landscape.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- column 3 -->
+                <div class="col-md-4">
+                    <!-- service item -->
+                    <div class="bg-grad all-text-white p-4 p-lg-5 mb-5">
+                        <span class="display-5 icon-primary"><i class="ti-book"></i></span>
+                        <h5>Aquaculture Solutions</h5>
+                        <p class="mb-0">
+                            Our specialized aquaculture services support sustainable marine and freshwater farming practices. We work with stakeholders across the blue economy to drive innovation, sustainability, and profitability in this critical sector.
+                        </p>
+                    </div>
+                    <!-- service item -->
+                    <div class="bg-light p-4 p-lg-5 mb-5 d-none">
+                        <span class="display-5 icon-primary"><i class="ti-wallet"></i></span>
+                        <h5>Technical Support</h5>
+                        <p class="mb-0">
+                            Providing reliable technical support to resolve issues promptly, ensure seamless operations,
+                            and offer expert assistance, enabling your business to maintain optimal performance and
+                            focus on core activities.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

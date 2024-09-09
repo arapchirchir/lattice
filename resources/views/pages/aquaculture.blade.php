@@ -121,7 +121,7 @@
                 <!-- right -->
                 <div class="col-md-10 col-lg-6 mx-md-auto align-self-center text-center position-relative">
                     <img class="rounded up-on-hover shadow shadow-hover"
-                        src="{{ asset('assets/images/banner/Latice-Aqua92-scaled.jpg') }}" alt="">
+                        src="{{ asset('assets/images/lattice/aqua-about.png') }}" alt="">
                 </div>
             </div>
         </div>

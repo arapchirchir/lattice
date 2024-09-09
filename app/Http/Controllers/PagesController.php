@@ -10,7 +10,9 @@ class PagesController extends Controller
 {
     public function index()
     {
-        return view('welcome');
+        $projects = Project::where(['category' => 'aqua'])->latest()->get();
+        $slider_projects = Project::where(['category' => 'projects'])->latest()->limit(5)->inRandomOrder()->get();
+        return view('welcome', compact('projects', 'slider_projects'));
     }
 
     public function about()

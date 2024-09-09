@@ -1,12 +1,12 @@
 @extends('layouts.public')
-@section('title', 'Projects')
+@section('title', 'Portfolio')
 @section('content')
     <div class="text-start bg-overlay-dark-7 py-7"
         style="background:url('{{ asset('assets/images/banner/02.jpg') }}') no-repeat; background-size:cover; background-position: center center;">
         <div class="container">
             <div class="row all-text-white">
                 <div class="col-md-6 align-self-start">
-                    <h1 class="fw-bold">Our Projects</h1>
+                    <h1 class="fw-bold">Our Portfolio</h1>
                     <h6 class="mb-5">
                         Empowering Growth and Innovation Across Africa
                     </h6>
