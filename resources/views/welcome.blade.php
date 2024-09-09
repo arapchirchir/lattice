@@ -53,6 +53,70 @@
             </div>
         </div>
     </section>
+    <section class="mt-4 container-fluid">
+        <div class="container">
+            <img src="{{ asset('assets/images/lattice/static-landing.jpg') }}" alt="" class="img-fluid rounded-2">
+            <h4 class="fw-bold fst-italic py-4 text-center">We partner with you to create new possibilities for your business.</h4>
+        </div>
+    </section>
+
+
+    <section class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto">
+                    <div class="title text-center">
+                        <span class="pre-title">About {{ config('app.name') }}</span>
+                        <h2 class="d-none">Premium and royal service</h2>
+                        <p class="mb-0">
+                            We are a full service consultancy and training organization fostering sustainable development in
+                            Africa. Our team of experts provide strategic guidance and technical support to businesses,
+                            NGOs,
+                            and governments seeking to create lasting impact in their communities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
+                        <div class="feature-box-icon"><i class="ti-eye"></i></div>
+                        <h3 class="feature-box-title">Our Vision</h3>
+                        <p class="feature-box-desc">
+                            To be Africa's leading catalyst for sustainable development and economic prosperity, empowering
+                            communities and industries to thrive through innovative solutions, collaborative efforts, and
+                            unmatched strategic insight.
+                        </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
+                        <div class="feature-box-icon"><i class="ti-target"></i></div>
+                        <h3 class="feature-box-title">Our Mission</h3>
+                        <p class="feature-box-desc">
+                            We deliver high-impact consultancy, training, and advisory services that empower individuals,
+                            organizations, and communities to realize their full potential and significantly contribute to
+                            the Sustainable Development Goals (SDGs).
+                        </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
+                        <div class="feature-box-icon"><i class="ti-heart"></i></div>
+                        <h3 class="feature-box-title">Our Values</h3>
+                        <p class="feature-box-desc">
+                            Upholding honesty, transparency, and ethics; embracing innovation; championing sustainability;
+                            valuing partnerships; striving for excellence; and leading by example to inspire sustainable
+                            practices across Africa through knowledge and insights.
+                        </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section>
         <div class="container h-100">
@@ -127,7 +191,8 @@
                             solutions aim to unlock financial opportunities for marginalized groups, MSMEs, and underserved
                             populations, providing access to credit, investment, and capital.
                         </p>
-                        <a href="{{ route('advisory') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read more</a>
+                        <a href="{{ route('advisory') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
+                            more</a>
                     </div>
                 </div>
                 <!-- Agribusiness -->
@@ -295,63 +360,6 @@
                 </div>
             </div>
             <!-- row end -->
-        </div>
-    </section>
-
-    <section class="service">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8 mx-auto">
-                    <div class="title text-center">
-                        <span class="pre-title">About {{ config('app.name') }}</span>
-                        <h2 class="d-none">Premium and royal service</h2>
-                        <p class="mb-0">
-                            We are a full service consultancy and training organization fostering sustainable development in
-                            Africa. Our team of experts provide strategic guidance and technical support to businesses,
-                            NGOs,
-                            and governments seeking to create lasting impact in their communities.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <div class="feature-box-icon"><i class="ti-eye"></i></div>
-                        <h3 class="feature-box-title">Our Vision</h3>
-                        <p class="feature-box-desc">
-                            To be Africa's leading catalyst for sustainable development and economic prosperity, empowering
-                            communities and industries to thrive through innovative solutions, collaborative efforts, and
-                            unmatched strategic insight.
-                        </p>
-                        <a class="mt-3" href="#">Know more!</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <div class="feature-box-icon"><i class="ti-target"></i></div>
-                        <h3 class="feature-box-title">Our Mission</h3>
-                        <p class="feature-box-desc">
-                            We deliver high-impact consultancy, training, and advisory services that empower individuals,
-                            organizations, and communities to realize their full potential and significantly contribute to
-                            the Sustainable Development Goals (SDGs).
-                        </p>
-                        <a class="mt-3" href="#">Know more!</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <div class="feature-box-icon"><i class="ti-heart"></i></div>
-                        <h3 class="feature-box-title">Our Values</h3>
-                        <p class="feature-box-desc">
-                            Upholding honesty, transparency, and ethics; embracing innovation; championing sustainability;
-                            valuing partnerships; striving for excellence; and leading by example to inspire sustainable
-                            practices across Africa through knowledge and insights.
-                        </p>
-                        <a class="mt-3" href="#">Know more!</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
