@@ -30,6 +30,8 @@ jobs:
 
             # php artisan migrate
 
+            php artisan optimize:clear
+
             php artisan optimize
 
             php artisan up

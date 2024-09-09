@@ -299,12 +299,12 @@
                                 <div class="portfolio-card grid-item digital rounded-2 col-sm-6 col-md-4 col-lg-3">
                                     <div class="portfolio-card-body rounded-2">
                                         <div class="portfolio-card-header rounded-2">
-                                            <img src="{{ asset('assets/images/portfolio/01.jpg') }}" class="rounded-2"
+                                            <img src="{{ Storage::url($project->image) }}" class="rounded-2"
                                                 alt="">
                                         </div>
                                         <div class="portfolio-card-footer rounded-2 p-1">
                                             <a class="full-screen d-none"
-                                                href="{{ asset('assets/images/portfolio/01.jpg') }}" data-glightbox=""
+                                                href="{{ Storage::url($project->image) }}" data-glightbox=""
                                                 data-gallery="portfolio"><i class="ti-arrow-top-right"></i></a>
                                             <h6 class="info-title">
                                                 <a href="{{ route('project.view', $project->slug) }}" title="">
