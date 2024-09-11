@@ -4,6 +4,7 @@
     <section class="hero position-relative">
         <div class="container position-relative">
             <div class="hero-inner col-md-6 py-5">
+                <h1 class="fw-bold text-white mb-5">Welcome to {{ config('app.name') }}</h1>
                 <h1 class="hero-title text-white">We partner with you to create new possibilities for your business.</h1>
                 <p class="hero-text text-white fw-bold">Lattice Consulting is a boutique finance and strategy advisory firm.
                 </p>
