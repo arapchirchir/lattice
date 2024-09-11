@@ -51,6 +51,34 @@
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" />
     @vite(['resources/css/app.css', 'resources/css/lattice.css'])
+
+    <style>
+        .hero {
+            position: relative;
+            height: 100vh;
+            /* Adjust as necessary */
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('{{ asset('assets/images/lattice/static-landing.jpg') }}') no-repeat center center/cover;
+            filter: blur(0.2rem);
+            /* Adjust the blur value as needed */
+            z-index: 1;
+            background-blend-mode: multiply;
+        }
+
+        .hero-inner {
+            position: relative;
+            z-index: 2;
+            /* Ensures the content stays above the blurred background */
+        }
+    </style>
 </head>
 
 <body>

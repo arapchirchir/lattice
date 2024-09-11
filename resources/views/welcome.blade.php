@@ -1,12 +1,13 @@
 @extends('layouts.public')
 @section('title', 'Homepage')
 @section('content')
-    <section class="hero" style="background:url({{ asset('assets/images/lattice/static-landing.jpg') }}) no-repeat center/cover; background-blend-mode: multiply; background-size: cover; filter: blur(50%);">
-        <div class="container">
+    <section class="hero position-relative">
+        <div class="container position-relative">
             <div class="hero-inner col-md-6 py-5">
                 <h1 class="hero-title text-white">We partner with you to create new possibilities for your business.</h1>
-                <p class="hero-text text-white fw-bold">Lattice Consulting is a boutique finance and strategy advisory firm.</p>
-                <a href="{{ route('about.us') }}" class="btn btn-primary btn-lg">Learn More</a>
+                <p class="hero-text text-white fw-bold">Lattice Consulting is a boutique finance and strategy advisory firm.
+                </p>
+                <a href="{{ route('about.us') }}" class="btn btn-dark mb-0 border-white rounded-2">Learn More</a>
             </div>
         </div>
     </section>
