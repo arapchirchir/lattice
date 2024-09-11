@@ -182,7 +182,7 @@
                     <!-- Logo -->
                     <img class="navbar-brand-item bg-white px-2 rounded-2"
                         src="{{ asset('assets/images/logo.png') }}" alt="Logo"
-                        style="height: 120px; margin-top: -15px;">
+                        style="height: 80px; margin-top: -15px;">
                 </a>
                 <!-- Menu opener button -->
 
