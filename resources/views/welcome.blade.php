@@ -5,9 +5,7 @@
         <div class="container position-relative">
             <div class="hero-inner col-md-6 py-5">
                 <h1 class="fw-bold text-white mb-5">Welcome to {{ config('app.name') }}</h1>
-                <h1 class="hero-title text-white">We partner with you to create new possibilities for your business.</h1>
-                <p class="hero-text text-white fw-bold">Lattice Consulting is a boutique finance and strategy advisory firm.
-                </p>
+                <h1 class="hero-title text-white">solving global challenges to create shared prosperity</h1>
                 <a href="{{ route('about.us') }}" class="btn btn-dark mb-0 border-white rounded-2">Learn More</a>
             </div>
         </div>

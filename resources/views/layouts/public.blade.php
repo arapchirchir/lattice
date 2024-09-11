@@ -316,7 +316,7 @@
             <div class="container">
                 <div class="row">
                     <!-- Footer widget 1 -->
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                         <div class="widget">
                             <a href="{{ url('/') }}" class="footer-logo">
                                 <!-- footer logo Start -->
@@ -351,21 +351,38 @@
                         </div>
                     </div>
                     <!-- Footer widget 3 -->
-                    <div class="col-md-2 col-sm-6">
+                    <div class="col-md-4 col-sm-6">
                         <div class="widget">
-                            <h6>Quick LInks</h6>
-                            <ul class="nav flex-column primary-hover">
-                                <li class="nav-item"><a class="nav-link" href="{{ route('about.us') }}">About us</a>
+                            <h6 class="text-center">Useful LInks</h6>
+                            <ul class="nav d-flex flex-wrap align-items-center justify-content-center primary-hover">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('homepage') }}">Home</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="{{ route('contact') }}">Contact
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('advisory') }}">Advisory</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('aquaculture') }}">Aquaculture</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('training') }}">Training</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('consulting') }}">Consulting</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('about.us') }}">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('contact') }}">Contact
                                         us</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="{{ route('homepage') }}">Home</a>
-                                </li>
-                                <li class="nav-item d-none"><a class="nav-link" href="#">Blog</a>
-                                </li>
                                 <li class="nav-item d-none">
-                                    <a class="nav-link" href="#">Portfolio</a>
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('projects') }}">Portfolio</a>
                                 </li>
                             </ul>
                         </div>
@@ -404,7 +421,7 @@
                                     Us</a>
                             </li>
                             <li class="list-inline-item ps-2">
-                                <a class="list-group-item-action" href="#">Career</a>
+                                <a class="list-group-item-action" href="#">Careers</a>
                             </li>
                             <li class="list-inline-item ps-2">
                                 <a class="list-group-item-action" href="#">Privacy Policy</a>
