@@ -14,11 +14,11 @@
                             <div class="container h-100">
                                 <div class="row d-flex h-100">
                                     <div
-                                        class="col-lg-12 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
-                                        <h3
-                                            class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
+                                        class="col-md-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+                                        <h5
+                                            class="animate__animated animate__fadeInUp animate__delay-1s h2 fw-bold text-white">
                                             {{ Str::words($item->title, 15) }}
-                                        </h3>
+                                        </h5>
                                         <h3
                                             class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
                                             {!! Str::words($item->description, 10) !!}
