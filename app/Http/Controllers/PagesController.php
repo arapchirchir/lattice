@@ -10,9 +10,7 @@ class PagesController extends Controller
 {
     public function index()
     {
-        $projects = Project::where(['category' => 'aqua'])->latest()->get();
-        $slider_projects = Project::where(['category' => 'projects'])->latest()->limit(5)->inRandomOrder()->get();
-        return view('welcome', compact('projects', 'slider_projects'));
+        return view('welcome');
     }
 
     public function about()
@@ -61,8 +59,9 @@ class PagesController extends Controller
     public function projects()
     {
         $projects = Project::latest()->get();
+        $slider_projects = Project::where(['category' => 'projects'])->latest()->limit(5)->inRandomOrder()->get();
 
-        return view('pages.projects', compact('projects'));
+        return view('pages.projects', compact('projects', 'slider_projects'));
     }
 
     public function project($project)

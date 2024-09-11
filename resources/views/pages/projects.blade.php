@@ -1,32 +1,51 @@
 @extends('layouts.public')
 @section('title', 'Portfolio')
 @section('content')
-    <div class="text-start bg-overlay-dark-7 py-7"
-        style="background:url('{{ asset('assets/images/banner/02.jpg') }}') no-repeat; background-size:cover; background-position: center center;">
+
+
+    <section class="p-0">
+        <div class="tiny-slider arrow-dark arrow-large arrow-transparent arrow-hover">
+            <div class="tiny-slider-inner h-400 h-lg-700" data-autoplay="true" data-autoplaytime="7000" data-gutter="0"
+                data-arrow="true" data-dots="false" data-items="1">
+                @if (isset($slider_projects) && count($slider_projects) > 0)
+                    @foreach ($slider_projects as $item)
+                        <div class="h-100 bg-overlay-dark-2"
+                            style="background-image:url('{{ Storage::url($item->image) }}'); background-position: center center; background-size: cover;">
+                            <div class="container h-100">
+                                <div class="row d-flex h-100">
+                                    <div
+                                        class="col-lg-12 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
+                                        <h3
+                                            class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
+                                            {{ Str::words($item->title, 15) }}
+                                        </h3>
+                                        <h3
+                                            class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
+                                            {!! Str::words($item->description, 10) !!}
+                                        </h3>
+                                        <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
+                                            <a href="{{ route('project.view', $item->slug) }}" class="btn btn-grad">Learn
+                                                more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                @endif
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio pb-0">
         <div class="container">
-            <div class="row all-text-white">
+            <div class="row">
                 <div class="col-md-6 align-self-start">
                     <h1 class="fw-bold">Our Portfolio</h1>
                     <h6 class="mb-5">
                         Transforming Industries, Empowering Communities
                     </h6>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-start">
-                            <li class="breadcrumb-item active">
-                                <a href="{{ route('about.us') }}" class="btn rounded-1 btn-success">
-                                    About us
-                                </a>
-                            </li>
-                        </ol>
-                    </nav>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="portfolio pb-0">
-        <div class="container">
-            <div class="row">
                 <div class="col-12">
                     <div class="row g-3">
                         <div class="col-md-6">

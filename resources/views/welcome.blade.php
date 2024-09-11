@@ -1,70 +1,23 @@
 @extends('layouts.public')
 @section('title', 'Homepage')
 @section('content')
-    <section class="p-0">
-        <div class="tiny-slider arrow-dark arrow-large arrow-transparent arrow-hover">
-            <div class="tiny-slider-inner h-400 h-lg-700" data-autoplay="true" data-autoplaytime="7000" data-gutter="0"
-                data-arrow="true" data-dots="false" data-items="1">
-                <!-- slide 1-->
-                <div class="h-100 bg-overlay-dark-2"
-                    style="background-image:url('{{ asset('assets/images/lattice/welcome.jpg') }}'); background-position: center center; background-size: cover;">
-                    <div class="container h-100">
-                        <div class="row d-flex h-100">
-                            <div
-                                class="col-lg-8 col-xl-6 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
-                                <h2
-                                    class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
-                                    Welcome to {{ config('app.name') }}!
-                                </h2>
-                                <h3
-                                    class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
-                                    We partner with you to create new posibilities for your business
-                                </h3>
-                                <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
-                                    <a href="{{ route('about.us') }}" class="btn btn-grad">About us!</a>
-                                    <a href="{{ route('contact') }}" class="btn btn-link text-white">Contact us </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                @if (isset($slider_projects) && count($slider_projects) > 0)
-                    @foreach ($slider_projects as $item)
-                        <div class="h-100 bg-overlay-dark-2"
-                            style="background-image:url('{{ Storage::url($item->image) }}'); background-position: center center; background-size: cover;">
-                            <div class="container h-100">
-                                <div class="row d-flex h-100">
-                                    <div
-                                        class="col-lg-12 me-auto slider-content justify-content-center align-self-center align-items-start text-start">
-                                        <h3
-                                            class="animate__animated animate__fadeInUp animate__delay-1s display-2 fw-bold text-white">
-                                            {{ Str::words($item->title,15) }}
-                                        </h3>
-                                        <h3
-                                            class="animate__animated animate__fadeInUp animate__delay-2s text-white display-7 alt-font fst-italic mb-2 my-md-4">
-                                            {!! Str::words($item->description, 10) !!}
-                                        </h3>
-                                        <div class="animate__animated animate__fadeInUp animate__delay-3s mt-3 dealy-1500">
-                                            <a href="{{ route('project.view', $item->slug) }}" class="btn btn-grad">Learn
-                                                more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                @endif
+
+    <section class="hero" style="background:url({{ asset('assets/images/lattice/static-landing.jpg') }}) no-repeat center/cover;">
+        <div class="container">
+            <div class="hero-inner col-md-6 py-5">
+                <h1 class="hero-title text-white">We partner with you to create new possibilities for your business.</h1>
+                <p class="hero-text">Lattice Consulting is a boutique finance and strategy advisory firm.</p>
+                <a href="{{ route('about.us') }}" class="btn btn-primary btn-lg">Learn More</a>
             </div>
         </div>
     </section>
-
-    <section class="mt-4 container-fluid">
+    <section class="mt-4 container-fluid d-none">
         <div class="container">
             <img src="{{ asset('assets/images/lattice/static-landing.jpg') }}" alt="" class="img-fluid rounded-2">
-            <h4 class="fw-bold fst-italic py-4 text-center">We partner with you to create new possibilities for your business.</h4>
+            <h4 class="fw-bold fst-italic py-4 text-center text-white">We partner with you to create new possibilities for your
+                business.</h4>
         </div>
     </section>
-
 
     <section class="service">
         <div class="container">
@@ -385,7 +338,9 @@
                         <span class="display-5 icon-primary"><i class="ti-pencil"></i></span>
                         <h5>Consulting</h5>
                         <p class="mb-0">
-                            Lattice provides tailored consulting services across industries, offering actionable insights and solutions that drive growth and innovation. Our consulting expertise helps clients address complex challenges and seize new opportunities in their sectors.
+                            Lattice provides tailored consulting services across industries, offering actionable insights
+                            and solutions that drive growth and innovation. Our consulting expertise helps clients address
+                            complex challenges and seize new opportunities in their sectors.
                         </p>
                     </div>
                 </div>
@@ -397,7 +352,9 @@
                         <span class="display-5 icon-primary"><i class="ti-light-bulb"></i></span>
                         <h5>Advisory</h5>
                         <p class="mb-0">
-                            Our advisory services offer strategic guidance for businesses and communities, helping them navigate industry shifts, adopt best practices, and implement effective solutions. We focus on long-term impact, resilience, and scalability.
+                            Our advisory services offer strategic guidance for businesses and communities, helping them
+                            navigate industry shifts, adopt best practices, and implement effective solutions. We focus on
+                            long-term impact, resilience, and scalability.
                         </p>
                     </div>
                     <!-- service item -->
@@ -405,7 +362,9 @@
                         <span class="display-5 icon-primary"><i class="ti-image"></i></span>
                         <h5>Training and Capacity Building</h5>
                         <p class="mb-0">
-                            We are committed to upskilling professionals, entrepreneurs, and community leaders. Our training programs are designed to foster growth, adaptability, and leadership, preparing participants to excel in an evolving market landscape.
+                            We are committed to upskilling professionals, entrepreneurs, and community leaders. Our training
+                            programs are designed to foster growth, adaptability, and leadership, preparing participants to
+                            excel in an evolving market landscape.
                         </p>
                     </div>
                 </div>
@@ -417,7 +376,9 @@
                         <span class="display-5 icon-primary"><i class="ti-book"></i></span>
                         <h5>Aquaculture Solutions</h5>
                         <p class="mb-0">
-                            Our specialized aquaculture services support sustainable marine and freshwater farming practices. We work with stakeholders across the blue economy to drive innovation, sustainability, and profitability in this critical sector.
+                            Our specialized aquaculture services support sustainable marine and freshwater farming
+                            practices. We work with stakeholders across the blue economy to drive innovation,
+                            sustainability, and profitability in this critical sector.
                         </p>
                     </div>
                     <!-- service item -->
