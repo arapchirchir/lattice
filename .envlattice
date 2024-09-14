@@ -11,8 +11,8 @@ LOG_LEVEL=debug
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=pwkaxibc_lattice
-DB_USERNAME=pwkaxibc_latticedbone
+DB_DATABASE=pwkaxibc_latticedbone
+DB_USERNAME=pwkaxibc_lattice
 DB_PASSWORD="mTt,4v_BrLkv~U}IeK"
 
 BROADCAST_DRIVER=log
