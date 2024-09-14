@@ -50,7 +50,7 @@
 
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" />
-    @vite(['resources/css/app.css', 'resources/css/lattice.css'])
+    @vite(['resources/css/app.css','resources/js/functions.js', 'resources/css/lattice.css'])
 
     <style>
         .hero {
@@ -447,12 +447,11 @@
     <!--Vendors-->
     <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
     <script src="{{ asset('assets/vendor/isotope/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/imagesLoaded/imagesloaded.js') }}"></script>
     <script src="{{ asset('assets/vendor/glightbox/js/glightbox.js') }}"></script>
     <script src="{{ asset('assets/vendor/tiny-slider/tiny-slider.js') }}"></script>
 
     <!--Template Functions-->
-    <script src="{{ asset('assets/js/functions.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/functions.js') }}"></script> --}}
 
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script>

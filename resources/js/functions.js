@@ -18,7 +18,6 @@ Table Of Content
 15 WAVE
 ====================== */
 
-"use strict";
 !function () {
 
     window.Element.prototype.removeClass = function () {
@@ -514,11 +513,6 @@ var e = {
                         itemSelector: '.grid-item',
                         layoutMode: gridItemDataObj.layoutMode
                     });
-
-                    imagesLoaded(gridItem).on('progress', function () {
-                        // layout Isotope after each image loads
-                        iso.layout();
-                    });
                 });
             }
 
@@ -546,10 +540,6 @@ var e = {
                             menuItems.forEach((control) => control.removeClass('active'));
                             menuItem.addClass('active');
                         });
-                    });
-
-                    imagesLoaded(filterContainer).on('progress', function () {
-                        filter.layout();
                     });
                 });
             }
