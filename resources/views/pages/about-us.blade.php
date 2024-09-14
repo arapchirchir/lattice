@@ -4,26 +4,74 @@
     <section>
         <div class="container h-100">
             <div class="row">
-                <div class="col-md-12 col-lg-6 align-self-center ">
+                <div class="col-md-12 align-self-center ">
                     <div class="title text-start">
                         <span class="pre-title">We are {{ config('app.name') }}</span>
                         <h2>
                             Driving Sustainable Development and Economic Growth Across Africa
                         </h2>
                         <p class="mb-0">
-                            Lattice is a pioneering consultancy and training organization dedicated to fostering sustainable
-                            development and economic growth across Africa through innovative solutions and strategic
-                            expertise.
+                            At Lattice, we are dedicated to solving real-world problems and creating shared prosperity
+                            through innovative advisory and aquaculture solutions. We work across sectors like agribusiness,
+                            food security, and MSME acceleration, helping communities and industries grow stronger and more
+                            sustainable. Our approach is bold, practical, and designed to leave a lasting impact on those we
+                            work with
                         </p>
-                        <div class="list-group-inline list-group-number list-unstyled mt-4">
-                            <a href="#" class="list-group-item list-group-item-action"><span>01</span> Innovative
-                                Solutions</a>
-                            <a href="#" class="list-group-item list-group-item-action"><span>02</span> Strategic
-                                Expertise</a>
-                            <a href="#" class="list-group-item list-group-item-action"><span>03</span> Sustainable
-                                Practices</a>
-                            <a href="#" class="list-group-item list-group-item-action"><span>04</span> Comprehensive
-                                Training</a>
+                        <h6 class="fw-bold mt-4">What We Do</h6>
+                        <div class="row g-3">
+                            <div class="col-md-3">
+                                <div>
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action"><span>01</span>
+                                            Comprehensive
+                                            Training</a>
+                                    </div>
+                                    <p>
+                                        We provide strategic guidance and tailored solutions that help businesses and
+                                        communities overcome challenges, seize opportunities, and grow sustainably.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action"><span>02</span>
+                                            Aquaculture Innovation
+                                        </a>
+                                    </div>
+                                    <p>
+                                        Our expertise in aquaculture helps promote sustainable practices, increase food
+                                        security, and empower local communities through smart, resource-efficient
+                                        techniques.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action"><span>03</span>
+                                            Strategic Expertise
+                                        </a>
+                                    </div>
+                                    <p>
+                                        With a hands-on approach and deep sector knowledge, we help our clients navigate
+                                        complex environments and implement solutions that drive growth.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div>
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action"><span>04</span>
+                                            Sustainable Practices
+                                        </a>
+                                    </div>
+                                    <p>
+                                        We promote long-term, sustainable development through practices that respect both
+                                        people and the planet, ensuring that growth is responsible and resilient.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -37,79 +85,97 @@
             </div>
             <!-- row end -->
 
-            <div class="row mt-4">
-                <!-- Mission -->
-                <div class="col-md-4">
-                    <div class="feature-box h-100 icon-primary">
+            <div class="row">
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-target"></i></div>
                         <h3 class="feature-box-title">Our Mission</h3>
-                        <p class="feature-box-desc">Deliver high-impact consultancy, training, and advisory services that
-                            empower individuals, organizations, and communities to achieve their full potential and
-                            contribute to the SDGs.</p>
+                        <p class="feature-box-desc">
+                            To deliver high-impact advisory services and aquaculture solutions that empower individuals,
+                            organizations, and communities to achieve their full potential while contributing to the
+                            Sustainable Development Goals (SDGs).
+                        </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
                     </div>
                 </div>
-                <!-- Vision -->
-                <div class="col-md-4">
-                    <div class="feature-box h-100 icon-primary">
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-eye"></i></div>
                         <h3 class="feature-box-title">Our Vision</h3>
-                        <p class="feature-box-desc">To be Africa's leading catalyst for sustainable development and economic
-                            prosperity, empowering communities and industries through innovative solutions and strategic
-                            insight.</p>
+                        <p class="feature-box-desc">
+                            We envision a future where Africa’s growth is sustainable, inclusive, and built to last. Through
+                            innovative solutions in advisory and aquaculture, we’re empowering communities and industries to
+                            thrive, creating a better, more resilient future for all.
+                        </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
                     </div>
                 </div>
-                <!-- Values -->
-                <div class="col-md-4">
-                    <div class="feature-box h-100 icon-primary">
-                        <div class="feature-box-icon"><i class="ti-star"></i></div>
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
+                        <div class="feature-box-icon"><i class="ti-heart"></i></div>
                         <h3 class="feature-box-title">Our Values</h3>
                         <p class="feature-box-desc">
-                            Boldness, agility, growth orientation, and competence-define our commitment to delivering transformative results for businesses, communities, and ecosystems.
+                            <span class="mb-2">Our core values define how we approach every challenge and
+                                opportunity:</span> <br>
+                            <span class="fw-bold">Boldness</span> – We take on tough challenges with confidence, striving to
+                            deliver solutions that drive
+                            meaningful change. <br>
+                            <span class="fw-bold">Agility</span> – We stay flexible and responsive, always adapting to the
+                            dynamic environments in which
+                            we work. <br>
+                            <span class="fw-bold">Competence</span> – Our deep expertise and commitment to excellence ensure
+                            that we deliver high-quality
+                            results that meet the needs of our clients and communities.
                         </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div class="feature-box h-100 icon-primary">
-                        <div class="feature-box-icon"><i class="ti-book"></i></div>
-                        <h3 class="feature-box-title">Our Story</h3>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                Lattice was established with a clear vision: to drive positive change and sustainable
-                                development in Africa. Our journey began with a commitment to innovation, collaboration, and
-                                excellence, and these principles continue to guide us today. Through our comprehensive
-                                services—spanning consulting, training, and advisory—we have successfully implemented
-                                numerous
-                                projects that have transformed communities and industries.
-                            </div>
-                            <div class="col-md-6">
-                                From enhancing food security and promoting environmental sustainability to fostering
-                                economic
-                                development and creating jobs, our work speaks for itself. We have a dedicated team of
-                                experts
-                                who bring unparalleled expertise and passion to every project, ensuring that we deliver
-                                high-impact solutions that meet the unique needs of our clients and stakeholders.
-                            </div>
-                            <div class="col-md-6">
-                                Our strategic partnerships are central to our success. By joining forces with leading
-                                organizations and institutions, we amplify our impact and drive sustainable growth. Our
-                                commitment to the Sustainable Development Goals (SDGs) underpins everything we do, ensuring
-                                that
-                                our work contributes to a better and more sustainable future for all.
-                            </div>
-                            <div class="col-md-6">
-                                At Lattice, we believe in the power of integrated, holistic solutions to address complex
-                                challenges. By leveraging our expertise in consulting, training, and advisory, we provide
-                                our
-                                clients with the tools and insights they need to achieve lasting success. Our story is one
-                                of
-                                relentless pursuit of excellence, unwavering commitment to sustainability, and deep-rooted
-                                belief in the potential of Africa.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- row end -->
             </div>
+    </section>
+
+    <section id="our-story">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title text-start">
+                        <span class="pre-title fw-bold">Our Story</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <p>
+                        Lattice was founded with a simple, powerful idea: to create sustainable development and shared
+                        prosperity across Africa. Our journey began with a commitment to advisory and aquaculture
+                        expertise, and over the years, we’ve successfully implemented high-impact solutions that have
+                        transformed industries and communities alike.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        From empowering smallholder farmers to creating jobs and improving food security, our work has made
+                        a meaningful difference. Our aquaculture initiatives help drive innovation in food production, while
+                        our advisory services empower organizations to overcome obstacles and grow sustainably.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        Our partnerships with leading institutions and organizations amplify the impact of our work, helping
+                        us drive growth that is both sustainable and inclusive. We’re deeply aligned with the Sustainable
+                        Development Goals (SDGs), ensuring that everything we do contributes to a better, more equitable
+                        future for Africa.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        At Lattice, we believe in holistic, integrated solutions to complex challenges. Our work in advisory
+                        and aquaculture provides the tools and insights our clients need to succeed in today’s ever-evolving
+                        landscape. Our story is one of bold ambition, a relentless pursuit of excellence, and a deep belief
+                        in the potential of Africa.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -156,8 +222,8 @@
                             <span class="team-position">Director</span>
                             <p class="d-none">Sportsman one bed departure rapturous situation disposing partiality.</p>
                             <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link" href="#"><i
-                                            class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="social-icons-item social-instagram"><a class="social-icons-link"
                                         href="#"><i class="fab fa-instagram"></i></a></li>
                                 <li class="social-icons-item social-twitter"><a class="social-icons-link"
@@ -299,8 +365,8 @@
                             <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
                         </div>
                         <div class="team-desc">
-                            <h5 class="team-name">Stephen Muthama</h5>
-                            <span class="team-position">Human Resources Officer</span>
+                            <h5 class="team-name">Jackline Adisa</h5>
+                            <span class="team-position">Senior Mearl Manager</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -313,6 +379,161 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Jane Ojijo</h5>
+                            <span class="team-position">Finance and Operations Manager</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Mika Mitoko</h5>
+                            <span class="team-position">Project Manager</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Lucy Muthoni</h5>
+                            <span class="team-position">Human Resource Coordinator</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Swabrine Aluoch</h5>
+                            <span class="team-position">Technical Project Officer</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Chebet Kemboi</h5>
+                            <span class="team-position">Communications Manager</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Denis Langat</h5>
+                            <span class="team-position">Marketing and Communications Intern</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Valentine Owino</h5>
+                            <span class="team-position">Technical Project Intern</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Team item -->
                 <div class="col-sm-6 col-md-3">
                     <div class="team-item text-center">
