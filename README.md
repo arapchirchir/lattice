@@ -1,4 +1,4 @@
-<p align="center"><a href="https://lattice.africa" target="_blank"><img src="http://lattice.test/assets/images/logo.png" width="400" alt="Lattice Logo"></a></p>
+<p align="center"><a href="https://lattice.africa" target="_blank"><img src="https://lattice.africa/assets/images/logo.png" width="400" alt="Lattice Logo"></a></p>
 
 ## About Lattice Africa:
 
