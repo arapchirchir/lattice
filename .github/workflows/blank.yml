@@ -27,7 +27,7 @@ jobs:
 
             # composer update
 
-            # cp .envlattice .env
+            cp .envlattice .env
 
             # php artisan migrate
 
