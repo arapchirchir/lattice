@@ -3,8 +3,9 @@ on:
   push:
     branches:
       - master
+      - production
 jobs:
-  build:
+  build_master:
     name: Deployment
     runs-on: ubuntu-latest
     steps:
@@ -27,6 +28,38 @@ jobs:
             # composer update
 
             # cp .envlattice .env
+
+            # php artisan migrate
+
+            php artisan optimize:clear
+
+            php artisan optimize
+
+            php artisan up
+
+  build_production:
+    name: Deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Executing Deployments
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.MAIN_HOST }}
+          username: ${{ secrets.MAIN_USERNAME }}
+          key: ${{secrets.MAIN_KEY}}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd websites/lattice
+
+            php artisan down
+
+            # git reset --hard HEAD
+
+            git pull origin production
+
+            # composer update
+
+            cp .envlattice .env
 
             # php artisan migrate
 
