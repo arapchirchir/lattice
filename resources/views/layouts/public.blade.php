@@ -274,9 +274,10 @@
                             Expertise</a>
                         <ul class="dropdown-menu" aria-labelledby="expertise">
                             <li><a class="dropdown-item" href="{{ route('aquaculture') }}">Aquaculture</a></li>
+                            <li><a class="dropdown-item" href="https://aquacultureacademy.co.ke/" target="_blank">Aquaculture Academy </a></li>
                             <li><a class="dropdown-item" href="{{ route('advisory') }}">Advisory</a></li>
-                            <li><a class="dropdown-item" href="{{ route('training') }}">Training</a></li>
-                            <li><a class="dropdown-item" href="{{ route('consulting') }}">Consulting</a>
+                            <li><a class="dropdown-item d-none" href="{{ route('training') }}">Training</a></li>
+                            <li><a class="dropdown-item d-none" href="{{ route('consulting') }}">Consulting</a>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -365,10 +366,10 @@
                                     <a class="nav-link" href="{{ route('aquaculture') }}">Aquaculture</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('training') }}">Training</a>
+                                    <a class="nav-link d-none" href="https://aquacultureacademy.co.ke/" target="_blank">Aquaculture Academy </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('consulting') }}">Consulting</a>
+                                    <a class="nav-link d-none" href="{{ route('consulting') }}">Consulting</a>
                                 </li>
 
                                 <li class="nav-item">
