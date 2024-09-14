@@ -11,63 +11,6 @@
         </div>
     </section>
 
-    <section class="service">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-8 mx-auto">
-                    <div class="title text-center">
-                        <span class="pre-title">About {{ config('app.name') }}</span>
-                        <h2 class="d-none">Premium and royal service</h2>
-                        <p class="mb-0">
-                            We are a full service consultancy and training organization fostering sustainable development in
-                            Africa. Our team of experts provide strategic guidance and technical support to businesses,
-                            NGOs,
-                            and governments seeking to create lasting impact in their communities.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <div class="feature-box-icon"><i class="ti-eye"></i></div>
-                        <h3 class="feature-box-title">Our Vision</h3>
-                        <p class="feature-box-desc">
-                            To be Africa's leading catalyst for sustainable development and economic prosperity, empowering
-                            communities and industries to thrive through innovative solutions, collaborative efforts, and
-                            unmatched strategic insight.
-                        </p>
-                        <a class="mt-3 d-none" href="#">Know more!</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <div class="feature-box-icon"><i class="ti-target"></i></div>
-                        <h3 class="feature-box-title">Our Mission</h3>
-                        <p class="feature-box-desc">
-                            We deliver high-impact consultancy, training, and advisory services that empower individuals,
-                            organizations, and communities to realize their full potential and significantly contribute to
-                            the Sustainable Development Goals (SDGs).
-                        </p>
-                        <a class="mt-3 d-none" href="#">Know more!</a>
-                    </div>
-                </div>
-                <div class="col-md-4 mt-30">
-                    <div class="feature-box f-style-2 icon-grad h-100">
-                        <div class="feature-box-icon"><i class="ti-heart"></i></div>
-                        <h3 class="feature-box-title">Our Values</h3>
-                        <p class="feature-box-desc">
-                            Upholding honesty, transparency, and ethics; embracing innovation; championing sustainability;
-                            valuing partnerships; striving for excellence; and leading by example to inspire sustainable
-                            practices across Africa through knowledge and insights.
-                        </p>
-                        <a class="mt-3 d-none" href="#">Know more!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section>
         <div class="container h-100">
             <div class="row">
@@ -75,11 +18,16 @@
                     <div class="title text-start">
                         <span class="pre-title">Our Purpose</span>
                         <p>
-                            At Lattice, we exist to create and share prosperity by solving consequential problems through
-                            bold, agile, and innovative solutions. We offer specialized expertise across Consulting,
-                            Advisory, Training, and Aquaculture, driving sustainable impact in diverse sectors.
-                            Our core values—boldness, agility, growth orientation, and competence—define our commitment to
-                            delivering transformative results for businesses, communities, and ecosystems.
+                            At Lattice, we’re here to solve real-world problems and create shared prosperity for everyone we
+                            work with. We believe that lasting growth happens when we tackle the challenges that matter
+                            most—whether it’s empowering smallholder farmers, advancing sustainable aquaculture, or driving
+                            innovations in agribusiness and food security. Our purpose is simple: to make a meaningful,
+                            long-term impact by helping communities, industries, and organizations thrive.
+                        </p>
+                        <p>
+                            Through our vast expertise, we deliver bold, practical solutions that push boundaries and lead
+                            to lasting progress. We’re driven by a commitment to help those we work with not just overcome
+                            challenges but build a brighter future.
                         </p>
                         <div class="list-group-inline list-group-number list-unstyled mt-4 d-none">
                             <a href="#" class="list-group-item list-group-item-action"><span>01</span>Sustainable
@@ -102,6 +50,55 @@
                 </div>
             </div>
             <!-- row end -->
+
+
+            <div class="row">
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
+                        <div class="feature-box-icon"><i class="ti-target"></i></div>
+                        <h3 class="feature-box-title">Our Mission</h3>
+                        <p class="feature-box-desc">
+                            Our mission is to be the partner people turn to when they need trusted advice and real
+                            solutions. We’re passionate about making a difference, and we do that by providing practical,
+                            sustainable guidance that helps businesses, communities, and industries grow. Whether it's
+                            supporting small enterprises or empowering farmers, we focus on delivering results that lift
+                            people up and drive real progress. We combine our deep local understanding with insights from
+                            global trends, always looking for the best way forward.
+                        </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
+                        <div class="feature-box-icon"><i class="ti-eye"></i></div>
+                        <h3 class="feature-box-title">Our Vision</h3>
+                        <p class="feature-box-desc">
+                            We see a future where growth is sustainable , inclusive , and built to last . In this future,
+                            people are empowered, businesses thrive, and the environment is respected. At Lattice, we’re
+                            working toward this vision by crafting solutions that benefit both people and the planet. From
+                            aquaculture innovations to agribusiness, and expanding access to finance, every step we take is
+                            toward a more resilient and prosperous future for everyone.
+                        </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-30">
+                    <div class="feature-box f-style-2 icon-grad h-100">
+                        <div class="feature-box-icon"><i class="ti-heart"></i></div>
+                        <h3 class="feature-box-title">Our Core Values</h3>
+                        <p class="feature-box-desc">
+                            <span class="fw-bold">Bold:</span> We’re not afraid to tackle big challenges or explore new ideas. We approach every
+                            opportunity with courage, aiming for solutions that make a meaningful difference. <br>
+                            <span class="fw-bold">Agile:</span> We adapt quickly and stay flexible, ready to adjust to whatever changes come our way. In
+                            a fast-moving world, we’re always finding new paths forward. <br>
+                            <span class="fw-bold">Competent:</span> We take pride in the depth of our knowledge and expertise. Our commitment to
+                            delivering high-quality results ensures we meet the needs of our clients and
+                            communities, every time.
+                        </p>
+                        <a class="mt-3 d-none" href="#">Know more!</a>
+                    </div>
+                </div>
+            </div>
 
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-12 text-center">
@@ -245,143 +242,6 @@
                         </p>
                         <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2 d-none">Read
                             more</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-4 align-items-center justify-content-center d-none">
-                <div class="col-12">
-                    <h3>Our Services:</h3>
-                    <p>
-                        We apply our thematic expertise across four core service areas:
-                    </p>
-                </div>
-                <!-- feature 1 -->
-                <div class="col-md-4">
-                    <div class="feature-box h-100 icon-primary">
-                        <div class="feature-box-icon"><i class="ti-pencil"></i></div>
-                        <h3 class="feature-box-title">Consulting</h3>
-                        <p class="feature-box-desc">
-                            Lattice provides tailored consulting services across industries, offering actionable insights
-                            and solutions that drive growth and innovation. Our consulting expertise helps clients address
-                            complex challenges and seize new opportunities in their sectors.
-                        </p>
-                        <a href="{{ route('consulting') }}" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
-                    </div>
-                </div>
-                <!-- feature 2 -->
-                <div class="col-md-4">
-                    <div class="feature-box h-100 icon-primary">
-                        <div class="feature-box-icon"><i class="ti-light-bulb"></i></div>
-                        <h3 class="feature-box-title">Advisory</h3>
-                        <p class="feature-box-desc">
-                            Our advisory services offer strategic guidance for businesses and communities, helping them
-                            navigate industry shifts, adopt best practices, and implement effective solutions. We focus on
-                            long-term impact, resilience, and scalability.
-                        </p>
-                        <a href="{{ route('advisory') }}" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
-                    </div>
-                </div>
-                <!-- feature 3 -->
-                <div class="col-md-4">
-                    <div class="feature-box h-100 icon-primary">
-                        <div class="feature-box-icon"><i class="ti-book"></i></div>
-                        <h3 class="feature-box-title">Training and Capacity Building</h3>
-                        <p class="feature-box-desc">
-                            We are committed to upskilling professionals, entrepreneurs, and community leaders. Our training
-                            programs are designed to foster growth, adaptability, and leadership, preparing participants to
-                            excel in an evolving market landscape.
-                        </p>
-                        <a href="{{ route('training') }}" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
-                    </div>
-                </div>
-                <!-- Aquaculture solutions -->
-                <div class="col-md-4">
-                    <div class="feature-box h-100 icon-primary">
-                        <div class="feature-box-icon"><i class="ti-book"></i></div>
-                        <h3 class="feature-box-title">Aquaculture Solutions</h3>
-                        <p class="feature-box-desc">
-                            Our specialized aquaculture services support sustainable marine and freshwater farming
-                            practices. We work with stakeholders across the blue economy to drive innovation,
-                            sustainability, and profitability in this critical sector.
-                        </p>
-                        <a href="{{ route('aquaculture') }}" class="btn btn-success btn-sm rounded-1 mt-2">Read more</a>
-                    </div>
-                </div>
-            </div>
-            <!-- row end -->
-        </div>
-    </section>
-
-    <section class="pb-3 d-none">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <!-- column 1 -->
-                <div class="col-md-4">
-                    <!-- title -->
-                    <h5 class="text-primary">Our services</h5>
-                    <h2 class="h1">We apply our thematic expertise across four core service areas:</h2>
-                    <p>
-                        Offering expert web design, effective search engine optimization, and strategic online marketing
-                        solutions to elevate your digital presence, attract more visitors, and drive business growth.
-                    </p>
-                    <!-- service item -->
-                    <div class="bg-light p-4 p-lg-5 ">
-                        <span class="display-5 icon-primary"><i class="ti-pencil"></i></span>
-                        <h5>Consulting</h5>
-                        <p class="mb-0">
-                            Lattice provides tailored consulting services across industries, offering actionable insights
-                            and solutions that drive growth and innovation. Our consulting expertise helps clients address
-                            complex challenges and seize new opportunities in their sectors.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- column 2 -->
-                <div class="col-md-4 mt-5">
-                    <!-- service item -->
-                    <div class="bg-light p-4 p-lg-5 mb-5">
-                        <span class="display-5 icon-primary"><i class="ti-light-bulb"></i></span>
-                        <h5>Advisory</h5>
-                        <p class="mb-0">
-                            Our advisory services offer strategic guidance for businesses and communities, helping them
-                            navigate industry shifts, adopt best practices, and implement effective solutions. We focus on
-                            long-term impact, resilience, and scalability.
-                        </p>
-                    </div>
-                    <!-- service item -->
-                    <div class="bg-light p-4 p-lg-5 mb-5">
-                        <span class="display-5 icon-primary"><i class="ti-image"></i></span>
-                        <h5>Training and Capacity Building</h5>
-                        <p class="mb-0">
-                            We are committed to upskilling professionals, entrepreneurs, and community leaders. Our training
-                            programs are designed to foster growth, adaptability, and leadership, preparing participants to
-                            excel in an evolving market landscape.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- column 3 -->
-                <div class="col-md-4">
-                    <!-- service item -->
-                    <div class="bg-grad all-text-white p-4 p-lg-5 mb-5">
-                        <span class="display-5 icon-primary"><i class="ti-book"></i></span>
-                        <h5>Aquaculture Solutions</h5>
-                        <p class="mb-0">
-                            Our specialized aquaculture services support sustainable marine and freshwater farming
-                            practices. We work with stakeholders across the blue economy to drive innovation,
-                            sustainability, and profitability in this critical sector.
-                        </p>
-                    </div>
-                    <!-- service item -->
-                    <div class="bg-light p-4 p-lg-5 mb-5 d-none">
-                        <span class="display-5 icon-primary"><i class="ti-wallet"></i></span>
-                        <h5>Technical Support</h5>
-                        <p class="mb-0">
-                            Providing reliable technical support to resolve issues promptly, ensure seamless operations,
-                            and offer expert assistance, enabling your business to maintain optimal performance and
-                            focus on core activities.
-                        </p>
                     </div>
                 </div>
             </div>

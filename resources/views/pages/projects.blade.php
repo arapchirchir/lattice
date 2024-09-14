@@ -42,9 +42,10 @@
             <div class="row">
                 <div class="col-md-6 align-self-start">
                     <h1 class="fw-bold">Our Portfolio</h1>
-                    <h6 class="mb-5">
+                    <h6 class="">
                         Transforming Industries, Empowering Communities
                     </h6>
+                    <a href="https://aquacultureacademy.co.ke/" class="btn btn-grad mb-5 btn-sm" target="_blank">Aquaculture academy</a>
                 </div>
                 <div class="col-12">
                     <div class="row g-3">
