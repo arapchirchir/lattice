@@ -219,7 +219,7 @@
                         </div>
                         <div class="team-desc">
                             <h5 class="team-name">Joe Maye</h5>
-                            <span class="team-position">Director</span>
+                            <span class="team-position">Director Strategy</span>
                             <p class="d-none">Sportsman one bed departure rapturous situation disposing partiality.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -261,7 +261,7 @@
                         </div>
                         <div class="team-desc">
                             <h5 class="team-name">Lydia Oguyo</h5>
-                            <span class="team-position">Analyst</span>
+                            <span class="team-position">Project Coordinator</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -282,7 +282,7 @@
                         </div>
                         <div class="team-desc">
                             <h5 class="team-name">Sharon Nzula</h5>
-                            <span class="team-position">Analyst</span>
+                            <span class="team-position">Project Coordinator</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -324,7 +324,7 @@
                         </div>
                         <div class="team-desc">
                             <h5 class="team-name">Edna Mwende</h5>
-                            <span class="team-position">Analyst</span>
+                            <span class="team-position">Technical Project Coordinator</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
