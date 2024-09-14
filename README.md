@@ -7,11 +7,11 @@ We are a full service consultancy and training organization fostering sustainabl
 
 ### Our Thematic Areas of Focus:
 
-- **[Aquaculture and the Blue Economy](https://vehikl.com/)**
-- **[Access to Finance](https://tighten.co)**
-- **[Agribusiness](https://webreinvent.com/)**
-- **[Food Security](https://webreinvent.com/)**
-- **[MSME Acceleration and Capacity Building](https://webreinvent.com/)**
-- **[Smallholder Farmers](https://webreinvent.com/)**
-- **[Gender Equality and Empowerment](https://webreinvent.com/)**
-- **[ESG and Climate Action](https://webreinvent.com/)**
+- **[Aquaculture and the Blue Economy](https://lattice.africa)**
+- **[Access to Finance](https://lattice.africa)**
+- **[Agribusiness](https://lattice.africa)**
+- **[Food Security](https://lattice.africa)**
+- **[MSME Acceleration and Capacity Building](https://lattice.africa)**
+- **[Smallholder Farmers](https://lattice.africa)**
+- **[Gender Equality and Empowerment](https://lattice.africa)**
+- **[ESG and Climate Action](https://lattice.africa)**
