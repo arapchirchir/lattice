@@ -130,54 +130,58 @@
                         <a class="mt-3 d-none" href="#">Know more!</a>
                     </div>
                 </div>
-            </div>
-    </section>
-
-    <section id="our-story">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="title text-start">
-                        <span class="pre-title fw-bold">Our Story</span>
+                <div class="col-12 mt-4">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <div class="text-start">
+                                <span class="pre-title fw-bold fs-5">Our Story</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                Lattice was founded with a simple, powerful idea: to create sustainable development and
+                                shared
+                                prosperity across Africa. Our journey began with a commitment to advisory and aquaculture
+                                expertise, and over the years, we’ve successfully implemented high-impact solutions that
+                                have
+                                transformed industries and communities alike.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                From empowering smallholder farmers to creating jobs and improving food security, our work
+                                has made
+                                a meaningful difference. Our aquaculture initiatives help drive innovation in food
+                                production, while
+                                our advisory services empower organizations to overcome obstacles and grow sustainably.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                Our partnerships with leading institutions and organizations amplify the impact of our work,
+                                helping
+                                us drive growth that is both sustainable and inclusive. We’re deeply aligned with the
+                                Sustainable
+                                Development Goals (SDGs), ensuring that everything we do contributes to a better, more
+                                equitable
+                                future for Africa.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                At Lattice, we believe in holistic, integrated solutions to complex challenges. Our work in
+                                advisory
+                                and aquaculture provides the tools and insights our clients need to succeed in today’s
+                                ever-evolving
+                                landscape. Our story is one of bold ambition, a relentless pursuit of excellence, and a deep
+                                belief
+                                in the potential of Africa.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row g-3">
-                <div class="col-md-6">
-                    <p>
-                        Lattice was founded with a simple, powerful idea: to create sustainable development and shared
-                        prosperity across Africa. Our journey began with a commitment to advisory and aquaculture
-                        expertise, and over the years, we’ve successfully implemented high-impact solutions that have
-                        transformed industries and communities alike.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        From empowering smallholder farmers to creating jobs and improving food security, our work has made
-                        a meaningful difference. Our aquaculture initiatives help drive innovation in food production, while
-                        our advisory services empower organizations to overcome obstacles and grow sustainably.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        Our partnerships with leading institutions and organizations amplify the impact of our work, helping
-                        us drive growth that is both sustainable and inclusive. We’re deeply aligned with the Sustainable
-                        Development Goals (SDGs), ensuring that everything we do contributes to a better, more equitable
-                        future for Africa.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        At Lattice, we believe in holistic, integrated solutions to complex challenges. Our work in advisory
-                        and aquaculture provides the tools and insights our clients need to succeed in today’s ever-evolving
-                        landscape. Our story is one of bold ambition, a relentless pursuit of excellence, and a deep belief
-                        in the potential of Africa.
-                    </p>
-                </div>
-            </div>
-        </div>
     </section>
-
 
     <section class="team social-hover team-overlay pb-0">
         <div class="container">
