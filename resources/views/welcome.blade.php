@@ -112,7 +112,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Aquaculture and the Blue Economy</h3>
-                        <div class="team-avatar overflow-hidden" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
                             <img src="{{ asset('assets/images/lattice/aquaculture.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -129,7 +129,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Access to Finance</h3>
-                        <div class="team-avatar overflow-hidden" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
                             <img src="{{ asset('assets/images/lattice/access-to-finance.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -146,7 +146,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Agribusiness</h3>
-                        <div class="team-avatar overflow-hidden" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
                             <img src="{{ asset('assets/images/lattice/agribusiness.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -163,7 +163,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Food Security</h3>
-                        <div class="team-avatar overflow-hidden" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
                             <img src="{{ asset('assets/images/lattice/food-security-1.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -180,7 +180,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">MSME Acceleration and Capacity Building</h3>
-                        <div class="team-avatar overflow-hidden" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
                             <img src="{{ asset('assets/images/lattice/slider1.jpeg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -197,7 +197,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Smallholder Farmers</h3>
-                        <div class="team-avatar overflow-hidden" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
                             <img src="{{ asset('assets/images/lattice/small-holder-farmers-1.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -214,8 +214,8 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Gender Equality and Empowerment</h3>
-                        <div class="team-avatar overflow-hidden" style="max-height: 11rem;">
-                            <img src="{{ asset('assets/images/lattice/gender-equality.webp') }}" alt=""
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                            <img src="{{ asset('assets/images/lattice/gender-equality.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
                         <p class="feature-box-desc">
@@ -231,7 +231,7 @@
                 <div class="col-sm-6 col-md-4">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">ESG and Climate Action</h3>
-                        <div class="team-avatar overflow-hidden" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
                             <img src="{{ asset('assets/images/lattice/esg-1.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
