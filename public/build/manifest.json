@@ -35,6 +35,12 @@
     "src": "resources/js/app.js",
     "isEntry": true
   },
+  "resources/js/functions.js": {
+    "file": "assets/functions-xwOKwwZE.js",
+    "name": "functions",
+    "src": "resources/js/functions.js",
+    "isEntry": true
+  },
   "resources/sass/app.scss": {
     "file": "assets/app-Bh_kcPmS.css",
     "src": "resources/sass/app.scss",

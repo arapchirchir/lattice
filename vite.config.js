@@ -9,6 +9,7 @@ export default defineConfig({
                 'resources/css/lattice.css',
                 'resources/sass/app.scss',
                 'resources/js/app.js',
+                'resources/js/functions.js',
             ],
             refresh: true,
         }),
