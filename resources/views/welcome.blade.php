@@ -313,7 +313,7 @@
         </div>
     </section>
 
-    <section class="pb-3">
+    <section class="pb-3 d-none">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <!-- column 1 -->

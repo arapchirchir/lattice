@@ -66,8 +66,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('{{ asset('assets/images/lattice/static-landing.jpg') }}') no-repeat center center/cover;
-            filter: blur(0.2rem);
+            background: url('{{ asset('assets/images/lattice/hero-image.jpg') }}') no-repeat center center/cover;
+            filter: blur(0.1rem);
             /* Adjust the blur value as needed */
             z-index: 1;
             background-blend-mode: multiply;
