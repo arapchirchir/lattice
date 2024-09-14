@@ -1,70 +1,86 @@
-name: Deployment To Live
+name: Lattice Deployment
+
 on:
   push:
     branches:
       - master
       - production
+
 jobs:
   build_master:
-    name: Deployment
+    name: Deployment to Master
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
     steps:
-      - name: Executing Deployments
+      - name: Executing Deployment to Master
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{secrets.KEY}}
+          key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
             cd websites/lattice
 
             php artisan down
 
+            # Ensure the working directory is clean
             # git reset --hard HEAD
 
+            # Pull the latest changes from master
             git pull origin master
 
+            # Uncomment if composer update is necessary
             # composer update
 
+            # Update the environment configuration
             cp .envlattice .env
 
+            # Uncomment if migrations are needed
             # php artisan migrate
 
+            # Clear and optimize the application
             php artisan optimize:clear
-
             php artisan optimize
 
+            # Bring the application back up
             php artisan up
 
   build_production:
-    name: Deployment
+    name: Deployment to Production
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/production'
     steps:
-      - name: Executing Deployments
+      - name: Executing Deployment to Production
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.MAIN_HOST }}
           username: ${{ secrets.MAIN_USERNAME }}
-          key: ${{secrets.MAIN_KEY}}
-          port: ${{ secrets.PORT }}
+          key: ${{ secrets.MAIN_KEY }}
+          port: ${{ secrets.MAIN_PORT }}
           script: |
             cd websites/lattice
 
             php artisan down
 
+            # Ensure the working directory is clean
             # git reset --hard HEAD
 
+            # Pull the latest changes from production
             git pull origin production
 
+            # Uncomment if composer update is necessary
             # composer update
 
+            # Update the environment configuration
             cp .envlattice .env
 
+            # Uncomment if migrations are needed
             # php artisan migrate
 
+            # Clear and optimize the application
             php artisan optimize:clear
-
             php artisan optimize
 
+            # Bring the application back up
             php artisan up
