@@ -57,7 +57,7 @@ jobs:
           host: ${{ secrets.MAIN_HOST }}
           username: ${{ secrets.MAIN_USERNAME }}
           key: ${{ secrets.MAIN_KEY }}
-          port: ${{ secrets.MAIN_PORT }}
+          port: ${{ secrets.PORT }}
           script: |
             cd websites/lattice
 
