@@ -1,15 +1,20 @@
 @extends('layouts.public')
 @section('title', 'Homepage')
 @section('content')
-    <section class="hero position-relative">
-        <div class="container position-relative">
-            <div class="hero-inner col-md-6 py-5">
-                <h1 class="fw-bold text-white mb-5">Welcome to Lattice</h1>
-                <h1 class="hero-title text-white">solving global challenges to create shared prosperity</h1>
+    <section class="hero position-relative mt-0 py-0">
+        <video autoplay muted loop playsinline class="position-absolute w-100 h-100" style="object-fit: cover; z-index: 1;">
+            <source src="{{ asset('assets/videos/intro.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container position-relative h-100 d-flex align-items-end mb-5">
+            <div class="hero-inner col-md-8 py-5 mb-5">
+                <h1 class="fw-bold text-white mb-2">Welcome to Lattice</h1>
+                <h1 class="hero-title text-white">Solving global challenges to create shared prosperity</h1>
                 <a href="{{ route('about.us') }}" class="btn btn-dark mb-0 border-white rounded-2">Learn More</a>
             </div>
         </div>
     </section>
+
 
     <section>
         <div class="container h-100">
@@ -87,11 +92,14 @@
                         <div class="feature-box-icon"><i class="ti-heart"></i></div>
                         <h3 class="feature-box-title">Our Core Values</h3>
                         <p class="feature-box-desc">
-                            <span class="fw-bold">Bold:</span> We’re not afraid to tackle big challenges or explore new ideas. We approach every
+                            <span class="fw-bold">Bold:</span> We’re not afraid to tackle big challenges or explore new
+                            ideas. We approach every
                             opportunity with courage, aiming for solutions that make a meaningful difference. <br>
-                            <span class="fw-bold">Agile:</span> We adapt quickly and stay flexible, ready to adjust to whatever changes come our way. In
+                            <span class="fw-bold">Agile:</span> We adapt quickly and stay flexible, ready to adjust to
+                            whatever changes come our way. In
                             a fast-moving world, we’re always finding new paths forward. <br>
-                            <span class="fw-bold">Competent:</span> We take pride in the depth of our knowledge and expertise. Our commitment to
+                            <span class="fw-bold">Competent:</span> We take pride in the depth of our knowledge and
+                            expertise. Our commitment to
                             delivering high-quality results ensures we meet the needs of our clients and
                             communities, every time.
                         </p>

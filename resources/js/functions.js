@@ -73,7 +73,7 @@ var e = {
             e.hoverSdgs(),
             e.stickyHeader(),
             e.tinySlider(),
-            // e.parallaxBG(),
+            e.parallaxBG(),
             e.aosFunc(),
             e.stickyBar(),
             e.formValidation(),
@@ -457,14 +457,14 @@ var e = {
     // END: Tiny Slider
 
     // START: 05 Parallax Background
-    // parallaxBG: function () {
-    //     var parBG = e.select('.bg-parallax');
-    //     if (e.isVariableDefined(parBG)) {
-    //         jarallax(e.selectAll('.bg-parallax'), {
-    //             speed: 0.6
-    //         });
-    //     }
-    // },
+    parallaxBG: function () {
+        // var parBG = e.select('.bg-parallax');
+        // if (e.isVariableDefined(parBG)) {
+        //     jarallax(e.selectAll('.bg-parallax'), {
+        //         speed: 0.6
+        //     });
+        // }
+    },
     // END: Parallax Background
 
     // START: 06 AOS Animation

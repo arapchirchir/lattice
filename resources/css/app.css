@@ -22093,3 +22093,24 @@ blockquote.grad-line:after {
 .cursor-pointer:hover .d-none{
     display: block;
 }
+
+.hero {
+    position: relative;
+    height: 90vh; /* Make sure the section takes up the full viewport height */
+    overflow: hidden;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire background */
+    z-index: 1;
+}
+
+.hero-inner {
+    position: relative;
+    z-index: 2; /* Ensures the content stays above the video */
+}
