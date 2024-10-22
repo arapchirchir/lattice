@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-12 align-self-center ">
                     <div class="title text-start">
-                        <span class="pre-title">We are {{ config('app.name') }}</span>
+                        <span class="pre-title">We are Lattice</span>
                         <h2>
                             Driving Sustainable Development and Economic Growth Across Africa
                         </h2>
@@ -17,8 +17,8 @@
                             sustainable. Our approach is bold, practical, and designed to leave a lasting impact on those we
                             work with
                         </p>
-                        <h6 class="fw-bold mt-4">What We Do</h6>
-                        <div class="row g-3">
+                        <h6 class="fw-bold mt-4 d-none">What We Do</h6>
+                        <div class="row g-3 d-none">
                             <div class="col-md-3">
                                 <div>
                                     <div class="list-group-inline list-group-number list-unstyled">
@@ -85,8 +85,8 @@
             </div>
             <!-- row end -->
 
-            <div class="row">
-                <div class="col-md-4 mt-30">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-target"></i></div>
                         <h3 class="feature-box-title">Our Mission</h3>
@@ -98,7 +98,7 @@
                         <a class="mt-3 d-none" href="#">Know more!</a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-30">
+                <div class="col-md-6 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-eye"></i></div>
                         <h3 class="feature-box-title">Our Vision</h3>
@@ -110,7 +110,7 @@
                         <a class="mt-3 d-none" href="#">Know more!</a>
                     </div>
                 </div>
-                <div class="col-md-4 mt-30">
+                <div class="col-md-6 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-heart"></i></div>
                         <h3 class="feature-box-title">Our Values</h3>
@@ -183,6 +183,127 @@
             </div>
     </section>
 
+    <section>
+        <div class="container h-100">
+            <div class="row">
+                <div class="col-md-12 align-self-center ">
+                    <div class="title text-start">
+                        <h6 class="fw-bold mt-0">SDGS we support</h6>
+                        <div class="row g-0 justify-content-center align-items-center">
+                            <div class="col-6 col-sm-6 col-md-4">
+                                <div class="position-relative" id="hoverMeToReveal">
+                                    <img src="{{ asset('assets/images/goals/img-goal-2.jpg') }}" alt="SDG 2"
+                                        class="img-fluid z-1" style="width: 100%;height: 100%;object-fit: contain;">
+                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-02.jpg') }}" alt="Goal 2"
+                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
+                                        <div class="list-group-inline list-group-number list-unstyled">
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                SDG 2: Zero Hunger
+                                            </a>
+                                        </div>
+                                        <p>
+                                            Lattice contributes to food security through its work in aquaculture, enhancing
+                                            fish farming practices to increase productivity and improve nutrition in local
+                                            communities​
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4">
+                                <div class="position-relative" id="hoverMeToReveal">
+                                    <img src="{{ asset('assets/images/goals/img-goal-5.jpg') }}" alt="SDG 5"
+                                        class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
+                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-05.jpg') }}" alt="Goal 5"
+                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
+                                        <div class="list-group-inline list-group-number list-unstyled">
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                SDG 5: Gender Equality
+                                            </a>
+                                        </div>
+                                        <p>
+                                            The organization actively includes women in its projects, ensuring that women
+                                            represent at least 30% of participants in many training and capacity-building
+                                            programs​
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4">
+                                <div class="position-relative" id="hoverMeToReveal">
+                                    <img src="{{ asset('assets/images/goals/img-goal-8.jpg') }}" alt="SDG 8"
+                                        class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
+                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-08.jpg') }}" alt="Goal 8"
+                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
+                                        <div class="list-group-inline list-group-number list-unstyled">
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                SDG 8: Decent Work and Economic Growth
+                                            </a>
+                                        </div>
+                                        <p>
+                                            Lattice promotes sustainable economic development by empowering smallholder
+                                            farmers and MSMEs, creating job opportunities, and enhancing the blue economy
+                                            across Africa
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4">
+                                <div class="position-relative" id="hoverMeToReveal">
+                                    <img src="{{ asset('assets/images/goals/img-goal-13.jpg') }}" alt="SDG 13"
+                                        class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
+                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-13.jpg') }}" alt="Goal 13"
+                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
+                                        <div class="list-group-inline list-group-number list-unstyled">
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                SDG 13: Climate Action
+                                            </a>
+                                        </div>
+                                        <p>
+                                            Through its environmental, social, and governance (ESG) advisory services,
+                                            Lattice helps businesses reduce their carbon footprint and adopt sustainable
+                                            practices​
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4">
+                                <div class="position-relative" id="hoverMeToReveal">
+                                    <img src="{{ asset('assets/images/goals/img-goal-14.jpg') }}" alt="SDG 14"
+                                        class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
+                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-14.jpg') }}" alt="Goal 14"
+                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
+                                        <div class="list-group-inline list-group-number list-unstyled">
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                SDG 14: Life Below Water
+                                            </a>
+                                        </div>
+                                        <p>
+                                            Lattice focuses on sustainable use of marine resources, particularly through
+                                            projects in the aquaculture and blue economy sectors, fostering responsible
+                                            ocean and freshwater fishery practices​
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 col-lg-6 mx-md-auto align-self-center position-relative">
+                    <img class="rounded" src="assets/images/blog/02.jpg" alt="">
+                    <div class="position-absolute start-0 bottom-0 ms-4 ms-md-n2 mb-3 d-none">
+                        <a class="btn btn-grad" data-glightbox href="https://youtu.be/n_Cn8eFo7u8"> <i
+                                class="fa fa-play text-white"></i>Play Video </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
     <section class="team social-hover team-overlay pb-0">
         <div class="container">
             <div class="row">
@@ -205,12 +326,12 @@
                             <span class="team-position">CEO/Founder</span>
                             <p class="d-none">Far concluded not his something extremity. Four we face an he gate.</p>
                             <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link" href="#"><i
-                                            class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li class="social-icons-item social-instagram"><a class="social-icons-link"
                                         href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link" href="#"><i
-                                            class="fab fa-twitter"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -225,6 +346,69 @@
                             <h5 class="team-name">Joe Maye</h5>
                             <span class="team-position">Director Strategy</span>
                             <p class="d-none">Sportsman one bed departure rapturous situation disposing partiality.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Lillian Marenya</h5>
+                            <span class="team-position">Head of Programs</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Jane Ojijo</h5>
+                            <span class="team-position">Finance and Operations Manager</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Jackline Adisa</h5>
+                            <span class="team-position">Head of MEARL</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
                                         href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -261,11 +445,95 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="team-item text-center">
                         <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/lydia.png') }}" alt="">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
                         </div>
                         <div class="team-desc">
-                            <h5 class="team-name">Lydia Oguyo</h5>
-                            <span class="team-position">Project Coordinator</span>
+                            <h5 class="team-name">Mike Ouya</h5>
+                            <span class="team-position">Technical Project Manager</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Chebet Chebet</h5>
+                            <span class="team-position">Communications Manager</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Mika Mitoko</h5>
+                            <span class="team-position">Project Manager</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/esther.png') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Esther Nyawira</h5>
+                            <span class="team-position">Senior Accountant</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Lucy Muthoni</h5>
+                            <span class="team-position">Human Resource Coordinator</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -303,11 +571,11 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="team-item text-center">
                         <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/esther.png') }}" alt="">
+                            <img src="{{ asset('assets/images/team/lydia.png') }}" alt="">
                         </div>
                         <div class="team-desc">
-                            <h5 class="team-name">Esther Nyawira</h5>
-                            <span class="team-position">Accountant</span>
+                            <h5 class="team-name">Lydia Oguyo</h5>
+                            <span class="team-position">Project Coordinator</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -329,6 +597,27 @@
                         <div class="team-desc">
                             <h5 class="team-name">Edna Mwende</h5>
                             <span class="team-position">Technical Project Coordinator</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Swabrine Aluoch</h5>
+                            <span class="team-position">Technical Project Officer</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -369,8 +658,8 @@
                             <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
                         </div>
                         <div class="team-desc">
-                            <h5 class="team-name">Jackline Adisa</h5>
-                            <span class="team-position">Senior Mearl Manager</span>
+                            <h5 class="team-name">Junior Omollo</h5>
+                            <span class="team-position">Finance Officer</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -383,7 +672,6 @@
                         </div>
                     </div>
                 </div>
-
                 <!-- Team item -->
                 <div class="col-sm-6 col-md-3">
                     <div class="team-item text-center">
@@ -391,8 +679,8 @@
                             <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
                         </div>
                         <div class="team-desc">
-                            <h5 class="team-name">Jane Ojijo</h5>
-                            <span class="team-position">Finance and Operations Manager</span>
+                            <h5 class="team-name">Silas Ochiel</h5>
+                            <span class="team-position">Finance Officer</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -405,117 +693,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Mika Mitoko</h5>
-                            <span class="team-position">Project Manager</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Lucy Muthoni</h5>
-                            <span class="team-position">Human Resource Coordinator</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Swabrine Aluoch</h5>
-                            <span class="team-position">Technical Project Officer</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Chebet Kemboi</h5>
-                            <span class="team-position">Communications Manager</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Denis Langat</h5>
-                            <span class="team-position">Marketing and Communications Intern</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Team item -->
                 <div class="col-sm-6 col-md-3">
                     <div class="team-item text-center">
@@ -524,7 +701,28 @@
                         </div>
                         <div class="team-desc">
                             <h5 class="team-name">Valentine Owino</h5>
-                            <span class="team-position">Technical Project Intern</span>
+                            <span class="team-position">Technical Project - Intern</span>
+                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
+                            <ul class="social-icons si-colored-on-hover">
+                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
+                                        href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team item -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="team-item text-center">
+                        <div class="team-avatar">
+                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
+                        </div>
+                        <div class="team-desc">
+                            <h5 class="team-name">Denis Langat</h5>
+                            <span class="team-position">Marketing and Communications - Intern</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"
@@ -545,92 +743,8 @@
                             <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
                         </div>
                         <div class="team-desc">
-                            <h5 class="team-name">Mike Ouya</h5>
-                            <span class="team-position">Technical Project Manager</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Lillian Marenya</h5>
-                            <span class="team-position">Head of Programs</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Junior Omollo</h5>
-                            <span class="team-position">Accountant</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Antonine Riany</h5>
-                            <span class="team-position">Interim Finance and Operations Officer</span>
-                            <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
-                            <ul class="social-icons si-colored-on-hover">
-                                <li class="social-icons-item social-facebook"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-item social-instagram"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li class="social-icons-item social-twitter"><a class="social-icons-link"
-                                        href="#"><i class="fab fa-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team item -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="team-item text-center">
-                        <div class="team-avatar">
-                            <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
-                        </div>
-                        <div class="team-desc">
-                            <h5 class="team-name">Junior Omollo</h5>
-                            <span class="team-position">Accountant</span>
+                            <h5 class="team-name">Robbin Njagi</h5>
+                            <span class="team-position">Finance - Intern</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
                                 <li class="social-icons-item social-facebook"><a class="social-icons-link"

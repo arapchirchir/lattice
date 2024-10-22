@@ -4,7 +4,7 @@
     <section class="hero position-relative">
         <div class="container position-relative">
             <div class="hero-inner col-md-6 py-5">
-                <h1 class="fw-bold text-white mb-5">Welcome to {{ config('app.name') }}</h1>
+                <h1 class="fw-bold text-white mb-5">Welcome to Lattice</h1>
                 <h1 class="hero-title text-white">solving global challenges to create shared prosperity</h1>
                 <a href="{{ route('about.us') }}" class="btn btn-dark mb-0 border-white rounded-2">Learn More</a>
             </div>
@@ -13,18 +13,18 @@
 
     <section>
         <div class="container h-100">
-            <div class="row">
-                <div class="col-12 align-self-center ">
+            <div class="row align-items-center">
+                <div class="col-md-6 align-self-center ">
                     <div class="title text-start">
-                        <span class="pre-title">Our Purpose</span>
-                        <p>
+                        <span class="pre-title d-none">Our Purpose</span>
+                        <p class="fs-6">
                             At Lattice, we’re here to solve real-world problems and create shared prosperity for everyone we
                             work with. We believe that lasting growth happens when we tackle the challenges that matter
                             most—whether it’s empowering smallholder farmers, advancing sustainable aquaculture, or driving
                             innovations in agribusiness and food security. Our purpose is simple: to make a meaningful,
                             long-term impact by helping communities, industries, and organizations thrive.
                         </p>
-                        <p>
+                        <p class="fs-6">
                             Through our vast expertise, we deliver bold, practical solutions that push boundaries and lead
                             to lasting progress. We’re driven by a commitment to help those we work with not just overcome
                             challenges but build a brighter future.
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-10 col-lg-6 mx-md-auto align-self-center position-relative d-none">
+                <div class="col-md-6 align-self-center position-relative">
                     <img class="rounded" src="{{ asset('assets/images/lattice/5.jpg') }}" alt="">
                     <div class="position-absolute start-0 bottom-0 ms-4 ms-md-n2 mb-3">
                         <a class="btn btn-grad d-none" data-glightbox="" href="https://youtu.be/n_Cn8eFo7u8"> <i

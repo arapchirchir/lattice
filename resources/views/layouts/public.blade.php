@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>@yield('title', config('app.name'))</title>
+    <title>@yield('title', 'Lattice')</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="@yield('title', config('app.name'))">
+    <meta property="og:title" content="@yield('title', 'Lattice')">
     <meta property="og:description"
         content="Lattice Africa - Pioneering consultancy and training organization committed to sustainable development and economic growth across Africa.">
     <meta property="og:image" content="{{ asset('assets/images/og-image.jpg') }}">
@@ -23,7 +23,7 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ url()->current() }}">
-    <meta property="twitter:title" content="@yield('title', config('app.name'))">
+    <meta property="twitter:title" content="@yield('title', 'Lattice')">
     <meta property="twitter:description"
         content="Lattice Africa - Pioneering consultancy and training organization committed to sustainable development and economic growth across Africa.">
     <meta property="twitter:image" content="{{ asset('assets/images/twitter-image.jpg') }}">
@@ -243,8 +243,16 @@
                                 href="{{ route('homepage') }}" id="demosMenu">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link @if (Route::is('about.us')) active @endif"
+                                href="{{ route('about.us') }}" id="demosMenu">About us</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link @if (Route::is('projects')) active @endif"
                                 href="{{ route('projects') }}" id="demosMenu">Our Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @if (Route::is('projects')) active @endif"
+                                href="{{ route('projects') }}" id="demosMenu">Where we work</a>
                         </li>
                         <!-- Menu item 2 Blog-->
                         <li class="nav-item dropdown d-none">
@@ -270,8 +278,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle @if (Route::is(['consulting'])) active @endif"
                             href="#" id="expertise" data-bs-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">Our
-                            Expertise</a>
+                            aria-expanded="false">Impact areas</a>
                         <ul class="dropdown-menu" aria-labelledby="expertise">
                             <li><a class="dropdown-item" href="{{ route('aquaculture') }}">Aquaculture</a></li>
                             <li><a class="dropdown-item" href="https://aquacultureacademy.co.ke/" target="_blank">Aquaculture Academy </a></li>
@@ -281,8 +288,8 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if (Route::is('about.us')) active @endif"
-                            href="{{ route('about.us') }}" id="demosMenu">About us</a>
+                        <a class="nav-link @if (Route::is('contact')) active @endif"
+                            href="{{ route('contact') }}" id="demosMenu">Resources</a>
                     </li>
                     <li class="nav-item d-lg-none">
                         <a class="nav-link @if (Route::is('contact')) active @endif"
@@ -410,7 +417,7 @@
                 <div class="d-md-flex justify-content-between align-items-center py-3 text-center text-md-start">
                     <!-- copyright text -->
                     <div class="copyright-text">©{{ date('Y') }} All Rights Reserved by <a
-                            href="https://techworld.co.ke"> {{ config('app.name') }}</a></div>
+                            href="https://techworld.co.ke"> Lattice</a></div>
                     <!-- copyright links-->
                     <div class="copyright-links primary-hover mt-3 mt-md-0">
                         <ul class="list-inline">
