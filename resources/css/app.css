@@ -18426,8 +18426,8 @@ textarea {
        SECTION MARGIN PADDING
 =================================*/
 section {
-    padding-top: 5rem;
-    padding-bottom: 3.8rem;
+    padding-top: 3rem;
+    /* padding-bottom: 3.8rem; */
 }
 
 .section-pt {
@@ -22084,4 +22084,12 @@ blockquote.grad-line:after {
     left: 0;
     -webkit-transform: none;
     transform: none;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+.cursor-pointer:hover .d-none{
+    display: block;
 }

@@ -185,120 +185,115 @@
 
     <section>
         <div class="container h-100">
-            <div class="row">
-                <div class="col-md-12 align-self-center ">
-                    <div class="title text-start">
-                        <h6 class="fw-bold mt-0">SDGS we support</h6>
-                        <div class="row g-0 justify-content-center align-items-center">
-                            <div class="col-6 col-sm-6 col-md-4">
-                                <div class="position-relative" id="hoverMeToReveal">
-                                    <img src="{{ asset('assets/images/goals/img-goal-2.jpg') }}" alt="SDG 2"
-                                        class="img-fluid z-1" style="width: 100%;height: 100%;object-fit: contain;">
-                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-02.jpg') }}" alt="Goal 2"
-                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+            <div class="row gap-3">
+                <div class="col-12">
+                    <div class="text-start">
+                        <span class="pre-title fw-bold fs-5">SDGs We Support</span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row g-0 justify-content-center align-items-center">
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <div class="position-relative cursor-pointer" id="hoverMeNow">
+                                <img src="{{ asset('assets/images/goals/img-goal-2.jpg') }}" alt="SDG 2"
+                                    class="img-fluid z-1" style="width: 100%;height: 100%;object-fit: contain;">
+                                <img src="{{ asset('assets/images/goals/E_SDG_Icons-02.jpg') }}" alt="Goal 2"
+                                    class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
 
-                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
-                                        <div class="list-group-inline list-group-number list-unstyled">
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                SDG 2: Zero Hunger
-                                            </a>
-                                        </div>
-                                        <p>
-                                            Lattice contributes to food security through its work in aquaculture, enhancing
-                                            fish farming practices to increase productivity and improve nutrition in local
-                                            communities​
-                                        </p>
+                                <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 text-white d-none" id="showMeNow">
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action bg-transparent text-white">
+                                            SDG 2: Zero Hunger
+                                        </a>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-6 col-md-4">
-                                <div class="position-relative" id="hoverMeToReveal">
-                                    <img src="{{ asset('assets/images/goals/img-goal-5.jpg') }}" alt="SDG 5"
-                                        class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
-                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-05.jpg') }}" alt="Goal 5"
-                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
-                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
-                                        <div class="list-group-inline list-group-number list-unstyled">
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                SDG 5: Gender Equality
-                                            </a>
-                                        </div>
-                                        <p>
-                                            The organization actively includes women in its projects, ensuring that women
-                                            represent at least 30% of participants in many training and capacity-building
-                                            programs​
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-6 col-md-4">
-                                <div class="position-relative" id="hoverMeToReveal">
-                                    <img src="{{ asset('assets/images/goals/img-goal-8.jpg') }}" alt="SDG 8"
-                                        class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
-                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-08.jpg') }}" alt="Goal 8"
-                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
-                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
-                                        <div class="list-group-inline list-group-number list-unstyled">
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                SDG 8: Decent Work and Economic Growth
-                                            </a>
-                                        </div>
-                                        <p>
-                                            Lattice promotes sustainable economic development by empowering smallholder
-                                            farmers and MSMEs, creating job opportunities, and enhancing the blue economy
-                                            across Africa
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-6 col-md-4">
-                                <div class="position-relative" id="hoverMeToReveal">
-                                    <img src="{{ asset('assets/images/goals/img-goal-13.jpg') }}" alt="SDG 13"
-                                        class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
-                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-13.jpg') }}" alt="Goal 13"
-                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
-                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
-                                        <div class="list-group-inline list-group-number list-unstyled">
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                SDG 13: Climate Action
-                                            </a>
-                                        </div>
-                                        <p>
-                                            Through its environmental, social, and governance (ESG) advisory services,
-                                            Lattice helps businesses reduce their carbon footprint and adopt sustainable
-                                            practices​
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-6 col-md-4">
-                                <div class="position-relative" id="hoverMeToReveal">
-                                    <img src="{{ asset('assets/images/goals/img-goal-14.jpg') }}" alt="SDG 14"
-                                        class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
-                                    <img src="{{ asset('assets/images/goals/E_SDG_Icons-14.jpg') }}" alt="Goal 14"
-                                        class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
-                                    <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 d-none" id="whenHoverShowMe">
-                                        <div class="list-group-inline list-group-number list-unstyled">
-                                            <a href="#" class="list-group-item list-group-item-action">
-                                                SDG 14: Life Below Water
-                                            </a>
-                                        </div>
-                                        <p>
-                                            Lattice focuses on sustainable use of marine resources, particularly through
-                                            projects in the aquaculture and blue economy sectors, fostering responsible
-                                            ocean and freshwater fishery practices​
-                                        </p>
-                                    </div>
+                                    <p>
+                                        Lattice contributes to food security through its work in aquaculture, enhancing
+                                        fish farming practices to increase productivity and improve nutrition in local
+                                        communities​
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-10 col-lg-6 mx-md-auto align-self-center position-relative">
-                    <img class="rounded" src="assets/images/blog/02.jpg" alt="">
-                    <div class="position-absolute start-0 bottom-0 ms-4 ms-md-n2 mb-3 d-none">
-                        <a class="btn btn-grad" data-glightbox href="https://youtu.be/n_Cn8eFo7u8"> <i
-                                class="fa fa-play text-white"></i>Play Video </a>
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <div class="position-relative cursor-pointer" id="hoverMeNow">
+                                <img src="{{ asset('assets/images/goals/img-goal-5.jpg') }}" alt="SDG 5"
+                                    class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
+                                <img src="{{ asset('assets/images/goals/E_SDG_Icons-05.jpg') }}" alt="Goal 5"
+                                    class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+                                <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 text-white d-none" id="showMeNow">
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action bg-transparent text-white">
+                                            SDG 5: Gender Equality
+                                        </a>
+                                    </div>
+                                    <p>
+                                        The organization actively includes women in its projects, ensuring that women
+                                        represent at least 30% of participants in many training and capacity-building
+                                        programs​
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <div class="position-relative cursor-pointer" id="hoverMeNow">
+                                <img src="{{ asset('assets/images/goals/img-goal-8.jpg') }}" alt="SDG 8"
+                                    class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
+                                <img src="{{ asset('assets/images/goals/E_SDG_Icons-08.jpg') }}" alt="Goal 8"
+                                    class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+                                <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 text-white d-none" id="showMeNow">
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action bg-transparent text-white">
+                                            SDG 8: Decent Work and Economic Growth
+                                        </a>
+                                    </div>
+                                    <p>
+                                        Lattice promotes sustainable economic development by empowering smallholder
+                                        farmers and MSMEs, creating job opportunities, and enhancing the blue economy
+                                        across Africa
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <div class="position-relative cursor-pointer" id="hoverMeNow">
+                                <img src="{{ asset('assets/images/goals/img-goal-13.jpg') }}" alt="SDG 13"
+                                    class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
+                                <img src="{{ asset('assets/images/goals/E_SDG_Icons-13.jpg') }}" alt="Goal 13"
+                                    class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+                                <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 text-white d-none" id="showMeNow">
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action bg-transparent text-white">
+                                            SDG 13: Climate Action
+                                        </a>
+                                    </div>
+                                    <p>
+                                        Through its environmental, social, and governance (ESG) advisory services,
+                                        Lattice helps businesses reduce their carbon footprint and adopt sustainable
+                                        practices​
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <div class="position-relative cursor-pointer" id="hoverMeNow">
+                                <img src="{{ asset('assets/images/goals/img-goal-14.jpg') }}" alt="SDG 14"
+                                    class="img-fluid" style="width: 100%;height: 100%;object-fit: contain;">
+                                <img src="{{ asset('assets/images/goals/E_SDG_Icons-14.jpg') }}" alt="Goal 14"
+                                    class="img-fluid position-absolute bottom-0 start-0 m-2" style="height: 5rem;">
+                                <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-info p-3 text-white d-none" id="showMeNow">
+                                    <div class="list-group-inline list-group-number list-unstyled">
+                                        <a href="#" class="list-group-item list-group-item-action bg-transparent text-white">
+                                            SDG 14: Life Below Water
+                                        </a>
+                                    </div>
+                                    <p>
+                                        Lattice focuses on sustainable use of marine resources, particularly through
+                                        projects in the aquaculture and blue economy sectors, fostering responsible
+                                        ocean and freshwater fishery practices​
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -307,8 +302,8 @@
     <section class="team social-hover team-overlay pb-0">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-8 mx-auto">
-                    <div class="title text-center">
+                <div class="col-12">
+                    <div class="title text-end">
                         <span class="pre-title d-none">They are all professionals</span>
                         <h2>Meet our team</h2>
                     </div>
