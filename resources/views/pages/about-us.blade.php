@@ -464,7 +464,7 @@
                             <img src="{{ asset('assets/images/team/placeholder.jpg') }}" alt="">
                         </div>
                         <div class="team-desc">
-                            <h5 class="team-name">Chebet Chebet</h5>
+                            <h5 class="team-name">Lilian Kemboi</h5>
                             <span class="team-position">Communications Manager</span>
                             <p class="d-none">Expect no pretty though so genius afraid when of ye snug poor draw.</p>
                             <ul class="social-icons si-colored-on-hover">
