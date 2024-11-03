@@ -50,7 +50,7 @@
 
     <!-- Theme CSS -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}" />
-    @vite(['resources/css/app.css','resources/js/functions.js', 'resources/css/lattice.css'])
+    @vite(['resources/css/app.css', 'resources/js/functions.js', 'resources/css/lattice.css'])
 </head>
 
 <body>
@@ -224,7 +224,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link @if (Route::is('projects')) active @endif"
-                                href="{{ route('projects') }}" id="demosMenu">Where we work</a>
+                                href="javascript:void(0)" id="demosMenu">Where we work</a>
                         </li>
                         <!-- Menu item 2 Blog-->
                         <li class="nav-item dropdown d-none">
@@ -253,15 +253,16 @@
                             aria-expanded="false">Impact areas</a>
                         <ul class="dropdown-menu" aria-labelledby="expertise">
                             <li><a class="dropdown-item" href="{{ route('aquaculture') }}">Aquaculture</a></li>
-                            <li><a class="dropdown-item" href="https://aquacultureacademy.co.ke/" target="_blank">Aquaculture Academy </a></li>
+                            <li><a class="dropdown-item" href="https://aquacultureacademy.co.ke/"
+                                    target="_blank">Aquaculture Academy </a></li>
                             <li><a class="dropdown-item" href="{{ route('advisory') }}">Advisory</a></li>
                             <li><a class="dropdown-item d-none" href="{{ route('training') }}">Training</a></li>
                             <li><a class="dropdown-item d-none" href="{{ route('consulting') }}">Consulting</a>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if (Route::is('contact')) active @endif"
-                            href="{{ route('contact') }}" id="demosMenu">Resources</a>
+                        <a class="nav-link @if (Route::is('contact')) active @endif" href="javascript:void(0)"
+                            id="demosMenu">Resources</a>
                     </li>
                     <li class="nav-item d-lg-none">
                         <a class="nav-link @if (Route::is('contact')) active @endif"
@@ -345,7 +346,8 @@
                                     <a class="nav-link" href="{{ route('aquaculture') }}">Aquaculture</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link d-none" href="https://aquacultureacademy.co.ke/" target="_blank">Aquaculture Academy </a>
+                                    <a class="nav-link d-none" href="https://aquacultureacademy.co.ke/"
+                                        target="_blank">Aquaculture Academy </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link d-none" href="{{ route('consulting') }}">Consulting</a>
