@@ -73,7 +73,7 @@ jobs:
             # composer update
 
             # Update the environment configuration
-            cp .envlattice .env
+            # cp .envlattice .env
 
             # Uncomment if migrations are needed
             # php artisan migrate

@@ -1,13 +1,13 @@
 <x-mail::message>
-    # You have a message from {{ $name }}.
+# You have a message from {{ $name }}.
 
-    # Subject: {{ $subject }}
+# Subject: {{ $subject }}
 
-    # Message:
-    {{ $message }}
+# Message:
+{!! $message !!}
 
-    # You can reach out to the sender via email: {{ $email }}
+# You can reach out to the sender via email: {!! $email !!}
 
-    Thanks,<br>
-    {{ config('app.name') }}
+Thanks,<br>
+{{ config('app.name') }}
 </x-mail::message>
