@@ -130,7 +130,7 @@
     <section>
         <div class="container h-100">
             <div class="row align-items-center justify-content-center g-3">
-                <div class="col-md-6">
+                <div class="col-12">
                     <p>
                         Lattice Aqua believes in the possibility of the Aquaculture Sector in Eastern Africa to drive the
                         production of much needed high-quality protein to feed our growing population. In so doing the
@@ -151,7 +151,7 @@
                         players in the non-for-profit space) and the Aquaculture Academy.
                     </p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 d-none">
                     <img src="{{ asset('assets/images/lattice/aqua-about.png') }}" alt="" class="img-fluid">
                 </div>
 
@@ -296,9 +296,9 @@
                         @if ($projects && count($projects) > 0)
                             @foreach ($projects as $project)
                                 <!-- portfolio-card -->
-                                <div class="portfolio-card grid-item digital rounded-2 col-sm-6 col-md-4 col-lg-3">
+                                <div class="portfolio-card grid-item digital rounded-2 col-sm-6">
                                     <div class="portfolio-card-body rounded-2 h-100">
-                                        <div class="portfolio-card-header rounded-2">
+                                        <div class="portfolio-card-header rounded-2 overflow-hidden" style="max-height: 20rem">
                                             <img src="{{ Storage::url($project->image) }}" class="rounded-2"
                                                 alt="">
                                         </div>

@@ -117,10 +117,10 @@
                     </p>
                 </div>
                 <!-- Aquaculture and the Blue Economy -->
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Aquaculture and the Blue Economy</h3>
-                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 14rem;">
                             <img src="{{ asset('assets/images/lattice/aquaculture.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -134,10 +134,10 @@
                     </div>
                 </div>
                 <!-- Access to Finance -->
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Access to Finance</h3>
-                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 14rem;">
                             <img src="{{ asset('assets/images/lattice/access-to-finance.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -151,10 +151,10 @@
                     </div>
                 </div>
                 <!-- Agribusiness -->
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Agribusiness</h3>
-                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 14rem;">
                             <img src="{{ asset('assets/images/lattice/agribusiness.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -168,10 +168,10 @@
                     </div>
                 </div>
                 <!-- Food Security -->
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Food Security</h3>
-                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 14rem;">
                             <img src="{{ asset('assets/images/lattice/food-security-1.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -185,10 +185,10 @@
                     </div>
                 </div>
                 <!-- MSME Acceleration and Capacity Building -->
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">MSME Acceleration and Capacity Building</h3>
-                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 14rem;">
                             <img src="{{ asset('assets/images/lattice/slider1.jpeg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -202,10 +202,10 @@
                     </div>
                 </div>
                 <!-- Smallholder Farmers -->
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Smallholder Farmers</h3>
-                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 14rem;">
                             <img src="{{ asset('assets/images/lattice/small-holder-farmers-1.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -219,10 +219,10 @@
                     </div>
                 </div>
                 <!-- Gender Equality and Empowerment -->
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">Gender Equality and Empowerment</h3>
-                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 14rem;">
                             <img src="{{ asset('assets/images/lattice/gender-equality.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>
@@ -236,10 +236,10 @@
                     </div>
                 </div>
                 <!-- ESG and Climate Action -->
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="feature-box h-100 icon-primary">
                         <h3 class="feature-box-title">ESG and Climate Action</h3>
-                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 11rem;">
+                        <div class="team-avatar overflow-hidden rounded-2" style="max-height: 14rem;">
                             <img src="{{ asset('assets/images/lattice/esg-1.jpg') }}" alt=""
                                 style="height: 100%;width: 100%;object-fit: cover;">
                         </div>

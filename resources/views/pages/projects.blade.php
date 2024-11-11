@@ -93,7 +93,7 @@
                 <div class="row items-padding justify-content-center g-3 bg-transparent">
                     @if (isset($projects) && count($projects) > 0)
                         @foreach ($projects as $project)
-                            <div class="col-sm-6 col-md-4 col-lg-3 rounded bg-transparent">
+                            <div class="col-sm-6 col-md-4 rounded bg-transparent">
                                 <div class="bg-overlay-dark-4 rounded" id="project-container"
                                     style="background:url('{{ asset('storage/' . $project->image) }}') no-repeat; background-size:cover; background-position: center center; min-height:200px; border-radius:5px !important; cursor:pointer;">
                                     <div class="position-absolute bottom-0 start-0 mb-1 py-0 px-2">

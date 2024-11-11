@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-12 col-lg-8 mx-auto">
                     <div class="title text-center">
-                        <h2>How can we assist you?</h2>
+                        <h2 class="fw-bold">How can we assist you?</h2>
                         <p>
                             We are here to help you with any queries you may have. Reach out to us and we will respond as
                             soon as possible.

@@ -2,7 +2,7 @@
 <div class="col-md-6">
     <div class="h-100">
         <div class="title">
-            <h2>Send us a message</h2>
+            <h2 class="fw-bold">Send us a message</h2>
         </div>
         <p>
             Please fill out the form below and we will get back to you as soon as possible.
