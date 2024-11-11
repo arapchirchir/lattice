@@ -123,7 +123,7 @@
         </div>
         <div class="row g-3">
             <div class="col-md-6">
-                <h6 class="fw-bold">The Lattice Difference</h6>
+                <h6 class="fw-bold  h2 fw-bold">The Lattice Difference</h6>
                 <ol>
                     <li>We are small and flexible, and give each client focused attention.</li>
                     <li>
@@ -137,7 +137,7 @@
                 </ol>
             </div>
             <div class="col-md-6">
-                <h6 class="fw-bold">Our values</h6>
+                <h6 class="fw-bold h2 fw-bold">Our values</h6>
                 <ul>
                     <li>We prefer to work with clients whose businesses inspire us and where we can make a difference.</li>
                     <li>
@@ -160,7 +160,7 @@
                     alt="">
             </div>
             <div class="col-md-6 p-0 p-4">
-                <h4>Strategy Development:</h4>
+                <h4 class="pre-title h2 fw-bold">Strategy Development:</h4>
                 <p>
                     Crafting robust, future-oriented strategies is our forte. We help organizations
                     navigate complex business landscapes by developing tailored strategies that align with their goals and
@@ -171,7 +171,7 @@
         </div>
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6 p-0 p-4">
-                <h4>ESG and SDG Advisory:</h4>
+                <h4 class="pre-title h2 fw-bold">ESG and SDG Advisory:</h4>
                 <p>
                     Integrating environmental, social, and governance (ESG) criteria with the Sustainable Development Goals
                     (SDGs) is critical for sustainable business practices. Our advisory services help organizations
@@ -191,7 +191,7 @@
                     alt="">
             </div>
             <div class="col-md-6 p-0 p-4">
-                <h4>Financial Modelling: </h4>
+                <h4 class="pre-title h2 fw-bold">Financial Modelling: </h4>
                 <p>
                     Developing sophisticated financial models is essential for strategic planning and decision-making. Our
                     models provide clear insights into financial performance, helping businesses secure funding and make
@@ -202,7 +202,7 @@
         </div>
         <div class="row justify-content-center align-items-center" id="market-entry">
             <div class="col-md-6 p-0 p-4">
-                <h4>Market Entry Strategy:</h4>
+                <h4 class="pre-title h2 fw-bold">Market Entry Strategy:</h4>
                 <p>
                     Entering new markets requires careful planning and execution. We guide clients through the complexities
                     of market entry, from regulatory compliance to local partnerships. Our market entry strategies have
@@ -220,7 +220,7 @@
                     alt="">
             </div>
             <div class="col-md-6 p-0 p-4">
-                <h4>Opportunity Assessment:</h4>
+                <h4 class="pre-title h2 fw-bold">Opportunity Assessment:</h4>
                 <p>
                     Identifying and evaluating new business opportunities is crucial for growth. Our assessments provide a
                     comprehensive analysis of market potential, competition, and risks, enabling clients to make informed
@@ -231,7 +231,7 @@
         </div>
         <div class="row justify-content-center align-items-center" id="blue-economy">
             <div class="col-md-6 p-0 p-4">
-                <h4>Blue Economy Consulting:</h4>
+                <h4 class="pre-title h2 fw-bold">Blue Economy Consulting:</h4>
                 <p>
                     Focusing on the sustainable use of ocean resources for economic growth, Blue Economy consulting is a
                     burgeoning field. Our expertise in this area helps clients leverage ocean resources sustainably,
@@ -250,7 +250,7 @@
                     alt="">
             </div>
             <div class="col-md-6 p-0 p-4">
-                <h4>Deal Sourcing and Pitching:</h4>
+                <h4 class="pre-title h2 fw-bold">Deal Sourcing and Pitching:</h4>
                 <p>
                     Enhancing the quality of investment deals and supporting the growth of SMEs, Lattice provides technical
                     assistance and training on deal sourcing and pitching for Business Advisory Service Providers (BASPs).

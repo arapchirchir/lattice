@@ -52,7 +52,7 @@
         rgba(255, 255, 255, 0.15),
         rgba(255, 255, 255, 0)
     );
-    --bs-body-font-family: Roboto, sans-serif;
+    --bs-body-font-family: Inter, sans-serif;
     --bs-body-font-size: 0.875rem;
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.6;
@@ -145,6 +145,13 @@ h1,
     font-weight: 500;
     line-height: 1.2;
     color: #343a40;
+}
+
+h2,.h2,h4,.h4 {
+    font-size: 1.5rem !important;
+    font-family: JotRegular !important;
+    font-weight: 500 !important;
+    font-weight: bold;
 }
 
 h1,
@@ -18200,7 +18207,7 @@ textarea {
     margin-bottom: 10px;
 }
 .title .pre-title {
-    font-family: "Playfair Display", serif;
+    font-family: JotRegular !important;
     font-size: 24px;
     font-style: italic;
     margin-bottom: 10px;
@@ -22085,12 +22092,11 @@ blockquote.grad-line:after {
     -webkit-transform: none;
     transform: none;
 }
-.cursor-pointer{
+.cursor-pointer {
     cursor: pointer;
 }
 
-
-.cursor-pointer:hover .d-none{
+.cursor-pointer:hover .d-none {
     display: block;
 }
 

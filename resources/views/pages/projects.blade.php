@@ -41,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 align-self-start">
-                    <h1 class="fw-bold">Our Portfolio</h1>
+                    <h1 class="fw-bold h2 mb-2 pre-title">Our Portfolio</h1>
                     <h6 class="">
                         Transforming Industries, Empowering Communities
                     </h6>
@@ -83,7 +83,7 @@
             <div class="col-12 col-lg-7 mx-auto">
                 <!-- title -->
                 <div class="title text-center">
-                    <span class="pre-title">Check out some of our latest work.</span>
+                    <span class="pre-title h2 fw-bold">Check out some of our latest work.</span>
                     <h2 class="d-none">Our Portfolio: Quality Results</h2>
                     <p class="mb-0">Our portfolio shows our hard work and devotion to helping our clients succeed.
                         Don't just take our word for it</p>

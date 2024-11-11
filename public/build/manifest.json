@@ -20,14 +20,22 @@
     "src": "public/assets/images/bg/pattern/04.png"
   },
   "resources/css/app.css": {
-    "file": "assets/app-DYYB95UH.css",
+    "file": "assets/app-CnL3HW7a.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/css/lattice.css": {
-    "file": "assets/lattice-DVy84jKH.css",
+    "file": "assets/lattice-GM3yfuO8.css",
     "src": "resources/css/lattice.css",
     "isEntry": true
+  },
+  "resources/fonts/Inter.ttf": {
+    "file": "assets/Inter-c8O0ljhh.ttf",
+    "src": "resources/fonts/Inter.ttf"
+  },
+  "resources/fonts/Montez-Regular.ttf": {
+    "file": "assets/Montez-Regular-BozCZfex.ttf",
+    "src": "resources/fonts/Montez-Regular.ttf"
   },
   "resources/js/app.js": {
     "file": "assets/app-BkDPDVeP.js",

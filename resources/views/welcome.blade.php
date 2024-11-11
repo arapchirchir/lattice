@@ -61,7 +61,7 @@
                 <div class="col-md-4 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-target"></i></div>
-                        <h3 class="feature-box-title">Our Mission</h3>
+                        <h3 class="feature-box-title h2 fw-bold">Our Mission</h3>
                         <p class="feature-box-desc">
                             Our mission is to be the partner people turn to when they need trusted advice and real
                             solutions. We’re passionate about making a difference, and we do that by providing practical,
@@ -76,7 +76,7 @@
                 <div class="col-md-4 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-eye"></i></div>
-                        <h3 class="feature-box-title">Our Vision</h3>
+                        <h3 class="feature-box-title h2 fw-bold">Our Vision</h3>
                         <p class="feature-box-desc">
                             We see a future where growth is sustainable , inclusive , and built to last . In this future,
                             people are empowered, businesses thrive, and the environment is respected. At Lattice, we’re
@@ -90,7 +90,7 @@
                 <div class="col-md-4 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-heart"></i></div>
-                        <h3 class="feature-box-title">Our Core Values</h3>
+                        <h3 class="feature-box-title h2 fw-bold">Our Core Values</h3>
                         <p class="feature-box-desc">
                             <span class="fw-bold">Bold:</span> We’re not afraid to tackle big challenges or explore new
                             ideas. We approach every
@@ -110,7 +110,7 @@
 
             <div class="row mt-4 align-items-center justify-content-center">
                 <div class="col-12 text-center">
-                    <h3>Our Thematic Areas of Focus:</h3>
+                    <h2 class="fw-bold h2 mb-2 pre-title">Our Thematic Areas of Focus:</h2>
                     <p class="col-md-6 mx-auto">
                         These thematic areas reflect the diverse yet interconnected challenges we address, focusing on
                         sustainable development and inclusive growth.

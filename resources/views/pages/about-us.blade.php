@@ -89,7 +89,7 @@
                 <div class="col-md-6 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-target"></i></div>
-                        <h3 class="feature-box-title">Our Mission</h3>
+                        <h3 class="feature-box-title  h2 fw-bold">Our Mission</h3>
                         <p class="feature-box-desc">
                             To deliver high-impact advisory services and aquaculture solutions that empower individuals,
                             organizations, and communities to achieve their full potential while contributing to the
@@ -101,7 +101,7 @@
                 <div class="col-md-6 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-eye"></i></div>
-                        <h3 class="feature-box-title">Our Vision</h3>
+                        <h3 class="feature-box-title h2 fw-bold">Our Vision</h3>
                         <p class="feature-box-desc">
                             We envision a future where Africa’s growth is sustainable, inclusive, and built to last. Through
                             innovative solutions in advisory and aquaculture, we’re empowering communities and industries to
@@ -113,7 +113,7 @@
                 <div class="col-md-6 mt-30">
                     <div class="feature-box f-style-2 icon-grad h-100">
                         <div class="feature-box-icon"><i class="ti-heart"></i></div>
-                        <h3 class="feature-box-title">Our Values</h3>
+                        <h3 class="feature-box-title h2 fw-bold">Our Values</h3>
                         <p class="feature-box-desc">
                             <span class="mb-2">Our core values define how we approach every challenge and
                                 opportunity:</span> <br>
@@ -134,7 +134,7 @@
                     <div class="row g-3">
                         <div class="col-12">
                             <div class="text-start">
-                                <span class="pre-title fw-bold fs-5">Our Story</span>
+                                <span class="pre-title fw-bold fs-5 h2">Our Story</span>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -188,7 +188,7 @@
             <div class="row gap-3">
                 <div class="col-12">
                     <div class="text-start">
-                        <span class="pre-title fw-bold fs-5">SDGs We Support</span>
+                        <span class="pre-title fw-bold fs-5 h2">SDGs We Support</span>
                     </div>
                 </div>
                 <div class="col-12">

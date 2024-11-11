@@ -50,56 +50,7 @@
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <!-- contact form -->
-                <div class="col-md-6">
-                    <div class="h-100">
-                        <div class="title">
-                            <h2>Send us a message</h2>
-                        </div>
-                        <p>
-                            Please fill out the form below and we will get back to you as soon as possible.
-                        </p>
-                        <form class=" needs-validation" id="" name="contactform" method="POST" action="#"
-                            novalidate>
-                            <!-- Main form -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <!-- name -->
-                                    <div class="mb-3 position-relative">
-                                        <input required id="con-name" name="name" type="text" class="form-control"
-                                            placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <!-- email -->
-                                    <div class="mb-3 position-relative">
-                                        <input required id="con-email" name="email" type="email" class="form-control"
-                                            placeholder="E-mail">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <!-- Subject -->
-                                    <div class="mb-3 position-relative">
-                                        <input required id="con-subject" name="subject" type="text" class="form-control"
-                                            placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <!-- Message -->
-                                    <div class="mb-3 position-relative">
-                                        <textarea required id="con-message" name="message" cols="40" rows="6" class="form-control"
-                                            placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <!-- submit button -->
-                                <div class="col-md-12 d-grid">
-                                    <button class="btn btn-dark m-0" type="submit">Send
-                                        Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                @livewire('contacts.email')
             </div>
         </div>
     </section>

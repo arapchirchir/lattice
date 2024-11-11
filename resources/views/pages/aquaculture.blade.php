@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-md-12 col-lg-6 align-self-center mb-5 mb-lg-0">
                     <div class="title pb-4 text-start">
-                        <h2>What is aquaculture</h2>
+                        <h2 class="fw-bold mb-2 pre-title h2">What is aquaculture</h2>
                         <p class="mb-0">
                             Our Aquaculture practice spurs growth in the aquaculture sector in East Africa for better
                             prosperity through improved nutrition and livelihoods. We believe that the Aquaculture Sector
@@ -91,7 +91,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div>
-                                <h4 class="fw-boldmb-0">
+                                <h4 class="fw-bold mb-0">
                                     Market Entry and Targeting:
                                 </h4>
                                 <p class="text-secondary">
@@ -105,8 +105,8 @@
                     </div>
                     <!-- counter end -->
                     <div>
-                        <h4 class="fw-boldmb-0">
-                            Market Entry and Targeting:
+                        <h4 class="fw-bold mb-0">
+                            Feasibility Studies and Business Assessments:
                         </h4>
                         <p class="mb-4">
                             Establishing the commercial viability of aquaculture enterprises is critical for securing
@@ -169,7 +169,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="py-5">
-                        <h3>Background</h3>
+                        <h4 class="fw-bold mb-2 h2 pre-title">Background</h4>
                         <p>
                             East Africa is facing a growing demand for animal protein, due to population growth, rising
                             incomes,
@@ -180,7 +180,7 @@
                 </div>
 
                 <div class="col-12 mt-4">
-                    <h4>Opportunity</h4>
+                    <h4 class="fw-bold mb-2 pre-title h2">Opportunity</h4>
                     <p>
                         The farming of fish provides a unique opportunity to address this growing demand. Fish is healthy,
                         low-fat, contains key amino acids and valuable nutritional properties, whilst preventing disease.
@@ -216,7 +216,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h5 class="mb-5 text-center">Our Partners</h5>
+                    <h4 class="fw-bold mb-2 pre-title text-center">Our Partners</h4>
                     <div class="tiny-slider arrow-hover arrow-dark">
                         <div class="tiny-slider-inner" data-arrow="true" data-dots="false" data-autoplay="3800"
                             data-gutter="80" data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-sm="3"
@@ -246,13 +246,13 @@
         </div>
     </section>
 
-    <section class="container">
-        <h4 class="fw-bold mb-0">Aquaculture Academy’s Online Courses</h4>
-        <div class="row g-3 justify-content-center align-items-center mt-0 flex-md-row-reverse">
+    <section class="container mt-4">
+        <div class="row g-3 mt-0 justify-content-center align-items-center mt-0 flex-md-row-reverse">
             <div class="col-md-6">
                 <img src="{{ asset('assets/images/lattice/aqua-online.png') }}" class="img-fluid" alt="">
             </div>
             <div class="col-md-6">
+                <h4 class="fw-bold mb-2 pre-title">Aquaculture Academy’s Online Courses</h4>
                 <ul>
                     <li>
                         To increase the reach and accessibility of the Aquaculture Academy, a curriculum with over 100
@@ -285,7 +285,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h4 class="fw-bold">Our Past Assignments</h4>
+                    <h4 class="fw-bold mb-2 pre-title">Our Past Assignments</h4>
                     <p>
                         Lattice together with its partners have conducted the following <br> Research assignments Fisheries
                         & Aquaculture East Africa;

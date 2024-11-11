@@ -11,6 +11,19 @@
     --pantone-1807C-20: #f4bfb9; /* Very light red */
 }
 
+@font-face {
+    font-family: JotRegular;
+    src: url('../fonts/Montez-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url('../fonts/Inter.ttf');
+    font-style: normal;
+}
+
 .bg-dark {
     --bs-bg-opacity: 1;
     background-color: #003366 !important;
