@@ -83,4 +83,4 @@ jobs:
             php artisan optimize
 
             # Bring the application back up
-            php artisan up
+            # php artisan up
